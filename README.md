@@ -22,5 +22,5 @@
 
 ### XSS
 
-- [ ][XSS in IE11 on portswigger.net via Flash](https://hackerone.com/reports/182160)
-- [ ][Stored XSS(Cross Site Scripting) In Slack App Name](https://hackerone.com/reports/159460)
+- [ ] [XSS in IE11 on portswigger.net via Flash](https://hackerone.com/reports/182160)
+- [ ] [Stored XSS(Cross Site Scripting) In Slack App Name](https://hackerone.com/reports/159460)
