@@ -4,7 +4,8 @@
 
 - [Bug Bounty](#bug-bounty)
 - [Mobile](#mobile)
-    - [Tools](#tools)
+    - [Tools](#mobile-tools)
+    - [CheatSheet](#mobile-cheatsheet)
 - [Labs](#labs)
 - [WriteUps](#writeups)
     - [HTTP Request Smuggling](#http-request-smuggling)
@@ -24,16 +25,23 @@
 
 ## Mobile
 
-- [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
-- [OWASP Mobile Security Testing Guide - GitBook](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
-- [BUG BOUNTY & ANDROID APPLICATIONS - PART 1](https://x1m.nl/posts/android-app-testing-part-1/)
-- []
-- [Tips for Mobile Bug Bounty Hunting](https://ivrodriguez.com/tips-for-mobile-bug-bounty-hunting/)
-- [MOBILE APPLICATION PENETRATION TESTING METHODOLOGY](https://hacken.io/research/education/mobile-application-penetration-testing-methodology/)
+- [ ] [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
+- [ ] [OWASP Mobile Security Testing Guide - GitBook](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
+- [ ] [BUG BOUNTY & ANDROID APPLICATIONS - PART 1](https://x1m.nl/posts/android-app-testing-part-1/)
+- [ ] [Introducing Web Vulnerabilities into Native Apps](https://blog.compass-security.com/2019/10/introducing-web-vulnerabilities-into-native-apps/)
+- [ ] [Tips for Mobile Bug Bounty Hunting](https://ivrodriguez.com/tips-for-mobile-bug-bounty-hunting/)
+- [ ] [MOBILE APPLICATION PENETRATION TESTING METHODOLOGY](https://hacken.io/research/education/mobile-application-penetration-testing-methodology/)
+- [ ] [Configuring Frida with BurpSuite and Genymotion to bypass Android SSL Pinning](https://spenkk.github.io/bugbounty/Configuring-Frida-with-Burp-and-GenyMotion-to-bypass-SSL-Pinning/)
 
-### Tools
+### Mobile Tools
 
 - [FRIDA.RE](https://frida.re/docs/home/)
+- [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
+
+### Mobile CheatSheet
+
+- [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
+- [android-security-awesome](https://github.com/ashishb/android-security-awesome)
 
 ## Labs
 
