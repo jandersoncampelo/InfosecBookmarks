@@ -4,7 +4,7 @@
 
 - [Bug Bounty](#bug-bounty)
 - [Bugs](#bugs)
-    - [Subdomain Takeover](#subdomain-takeover)
+    - [Finding Subdomain Takeover](#finding-subdomain-takeover)
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
@@ -26,7 +26,7 @@
 
 ## Bugs
 
-### Subdomain Takeover
+### Finding Subdomain Takeover
 
 - [ ] [Find Subdomain Takeover with Amass + SubJack](https://www.hahwul.com/2019/10/find-subdomain-takeover-with-amass-and-subjack.html)
 
