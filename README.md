@@ -12,6 +12,8 @@
 - [WriteUps](#writeups)
     - [Subdomain Takeover Writeups](#subdomain-takeover-writeups)
     - [HTTP Request Smuggling Writeups](#http-request-smuggling-writeups)
+    - [XSS Writeups](#xss-writeups)
+    - [SSRF Writeups](#ssrf-writeups)
 - [H1 Reports](#h1-reports)
     - [Subdomain Takeover](#subdomain-takeover)
     - [Open Redirect](#open-redirect)
@@ -29,8 +31,18 @@
 ## Bugs
 
 ### Finding Subdomain Takeover
+- [ ] [A GUIDE TO SUBDOMAIN TAKEOVERS](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
+- [ ] [Subdomain takeover - Chapter one: Methodology](https://blog.cystack.net/subdomain-takeover/)
+- [ ] [Subdomain takeover - Chapter two: Azure Services](https://blog.cystack.net/subdomain-takeover-chapter-two-azure-services/)
 - [ ] [Find Subdomain Takeover with Amass + SubJack](https://www.hahwul.com/2019/10/find-subdomain-takeover-with-amass-and-subjack.html)
 - [ ] [5 Subdomain Takeover #ProTips](https://securitytrails.com/blog/subdomain-takeover-tips)
+- [ ] [Subdomain Takeover](https://enciphers.com/subdomain-takeover/)
+- [ ] [Subdomain takeover via pantheon](https://smaranchand.com.np/2019/12/subdomain-takeover-via-pantheon/)
+- [ ] [Subdomain takeover detection with AQUATONE](https://michenriksen.com/blog/subdomain-takeover-detection-with-aquatone/)
+- [ ] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
+- [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
+- [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
+
 
 ## Mobile
 - [ ] [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
@@ -59,10 +71,21 @@
 ## WriteUps
 
 ### Subdomain Takeover Writeups
+- [ ] [Subdomain Takeover: Proof Creation for Bug Bounties](https://0xpatrik.com/takeover-proofs/)
+- [ ] [Subdomain Takeover: Yet another Starbucks case](https://0xpatrik.com/subdomain-takeover-starbucks-ii/)
+- [ ] [URGENT – Subdomain Takeover in support.urbandictionary.com pointing to Zendesk](https://bugbountytuts.wordpress.com/2017/04/20/subdomain-takeover/)
+- [ ] [Subdomain Takeover in Velostrata - Google Acquisition](https://tutorgeeks.blogspot.com/2019/04/subdomain-takeover-in-velostrata-google.html)
+- [ ] [Subdomain Takeover using blog.greenhouse.io pointing to Hubspot](https://bugbountytuts.wordpress.com/2017/04/21/subdomain-takeover-using-blog-greenhouse-io-pointing-to-hubspot/)
+- [ ] [Shipt Subdomain TakeOver Via HeroKu ( Test.Shipt.Com )](https://www.mohamedharon.com/2018/08/Shipttakeover.html)
 
 ### HTTP Request Smuggling Writeups
-- [ ] [Subdomain Takeover in Velostrata - Google Acquisition](https://tutorgeeks.blogspot.com/2019/04/subdomain-takeover-in-velostrata-google.html)
 - [ ] [HTTP Request Smuggling + IDOR](https://hipotermia.pw/bb/http-desync-idor)
+
+### XSS Writeups
+- [ ] [Reflected XSS in graph.facebook.com leads to account takeover in IE/Edge](https://ysamm.com/?p=343)
+
+### SSRF Writeups
+- [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
 
 ## H1 Reports
 
@@ -76,6 +99,7 @@
 - [ ] [Subdomain takeover on svcgatewaydevus.starbucks.com and svcgatewayloadus.starbucks.com](https://hackerone.com/reports/383564)
 - [ ] [Subdomain takeover on wfmnarptpc.starbucks.com](https://hackerone.com/reports/388622)
 - [ ] [Subdomain Takeover at test.shipt.com](https://hackerone.com/reports/387760)
+- [ ] [svcardproxydevus.starbucks.com Subdomain take over](https://hackerone.com/reports/380158)
 - [ ] [Subdomain takeover on svcgatewayus.starbucks.com](https://hackerone.com/reports/325336)
 - [ ] [subdomain takeover at news-static.semrush.com](https://hackerone.com/reports/294201)
 - [ ] [Account Takeover using Third party Auth CSRF](https://hackerone.com/reports/225653)
@@ -93,6 +117,7 @@
 - [ ] [URGENT - Subdomain Takeover on media.vine.co due to unclaimed domain pointing to AWS](https://hackerone.com/reports/32825)
 
 ### Open Redirect
+- [ ] [Open Redirect](https://hackerone.com/reports/504751)
 
 ### XXE
 
@@ -113,6 +138,7 @@
 
 ### Others
 - [ ] [H1514 Ability to MiTM Shopify PoS Session to Takeover Communications](https://hackerone.com/reports/423467)
+- [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
 
 ## Certificações
 
