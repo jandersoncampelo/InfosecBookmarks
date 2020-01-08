@@ -3,6 +3,8 @@
 > Organizando os bookmarks que acumulei no Chrome
 
 - [Bug Bounty](#bug-bounty)
+- [Bugs](#bugs)
+    - [Subdomain Takeover](#subdomain-takeover)
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
@@ -22,6 +24,11 @@
 
 ## Bug Bounty
 
+## Bugs
+
+### Subdomain Takeover
+
+- [ ] [Find Subdomain Takeover with Amass + SubJack](https://www.hahwul.com/2019/10/find-subdomain-takeover-with-amass-and-subjack.html)
 
 ## Mobile
 
@@ -49,6 +56,7 @@
 - [CTF Hacker 101](https://ctf.hacker101.com/ctf)
 - [PentesterLab](https://pentesterlab.com/)
 - [OWASP Juice Shop](https://juice-shop.herokuapp.com/)
+- [Lesser Known Web Attack Lab](https://github.com/weev3/LKWA)
 
 ## WriteUps
 
@@ -58,6 +66,8 @@
 ## H1 Reports
 
 ### Subdomain Takeover
+
+- [ ] [Subdomain Takeover (moderator.ubnt.com)](https://hackerone.com/reports/181665)
 
 ### Open Redirect
 
