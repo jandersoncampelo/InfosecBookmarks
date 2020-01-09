@@ -3,6 +3,7 @@
 > Organizando os bookmarks que acumulei no Chrome
 
 - [Bug Bounty](#bug-bounty)
+    - [RECON](#recon)
 - [Bugs](#bugs)
     - [Finding Subdomain Takeover](#finding-subdomain-takeover)
 - [Mobile](#mobile)
@@ -22,11 +23,14 @@
     - [SQL Injection](#sql-injection)
     - [XSS](#xss)
     - [Others](#others)
-- [Certificações](#certificações)
+- [Certifications](#Certifications)
 
 ---
 
 ## Bug Bounty
+
+### RECON
+- [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
 
 ## Bugs
 
@@ -41,7 +45,7 @@
 - [ ] [Subdomain takeover detection with AQUATONE](https://michenriksen.com/blog/subdomain-takeover-detection-with-aquatone/)
 - [ ] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
 - [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
-- [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
+
 
 
 ## Mobile
@@ -140,5 +144,5 @@
 - [ ] [H1514 Ability to MiTM Shopify PoS Session to Takeover Communications](https://hackerone.com/reports/423467)
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
 
-## Certificações
+## Certifications
 
