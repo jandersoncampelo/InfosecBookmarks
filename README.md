@@ -3,9 +3,11 @@
 > Organizando os bookmarks que acumulei no Chrome
 
 - [Bug Bounty](#bug-bounty)
-    - [RECON](#recon)
+    - [Recon](#recon)
+    - [Recon Tools](#recon-tools)
 - [Bugs](#bugs)
     - [Finding Subdomain Takeover](#finding-subdomain-takeover)
+    - [Finding Race Conditions](#finding-race-conditions)
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
@@ -28,9 +30,50 @@
 ---
 
 ## Bug Bounty
+- [ ] [OWASP Web Security Testing Guide](https://github.com/OWASP/wstg)
+- [ ] [Bug Bounty Methodology](https://github.com/0xhelloworld/public/wiki/Bug-Bounty-Methodology)
+- [ ] [Bug Hunting Methodology (part-1)](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
+- [ ] [Bug Hunting Methodology(Part-2)](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
+- [ ] [GETTING STARTED – BUG BOUNTY HUNTER METHODOLOGY](https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/)
+- [ ] [Bug Bounty Methodology (Methodology, Toolkit, Tips & Tricks, Blogs) V 1.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-methodology-toolkit-tips-tricks-blogs-v-1-0-by-sanyam-chawla/)
+- [ ] [Bug Bounty Methodology (TTP- Tactics,Techniques and Procedures) V 2.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-ttp-tacticstechniques-and-procedures-v-2-0/)
+- [ ] [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
+- [ ] [The Bug Hunters Methodology](https://github.com/jhaddix/tbhm)
+- [ ] [Penetration Testing Methodology](https://github.com/DeborahN/Penetration-Testing-Methodology)
+- [ ] [Bug Bounty Hunter Methodology v3](https://docs.google.com/presentation/d/1R-3eqlt31sL7_rj2f1_vGEqqb7hcx4vxX_L7E23lJVo/edit#slide=id.p)
+- [ ] [It's the Little Things II](https://docs.google.com/presentation/d/1xgvEScGZ_ukNY0rmfKz1JN0sn-CgZY_rTp2B_SZvijk/edit#slide=id.g4052c4692d_0_0)
+- [ ] [Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
+- [ ] [Guide 001 |Getting Started in Bug Bounty Hunting..](https://whoami.securitybreached.org/2019/06/03/guide-getting-started-in-bug-bounty-hunting/)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
+- [ ] [[Tools] Visual Recon – A beginners guide](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
+- [ ] [AQUATONE: A tool for domain flyovers](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
+- [ ] [AQUATONE: Now in Go](https://michenriksen.com/blog/aquatone-now-in-go/)
+- [ ] [DISCOVERING SUBDOMAINS](https://www.bugcrowd.com/blog/discovering-subdomains/)
+- [ ] [https://appsecco.com/books/subdomain-enumeration/](https://appsecco.com/books/subdomain-enumeration/)
+- [ ] [HOW TO: RECON AND CONTENT DISCOVERY](https://www.hackerone.com/blog/how-to-recon-and-content-discovery)
+- [ ] [HTTPRecon (Server Fingerprint)](https://w3dt.net/tools/httprecon)
+- [ ] [GitHub Gist Recon](https://secapps.com/tutorials/github-gist-recon/)
+- [ ] [GitHub tools collection](http://10degres.net/github-tools-collection/)
+- [ ] [A More Advanced Recon Automation #1 (Subdomains)](https://poc-server.com/blog/2019/01/18/advanced-recon-subdomains/)
+- [ ] [Advanced Recon Automation (Subdomains) case 1](https://anhtai.me/advanced-recon-automation-subdomains-case-1/)
+- [ ] [Masscan Examples: From Installation to Everyday Use](https://danielmiessler.com/study/masscan/)
+- [ ] [Open Source Intelligence Gathering 101](https://blog.appsecco.com/open-source-intelligence-gathering-101-d2861d4429e3)
+- [ ] [Commonspeak: Content discovery wordlists built with BigQuery](https://pentester.io/commonspeak-bigquery-wordlists/)
+
+### RECON Toools
+- [ ] [Aquatone](https://github.com/michenriksen/aquatone)
+- [ ] [Amass](https://github.com/OWASP/Amass)
+- [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
+- [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
+- [ ] [Sublert](https://github.com/yassineaboukir/sublert)
+- [ ] [SubJack](https://github.com/haccer/subjack)
+- [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
+- [ ] [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [ ] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+- [ ] [VHostScan](https://github.com/codingo/VHostScan)
+- [ ] [DirSearch](https://github.com/maurosoria/dirsearch)
 
 ## Bugs
 
@@ -45,8 +88,11 @@
 - [ ] [Subdomain takeover detection with AQUATONE](https://michenriksen.com/blog/subdomain-takeover-detection-with-aquatone/)
 - [ ] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
 - [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
+- [ ] [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
 
-
+### Finding Race Conditions
+- [ ] [Testing for Race Conditions (OWASP-AT-010)](https://www.owasp.org/index.php/Testing_for_Race_Conditions_(OWASP-AT-010))
+- [ ] [Race The Web (RTW)](https://github.com/aaronhnatiw/race-the-web)
 
 ## Mobile
 - [ ] [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
@@ -145,4 +191,6 @@
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
 
 ## Certifications
-
+- [ ] [CISSP vs CEH? Which IT Security Certifications are More Valuable?](https://hakin9.org/cissp-vs-ceh/)
+- [ ] [Try Harder! My Penetration Testing with Kali Linux OSCP Review and course/lab experience — My OSCP Review | by Jason Bernier](https://hakin9.org/try-harder-my-penetration-testing-with-kali-linux-oscp-review-and-courselab-experience-my-oscp-review-by-jason-bernier/)
+- [ ] [MY OSCP GUIDE: A PHILOSOPHICAL APPROACH](https://www.offensive-security.com/offsec/my-philosophical-approach-to-oscp/)
