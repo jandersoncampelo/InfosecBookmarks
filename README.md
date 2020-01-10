@@ -24,7 +24,8 @@
     - [SSTI](#ssti)
     - [SQL Injection](#sql-injection)
     - [XSS](#xss)
-    - [Others](#others)
+    - [More Bugs](#more-bugs)
+- [Forensics](Forensics)
 - [Certifications](#Certifications)
 
 ---
@@ -186,11 +187,19 @@
 ### CRLF
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
 
-### Others
+### More Bugs
 - [ ] [H1514 Ability to MiTM Shopify PoS Session to Takeover Communications](https://hackerone.com/reports/423467)
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
+
+### Forensics
 
 ## Certifications
 - [ ] [CISSP vs CEH? Which IT Security Certifications are More Valuable?](https://hakin9.org/cissp-vs-ceh/)
 - [ ] [Try Harder! My Penetration Testing with Kali Linux OSCP Review and course/lab experience — My OSCP Review | by Jason Bernier](https://hakin9.org/try-harder-my-penetration-testing-with-kali-linux-oscp-review-and-courselab-experience-my-oscp-review-by-jason-bernier/)
 - [ ] [MY OSCP GUIDE: A PHILOSOPHICAL APPROACH](https://www.offensive-security.com/offsec/my-philosophical-approach-to-oscp/)
+- [ ] [OSCP-Prep](https://github.com/RustyShackleford221/OSCP-Prep)
+- [ ] [The Journey to Try Harder: TJnull’s Preparation Guide for PWK/OSCP](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html)
+- [ ] [oscp like stack buffer overflow](https://github.com/r4j0x00/oscp-like-stack-buffer-overflow)
+- [ ] [OSCP-Survival-Guide](https://github.com/wwong99/pentest-notes/blob/master/oscp_resources/OSCP-Survival-Guide.md)
+- [ ] [OSCP Preparation – Stalking my Penetration Testing Passion](https://barasec.wordpress.com/2017/11/26/oscp-preparation-stalking-my-penetration-testing-passion/)
+- [ ] [Offensive Security Bookmarks](https://jivoi.github.io/2015/07/03/offensive-security-bookmarks/)
