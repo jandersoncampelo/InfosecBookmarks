@@ -4,10 +4,11 @@
 
 - [Bug Bounty](#bug-bounty)
     - [Recon](#recon)
-    - [Recon Tools](#recon-tools)
+    - [Awesome Lists](#awesome-lists)
 - [Bugs](#bugs)
     - [Finding Subdomain Takeover](#finding-subdomain-takeover)
     - [Finding Race Conditions](#finding-race-conditions)
+    - [Finding XXE](#finding-xxe)
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
@@ -17,6 +18,7 @@
     - [HTTP Request Smuggling Writeups](#http-request-smuggling-writeups)
     - [XSS Writeups](#xss-writeups)
     - [SSRF Writeups](#ssrf-writeups)
+    - [XXE Writeups](#xxe-writeups)
 - [H1 Reports](#h1-reports)
     - [Subdomain Takeover](#subdomain-takeover)
     - [Open Redirect](#open-redirect)
@@ -45,6 +47,7 @@
 - [ ] [It's the Little Things II](https://docs.google.com/presentation/d/1xgvEScGZ_ukNY0rmfKz1JN0sn-CgZY_rTp2B_SZvijk/edit#slide=id.g4052c4692d_0_0)
 - [ ] [Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
 - [ ] [Guide 001 |Getting Started in Bug Bounty Hunting..](https://whoami.securitybreached.org/2019/06/03/guide-getting-started-in-bug-bounty-hunting/)
+- [ ] [Researcher Resources - How to become a Bug Bounty Hunter](https://forum.bugcrowd.com/t/researcher-resources-how-to-become-a-bug-bounty-hunter/1102)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
@@ -62,19 +65,55 @@
 - [ ] [Masscan Examples: From Installation to Everyday Use](https://danielmiessler.com/study/masscan/)
 - [ ] [Open Source Intelligence Gathering 101](https://blog.appsecco.com/open-source-intelligence-gathering-101-d2861d4429e3)
 - [ ] [Commonspeak: Content discovery wordlists built with BigQuery](https://pentester.io/commonspeak-bigquery-wordlists/)
-
-### RECON Toools
+- [ ] [Recon-ng Tutorial – Part 1 Install and Setup](http://securenetworkmanagement.com/recon-ng-tutorial-part-1/)
+- [ ] [Recon-ng Tutorial – Part 2 Workspaces and Import](http://securenetworkmanagement.com/recon-ng-tutorial-part-2/)
+- [ ] [Recon-ng Tutorial – Part 3 Usage and Reporting](http://securenetworkmanagement.com/recon-ng-tutorial-part-3/)
+- [ ] [Wfuzz: The Web fuzzer](https://wfuzz.readthedocs.io/en/latest/)
+- [ ] [WFUZZ BRUTEFORCING WEB APPLICATIONS](https://hydrasky.com/network-security/wfuzz-bruteforcing-web-applications/)
+- [ ] [10 nmap Commands Every Sysadmin Should Know](http://bencane.com/2013/02/25/10-nmap-commands-every-sysadmin-should-know/)
+- [ ] [5 Nmap Timing Templates – You should know](https://www.cyberpratibha.com/blog/using-timing-templates-in-nmap/)
+- [ ] [Gobuster Cheatsheet](https://redteamtutorials.com/2018/11/19/gobuster-cheatsheet/)
+- [ ] [Comprehensive Guide on Gobuster Tool](https://www.hackingarticles.in/comprehensive-guide-on-gobuster-tool/)
+- [ ] [Comprehensive Guide on Dirb Tool](https://www.hackingarticles.in/comprehensive-guide-on-dirb-tool/)
+- [ ] [amass — Automated Attack Surface Mapping](https://danielmiessler.com/study/amass/)
+- [ ] [Auto Web Application Penetration Testing: Intelligence Gathering](https://securityonline.info/auto-web-application-penetration-testing/)
+- [ ] [Subdomain enumeration](http://10degres.net/subdomain-enumeration/)
+- [ ] [How to Find Directories in Websites Using DirBuster](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-directories-websites-using-dirbuster-0157593/)
+- [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
+#### Tools
 - [ ] [Aquatone](https://github.com/michenriksen/aquatone)
 - [ ] [Amass](https://github.com/OWASP/Amass)
+- [ ] [Sn1per](https://github.com/1N3/Sn1per)
+- [ ] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
+- [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
 - [ ] [Sublert](https://github.com/yassineaboukir/sublert)
 - [ ] [SubJack](https://github.com/haccer/subjack)
 - [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
 - [ ] [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
+- [ ] [Findomain](https://github.com/Edu4rdSHL/findomain)
 - [ ] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+- [ ] [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
 - [ ] [DirSearch](https://github.com/maurosoria/dirsearch)
+- [ ] [GoBuster](https://github.com/OJ/gobuster)
+- [ ] [MassDNS](https://github.com/blechschmidt/massdns)
+- [ ] [WFuzz](https://github.com/xmendez/wfuzz)
+- [ ] [DirSearch](https://github.com/evilsocket/dirsearch)
+- [ ] [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
+- [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
+- [ ] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
+- [ ] [HTTPROBE](https://github.com/tomnomnom/httprobe)
+- [ ] [MEG](https://github.com/tomnomnom/meg)
+- [ ] [GitRob](https://github.com/michenriksen/gitrob)
+- [ ] [GitGot](https://github.com/BishopFox/GitGot)
+- [ ] [GitLeaks](https://github.com/zricethezav/gitleaks)
+- [ ] [ReconNG](https://github.com/lanmaster53/recon-ng)
+
+### Awesome Lists
+- [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)
 
 ## Bugs
 
@@ -93,7 +132,34 @@
 
 ### Finding Race Conditions
 - [ ] [Testing for Race Conditions (OWASP-AT-010)](https://www.owasp.org/index.php/Testing_for_Race_Conditions_(OWASP-AT-010))
+#### TOOLS
 - [ ] [Race The Web (RTW)](https://github.com/aaronhnatiw/race-the-web)
+
+### Finding XXE
+- [ ] [OWASP - XML External Entity (XXE) Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
+- [ ] [XXE - THINGS ARE GETTING OUT OF BAND](https://blog.zsec.uk/out-of-band-xxe-2/)
+- [ ] [OWASP TOP 10: XXE](https://blog.detectify.com/2018/04/17/owasp-top-10-xxe/)
+- [ ] [Out-of-band XML External Entity (OOB-XXE)](https://www.acunetix.com/blog/articles/band-xml-external-entity-oob-xxe/)
+- [ ] [What Are XML External Entity (XXE) Attacks](https://www.acunetix.com/blog/articles/xml-external-entity-xxe-vulnerabilities/)
+- [ ] [Hunting for XXE in Uber using Acunetix AcuMonitor](https://www.acunetix.com/blog/articles/hunting-xxe-uber-using-acunetix-acumonitor/)
+- [ ] [XXE - XML External Entity](https://chris-young.net/2018/04/13/xxe-xml-external-entity/)
+- [ ] [A Deep Dive into XXE Injection](https://www.synack.com/blog/a-deep-dive-into-xxe-injection/)
+- [ ] [ADVICE FROM A RESEARCHER: HUNTING XXE FOR FUN AND PROFIT](https://www.bugcrowd.com/blog/advice-from-a-bug-hunter-xxe/)
+- [ ] [XML External Entity(XXE)](http://ghostlulz.com/xml-external-entityxxe/)
+- [ ] [SPILLING LOCAL FILES VIA XXE WHEN HTTP OOB FAILS](https://www.noob.ninja/2019/12/spilling-local-files-via-xxe-when-http.html)
+- [ ] [Vilnerability 1: XXE in community.{site}.com](https://esoln.net/blog/2019/03/05/xxe-in-community-site-com/)
+- [ ] [xxe-that-can-bypass-waf-protection](https://lab.wallarm.com/xxe-that-can-bypass-waf-protection-98f679452ce0/)
+#### TOOLS
+- [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
+- [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
+- [ ] [xxe-recursive-download](https://github.com/AonCyberLabs/xxe-recursive-download)
+- [ ] [XML External Entity Injection](https://github.com/rhamaa/Web-Application-Attack/blob/master/other-vulnerability/xxe-injection.md)
+- [ ] [PayloadsAllTheThings - XML External Entity](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection)
+
+### Finding XSS
+#### Tools
+
+
 
 ## Mobile
 - [ ] [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
@@ -118,6 +184,7 @@
 - [PentesterLab](https://pentesterlab.com/)
 - [OWASP Juice Shop](https://juice-shop.herokuapp.com/)
 - [Lesser Known Web Attack Lab](https://github.com/weev3/LKWA)
+- [XSS Game](https://xss.pwnfunction.com/)
 
 ## WriteUps
 
@@ -171,6 +238,12 @@
 - [ ] [Open Redirect](https://hackerone.com/reports/504751)
 
 ### XXE
+- [ ] [XXE at ecjobs.starbucks.com.cn/retail/hxpublic_v6/hxdynamicpage6.aspx](https://hackerone.com/reports/500515)
+- [ ] [Partial bypass of #483774 with Blind XXE on https://duckduckgo.com](https://hackerone.com/reports/486732)
+- [ ] [XXE on ██████████ by bypassing WAF ████](https://hackerone.com/reports/433996)
+- [ ] [Blind XXE via Powerpoint files](https://hackerone.com/reports/334488)
+- [ ] [XXE on sms-be-vip.twitter.com in SXMP Processor](https://hackerone.com/reports/248668)
+- [ ] [Blind OOB XXE At "http://ubermovement.com/"](https://hackerone.com/reports/154096)
 
 ### SSTI
 
@@ -188,8 +261,10 @@
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
 
 ### More Bugs
+- [ ] [JumpCloud API Key leaked via Open Github Repository.](https://hackerone.com/reports/716292)
 - [ ] [H1514 Ability to MiTM Shopify PoS Session to Takeover Communications](https://hackerone.com/reports/423467)
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
+
 
 ### Forensics
 
