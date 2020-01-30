@@ -27,7 +27,10 @@
     - [SQL Injection](#sql-injection)
     - [XSS](#xss)
     - [RCE](#rce)
+    - [SSRF](#ssrf)
+    - [CSRF](#csrf)
     - [CRLF](#crlf)
+    - [Race Condition](#race-condition)
     - [More Bugs](#more-bugs)
 - [Forensics](Forensics)
 - [Reverse Engineering](#reverse-engineering)
@@ -257,6 +260,7 @@
 ### SQL Injection
 
 ### XSS
+- [ ] [Stored XSS | api.mapbox.com | IE 11 | Styles name](https://hackerone.com/reports/763812)
 - [ ] [Stored XSS in Shopify Chat](https://hackerone.com/reports/756729)
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
 - [ ] [Reflected XSS at https://pay.gold.razer.com escalated to account takeover](https://hackerone.com/reports/723060)
@@ -293,10 +297,11 @@
 - [ ] [Self-XSS in posts by formatting text as code](https://hackerone.com/reports/89505)
 - [ ] [Multiple DOMXSS on Amplify Web Player](https://hackerone.com/reports/88719)
 
-
 ### RCE
 - [ ] [RCE and Complete Server Takeover of http://www.█████.starbucks.com.sg/](https://hackerone.com/reports/502758)
 
+### SSRF
+- [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
 ### CSRF
 - [ ] [Possible CSRF during external programs](https://hackerone.com/reports/174470)
 
@@ -304,16 +309,24 @@
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
 - [ ] [CRLF Injection in legacy url API (url.parse().hostname)](https://hackerone.com/reports/771596)
 
+### Race Condition
+- [] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)
+
 ### More Bugs
+
 - [ ] [Account takeover via leaked session cookie](https://hackerone.com/reports/745324)
 - [ ] [JumpCloud API Key leaked via Open Github Repository.](https://hackerone.com/reports/716292)
 - [ ] [Misconfigured s3 Bucket exposure](https://hackerone.com/reports/700051)
+- [ ] [Http response is not ended although underlying socket is already destroyed](https://hackerone.com/reports/676710)
+- [ ] [Arbitrary File Write as SYSTEM from unprivileged user](https://hackerone.com/reports/583184)
 - [ ] [Two heap use-after-free errors in IMAP operations](https://hackerone.com/reports/546644)
+- [ ] [Arbitrary file read via ffmpeg HLS parser at https://www.flickr.com/photos/upload](https://hackerone.com/reports/487008)
+- [ ] [CORS Misconfiguration leading to Private Information Disclosure](https://hackerone.com/reports/430249)
+- [ ] [[www.zomato.com] CORS Misconfiguration, could lead to disclosure of sensitive information](https://hackerone.com/reports/426165)
 - [ ] [H1514 Ability to MiTM Shopify PoS Session to Takeover Communications](https://hackerone.com/reports/423467)
 - [ ] [Http request splitting](https://hackerone.com/reports/409943)
+- [ ] [Referer in /servlet/TestServlet](https://hackerone.com/reports/342976)
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
-- [ ] [Arbitrary File Write as SYSTEM from unprivileged user](https://hackerone.com/reports/583184)
-- [ ] [Http response is not ended although underlying socket is already destroyed](https://hackerone.com/reports/676710)
 
 #### Leaking Information
 - [ ] [Password reset token leakage via referer](https://hackerone.com/reports/342693)
