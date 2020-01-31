@@ -19,6 +19,17 @@
 - [ ] [Grey Areas of Bugbounty World:](https://medium.com/@know.0nix/grey-areas-of-bugbounty-world-5dd794c697a3)
 - [ ] [Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
 - [ ] [**Fuzzing Web Applications**](https://medium.com/swlh/fuzzing-web-applications-e786ca4c4bb6)
+- [ ] [**Bug Bounty with Bash**](https://medium.com/cyberverse/bug-bounty-with-bash-438596ff72f5)
+- [ ] [Hacking WebSocket](https://medium.com/swlh/hacking-websocket-25d3cba6a4b9)
+- [ ] [Pwn Them All #BugBounty](https://medium.com/@bilalmerokhel/pwn-them-all-bugbounty-4ee60e13c83)
+- [ ] [Hunting Good Bugs with only <HTML>](https://medium.com/@know.0nix/hunting-good-bugs-with-only-html-d8fd40d17b38)
+- [ ] [Getting access to disabled/hidden features with the help of Burpsuite Match and Replace settings](https://medium.com/@johnssimon_6607/getting-access-to-disabled-hidden-features-with-the-help-of-burp-match-and-replace-e1d7b70d131e)
+- [ ] [✈️Use Telegram bot as a Penetration Testing Framework](https://medium.com/@SofianeHamlaoui/use-telegram-bot-as-a-penetration-testing-framework-a309c41dbc40)
+- [ ] [Phases of an NMAP scan](https://medium.com/@greyhatlinux/phases-of-an-nmap-scan-e6491e081707)
+- [ ] [Host-Header Injection Simplify | Bug Bounty Hunting !](https://medium.com/cyberverse/host-header-injection-simplify-bug-bounty-hunting-2a19284da796)
+- [ ] [Fuzzing — where is the logic?](https://medium.com/@cyberwolf1900/fuzzing-where-is-the-logic-1d87e4034c9c)
+- [ ] [Crossing The Borders : The illegal trade of HTTP requests](https://medium.com/bugbountywriteup/crossing-the-borders-the-illegal-trade-of-http-requests-57da188520ca)
+- [ ] [Five easy steps to understand JSON Web Tokens (JWT)](https://medium.com/cyberverse/five-easy-steps-to-understand-json-web-tokens-jwt-7665d2ddf4d5)
 
 ### RECON
 - [ ] [Reconnaissance: a eulogy in three acts](https://medium.com/@europa_/recoinnassance-7840824b9ef2)
@@ -29,6 +40,7 @@
 - [ ] [Recon done right](https://medium.com/@caon/recon-done-right-2210f5e426cb)
 - [ ] [Recon — my way.](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21)
 - [ ] [**Subdomain takeover and prevention using Knockpy**](https://medium.com/@ajay.manoharan/subdomain-takeover-and-prevention-using-knockpy-e4cf438e450b)
+- [ ] [Sub-Domain Takeovers — How Can Companies Better Secure Their Assets? Part 1](https://medium.com/@chevonmdphillip/sub-domain-takeovers-how-can-companies-better-secure-their-assets-part-1-9e778ef5d17)
 - [ ] [How to do 55.000+ Subdomain Takeover in a Blink of an Eye](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)
 - [ ] [Subdomain Takeover — New Level](https://medium.com/bugbountywriteup/subdomain-takeover-new-level-43f88b55e0b2)
 - [ ] [Reconnaissance to a quick P1](https://medium.com/@alyssa.o.herrera/reconnaissance-to-a-quick-p1-fc1085d0fb22)
@@ -45,7 +57,9 @@
 - [ ] [Recon Everything](https://medium.com/@maverickNerd/recon-everything-48aafbb8987)
 - [ ] [Recon As You Owns It | Cyberverse](https://medium.com/cyberverse/recon-like-you-owns-it-190175c81c42)
 - [ ] [How to Hack Your Neighbor with a Post-It Note, Part 1 (Performing Recon)](https://medium.com/@NullByteWht/how-to-hack-your-neighbor-with-a-post-it-note-part-1-performing-recon-5e9aea5fe1e5)
-- [ ] [Beginner’s Guide to recon automation.](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
+- [ ] [**Beginner’s Guide to recon automation.**](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
+- [ ] [OSINT Recon Great? — Unique Usernames Are Better Than Unique Passwords](https://medium.com/@curtbraz/osint-recon-great-unique-usernames-are-better-than-unique-passwords-97816aa20d37)
+- [ ] [REST framework Admin Panel bypass and how I recon for this vulnerability](https://medium.com/@hackerb0y/rest-framework-admin-panel-bypass-and-how-i-recon-for-this-vulnerability-a0ee41b01102)
 
 ### WriteUps
 #### IDOR
@@ -56,6 +70,16 @@
 - [ ] [How to find more IDORs](https://medium.com/@vickieli/how-to-find-more-idors-ae2db67c9489)
 - [ ] [1st Bounty Story | Rewarded 300$ (IDOR)](https://medium.com/@mdhridoy_4607/1st-bounty-story-rewarded-300-idor-bc4e1708e8e0)
 - [ ] [IDOR leads to getting Access tokens of users linked to Google Drive on Edmodo](https://medium.com/bugbountywriteup/idor-leads-to-getting-access-tokens-of-users-linked-to-google-drive-on-edmodo-3978017134bd)
+- [ ] [Automating BURP to find IDORs](https://medium.com/cyberverse/automating-burp-to-find-idors-2b3dbe9fa0b8)
+- [ ] [GraphQL IDOR leads to information disclosure](https://medium.com/@R0X4R/graphql-idor-leads-to-information-disclosure-175eb560170d)
+- [ ] [Account takeover using IDOR and the misleading case of error 403.](https://medium.com/bugbountywriteup/account-takeover-using-idor-and-the-misleading-case-of-error-403-cb42c96ea310)
+- [ ] [Stories Of IDOR](https://medium.com/bugbountywriteup/stories-of-idor-4966369e6d82)
+- [ ] [Maybe the manager Is Hacker (IDOR)?](https://medium.com/@Hossam.Mesbah/maybe-the-manager-is-hacker-idor-d005f49aa0a3)
+- [ ] [BUG IDOR APPS MISTERALADIN](https://medium.com/@anggaid/bug-idor-apps-misteraladin-10e8c71edabf)
+
+### SQLi
+- [ ] [Blind SQL Injection](https://medium.com/@shahjerry33/blind-sql-injection-cb68864b8361)
+- [ ] [Blind SQL Injection without an “in”](https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952)
 
 ### XSS
 - [ ] [Сookie-based XSS exploitation | $2300 Bug Bounty story](https://medium.com/@iSecMax/%D1%81ookie-based-xss-exploitation-2300-bug-bounty-story-9bc532ffa564)
@@ -69,16 +93,80 @@
 - [ ] [Multiple xss in *.skype.com](https://medium.com/@jayateerthag/multiple-xss-in-skype-com-81d65919ed24)
 - [ ] [Multiple xss in *.skype.com (2)](https://medium.com/@jayateerthag/multiple-xss-in-skype-com-2-18cfed39edbd)
 - [ ] [CVE-2020-5842 Stored XSS Vulnerability in Codoforum 4.8.3](https://medium.com/@prasanthc41m/cve-2020-5842-stored-xss-vulnerability-in-codoforum-4-8-3-b2e1133c6a91)
+- [ ] [XSS on Sony subdomain](https://medium.com/@gguzelkokar.mdbf15/xss-on-sony-subdomain-feddaea8f5ac)
+- [ ] [Stored XSS on Snapchat](https://medium.com/@mrityunjoy/stored-xss-on-snapchat-5d704131d8fd)
+- [ ] [Effortlessly finding Cross Site Script Inclusion (XSSI) & JSONP for bug bounty](https://medium.com/bugbountywriteup/effortlessly-finding-cross-site-script-inclusion-xssi-jsonp-for-bug-bounty-38ae0b9e5c8a)
+- [ ] [BUG BOUNTY: How I earned $550 in less than 5 minutes. “Open Redirect chained with rXSS”](https://medium.com/@ahmadbrainworks/bug-bounty-how-i-earned-550-in-less-than-5-minutes-open-redirect-chained-with-rxss-8957979070e5)
+- [ ] [Blind Xss (A mind game to win the battle)](https://medium.com/@dirtycoder0124/blind-xss-a-mind-game-to-win-the-battle-4fc67c524678)
+- [ ] [**How I turned Self XSS to Stored via CSRF**](https://medium.com/@abhishake100/how-i-turned-self-xss-to-stored-via-csrf-d12eaaf59f2e)
+- [ ] [Roubo de sessão bypassando WAF com XSS — Roubando sessão com 1 click](https://medium.com/@vaultcybersec/roubo-de-sessao-bypassando-waf-xss-roubando-sessao-com-1-click-a76d31d93753)
+- [ ] [Bypass Uppercase filters like a PRO (XSS Advanced Methods)](https://medium.com/@Master_SEC/bypass-uppercase-filters-like-a-pro-xss-advanced-methods-daf7a82673ce)
+- [ ] [**Sleepy Puppy Extension for Burp Suite**](https://netflixtechblog.com/sleepy-puppy-extension-for-burp-suite-ca45b80936af)
+- [ ] [5,000 USD XSS Issue at Avast Desktop AntiVirus for Windows (Yes, Desktop!)](https://medium.com/bugbountywriteup/5-000-usd-xss-issue-at-avast-desktop-antivirus-for-windows-yes-desktop-1e99375f0968)
+- [ ] [How I found a stored XSS on thousands of webshops](https://medium.com/intigriti/how-i-found-a-stored-xss-on-thousands-of-webshops-cf6e3134b820)
+- [ ] [How I Found XSS By Searching In Shodan](https://medium.com/bugbountywriteup/how-i-found-xss-by-searching-in-shodan-6943b799e648)
+- [ ] [How I paid 2$ for a 1054$ XSS bug + 20 chars blind XSS payloads](https://medium.com/@mohameddaher/how-i-paid-2-for-1054-xss-bug-20-chars-blind-xss-payloads-12d32760897b)
+- [ ] [Open Redirect to XSS](https://medium.com/@abhishake100/open-redirect-to-xss-reflective-a89545115b45)
+- [ ] [SSRF dan STORED-XSS Pada Situs Translator Maker](https://medium.com/@abdiprawiran/ssrf-dan-xss-pada-situs-translator-maker-7640db32021d)
+- [ ] [XSS in pastebin.com and reddit.com via unsanitized Markdown Output](https://medium.com/@Nhoya/xss-in-pastebin-com-via-unsanitized-output-e216190b7949)
+- [ ] [XSS “403 forbidden” bypass write up](https://medium.com/@nuraalamdipu/xss-403-forbidden-bypass-write-up-e070de52bc06)
+- [ ] [How to Upgrade Your XSS Bugs from Medium to Critical](https://medium.com/@hakluke/upgrade-xss-from-medium-to-critical-cb96597b6cc4)
+- [ ] [What do Netcat, SMTP and self XSS have in common? Stored XSS](https://medium.com/bugbountywriteup/what-do-netcat-smtp-and-self-xss-have-in-common-stored-xss-a05648b72002)
+- [ ] [What is Cross-Site Scripting](https://medium.com/@chawdamrunal/what-is-xss-c91d460375bb)
+- [ ] [Attacking Sites Using CSRF](https://medium.com/swlh/attacking-sites-using-csrf-ba79b45b6efe)
+- [ ] [SQL Injection and XSS: What White Hat Hackers Know About Trusting User Input](https://medium.com/better-programming/sql-injection-and-xss-what-white-hat-hackers-know-about-trusting-user-input-379a6131cb99)
+- [ ] [Stealing JWTs in localStorage via XSS](https://medium.com/redteam/stealing-jwts-in-localstorage-via-xss-6048d91378a0)
+- [ ] [XSS-Auditor — the protector of unprotected](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b)
+- [ ] [Clobbering the clobbered — Advanced DOM Clobbering](https://medium.com/@terjanq/dom-clobbering-techniques-8443547ebe94)
+- [ ] [PostMessage Xss Fuzz using Chrome App](https://medium.com/@testingweb624/postmessage-xss-fuzz-using-chrome-app-378637c05040)
+- [ ] [XSS in bootstrap data-target attribute](https://medium.com/@chawdamrunal/xss-in-bootstrap-data-target-attribute-5f0c534a87a3)
+- [ ] [Unicode vs WAF — XSS WAF Bypass .](https://medium.com/bugbountywriteup/unicode-vs-waf-xss-waf-bypass-128cd9972a30)
+- [ ] [From Reflected XSS to Account Takeover — Showing XSS Impact](https://medium.com/a-bugz-life/from-reflected-xss-to-account-takeover-showing-xss-impact-9bc6dd35d4e6)
+- [ ] [Stored XSS on Edmodo](https://medium.com/@futaacmcyber/stored-xss-on-edmodo-11a3fbc6b6d0)
+- [ ] [How i was able to bypass strong xss protection in well known website. (imgur.com)](https://medium.com/bugbountywriteup/how-i-was-able-to-bypass-strong-xss-protection-in-well-known-website-imgur-com-8a247c527975)
+- [ ] [bypass XSS in redirection](https://medium.com/@s3c/bypass-xss-in-redirection-a8025086d30e)
+- [ ] [XSS — Cross Site Scripting](https://medium.com/@GustavoOliveira/xss-cross-site-scripting-ae5fe11b0f2e)
+- [ ] [Blind XSS for beginners](https://medium.com/bugbountywriteup/blind-xss-for-beginners-c88e48083071)
+- [ ] [How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff)
+- [ ] [[XSS] Reflected XSS Bypass Filter](https://medium.com/bugbountywriteup/xss-reflected-xss-bypass-filter-de41d35239a3)
+- [ ] [Story Of a Stored XSS Bypass](https://medium.com/bugbountywriteup/story-of-a-stored-xss-bypass-26e6659f807b)
+- [ ] [New technique to find Blind-XSS](https://medium.com/@renwa/new-technique-to-find-blind-xss-c2efcd377cc2)
 
 ### SSRF
 - [ ] [SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
 - [ ] [Vimeo SSRF with code execution potential.](https://medium.com/@rootxharsh_90844/vimeo-ssrf-with-code-execution-potential-68c774ba7c1e)
 - [ ] [How i found an SSRF in Yahoo! Guesthouse (Recon Wins)](https://medium.com/@th3g3nt3l/how-i-found-an-ssrf-in-yahoo-guesthouse-recon-wins-8722672e41d4)
 - [ ] [How i converted SSRF TO XSS in jira.](https://medium.com/@D0rkerDevil/how-i-convert-ssrf-to-xss-in-a-ssrf-vulnerable-jira-e9f37ad5b158)
+- [ ] [Server-Side Request Forgery (SSRF) Attacks - Part 1: The basics](https://medium.com/poka-techblog/server-side-request-forgery-ssrf-attacks-part-1-the-basics-a42ba5cc244a)
+- [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
+
+### CSRF
+- [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
+
+### CRLF
+- [ ] [Cross Site Request Forgery: Techniques](https://medium.com/@onehackman/cross-site-request-forgery-techniques-19270174ea4)
+- [ ] [CRLF Injection Playbook](https://medium.com/cyberverse/crlf-injection-playbook-472c67f1cb46)
+
+### XXE
+- [ ] [XML External Entity (XXE) Injection Payload List](https://medium.com/@ismailtasdelen/xml-external-entity-xxe-injection-payload-list-937d33e5e116)
+- [ ] [Very cool XXE bug in a Web Service](https://medium.com/@soyelmago/very-cool-xxe-bug-in-a-web-service-85bfaa5b035c)
+
+### RCE
+- [ ] [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37)
+
+### Subdomain Takeover
+- [ ] [How i bought my way to subdomain takeover on Tokopedia](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
+
+### HTTP Request Smuggling
+- [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
 
 ### OTHERS
+- [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
 - [ ] [CORS Misconfiguration leading to Private Information Disclosure](https://medium.com/@sasaxxx777/cors-misconfiguration-leading-to-private-information-disclosure-3034cfcb4b93)
 - [ ] [How CORS (Cross-Origin Resource Sharing) Works?](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
+- [ ] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
+- [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
+- [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
 - [ ] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
 - [ ] [Top 25 RCE Bug Bounty Reports](https://medium.com/@corneacristian/top-25-rce-bug-bounty-reports-bc9555cca7bc)
@@ -88,4 +176,10 @@
 - [ ] [How I was able to take over any users account with host header injection](https://medium.com/nassec-cybersecurity-writeups/how-i-was-able-to-take-over-any-users-account-with-host-header-injection-546fff6d0f2)
 - [ ] [**Hacking Git Directories**](https://medium.com/swlh/hacking-git-directories-e0e60fa79a36)
 - [ ] [GOOGLE REFERER LEAK BUG](https://medium.com/@jayateerthag/google-referer-leak-bug-434f6293ce66)
+- [ ] [TOYOTA’s Password reset token and Email Address leak via Referer header](https://medium.com/@rubiojhayz1234/toyotas-password-reset-token-and-email-address-leak-via-referer-header-b0ede6507c6a)
+- [ ] [Facebook Bug bounty Story: $X000 for an Information Disclosure Bug](https://medium.com/bug-bounty-hunting/facebook-bug-bounty-story-x000-for-an-information-disclosure-bug-f0c0d19d7815)
+- [ ] [How I earn $500 from Razer open S3 bucket](https://medium.com/sourav-sahana/how-i-earn-500-from-razer-open-s3-bucket-fe314e4bbab8)
+- [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
+
 ## Hackthebox Writeups
+- [ ] [Hack The Box — FriendZone Writeup w/o Metasploit](https://medium.com/swlh/hack-the-box-friendzone-writeup-w-o-metasploit-fb52adc73c96)
