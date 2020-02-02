@@ -8,8 +8,6 @@
 - [Hackthebox Writeups](#hackthebox-writeups)
 
 ## Bug Bounty
-- [ ] [Bug Hunting Methodology (part-1)Updated on 4-Jan-2020](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
-- [ ] [Bug Hunting Methodology(Part-2)](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
 - [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a)  
 - [ ] [The Hitchhiker’s Guide to Bug Bounty Hunting Throughout the Galaxy. v2](https://medium.com/@Nick_Jenkins/the-hitchhikers-guide-to-bug-bounty-hunting-throughout-the-galaxy-474ddb87ae15)
 - [ ] [BUG BOUNTY HUNTING (METHODOLOGY , TOOLKIT , TIPS & TRICKS , Blogs)](https://medium.com/bugbountywriteup/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65)
@@ -60,6 +58,7 @@
 - [ ] [**Beginner’s Guide to recon automation.**](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
 - [ ] [OSINT Recon Great? — Unique Usernames Are Better Than Unique Passwords](https://medium.com/@curtbraz/osint-recon-great-unique-usernames-are-better-than-unique-passwords-97816aa20d37)
 - [ ] [REST framework Admin Panel bypass and how I recon for this vulnerability](https://medium.com/@hackerb0y/rest-framework-admin-panel-bypass-and-how-i-recon-for-this-vulnerability-a0ee41b01102)
+- [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
 
 ### WriteUps
 #### IDOR
