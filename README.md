@@ -90,6 +90,7 @@
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
 
 ### Tools
+
 **My Box**
 - [X] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
 - [X] [Aquatone](https://github.com/michenriksen/aquatone)
@@ -103,7 +104,9 @@
 - [ ] [Corsy](https://github.com/s0md3v/Corsy)
 - [ ] [CORStest](https://github.com/RUB-NDS/CORStest)
 - [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+
 **OTHERS**
+
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [X] [Sn1per](https://github.com/1N3/Sn1per)
 - [X] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
