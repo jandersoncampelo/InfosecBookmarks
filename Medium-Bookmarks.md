@@ -158,7 +158,7 @@
 - [ ] [How i bought my way to subdomain takeover on Tokopedia](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
 
 ### HTTP Request Smuggling
-- [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
+- [ ] [~~Earn Bounty !! with HTTP request smuggling attack.~~](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
 
 ### OTHERS
 - [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
