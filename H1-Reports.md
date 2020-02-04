@@ -11,6 +11,7 @@
 - [CSRF](#csrf)
 - [CRLF](#crlf)
 - [Race Condition](#race-condition)
+- [Leaking Information](#leaking-information)
 - [More Bugs](#more-bugs)
 
 ## Subdomain Takeover
@@ -109,6 +110,13 @@
 ## Race Condition
 - [] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)
 
+## Leaking Information
+- [ ] [Disclose Any Store products, Files, Purchase Orders Via Email through Shopify Stocky APP](https://hackerone.com/reports/763994)
+- [ ] [Password reset token leakage via referer](https://hackerone.com/reports/342693)
+- [ ] [[www.coursera.org] Leaking password reset link on referrer header](https://hackerone.com/reports/303322)
+- [ ] [Password reset token leak on third party website via Referer header](https://hackerone.com/reports/272379)
+- [ ] [password reset token leaking allowed for ATO of an Uber account](https://hackerone.com/reports/173551)
+
 ## More Bugs
 - [ ] [Account takeover via leaked session cookie](https://hackerone.com/reports/745324)
 - [ ] [JumpCloud API Key leaked via Open Github Repository.](https://hackerone.com/reports/716292)
@@ -123,9 +131,3 @@
 - [ ] [Http request splitting](https://hackerone.com/reports/409943)
 - [ ] [Referer in /servlet/TestServlet](https://hackerone.com/reports/342976)
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
-
-## Leaking Information
-- [ ] [Password reset token leakage via referer](https://hackerone.com/reports/342693)
-- [ ] [[www.coursera.org] Leaking password reset link on referrer header](https://hackerone.com/reports/303322)
-- [ ] [Password reset token leak on third party website via Referer header](https://hackerone.com/reports/272379)
-- [ ] [password reset token leaking allowed for ATO of an Uber account](https://hackerone.com/reports/173551)

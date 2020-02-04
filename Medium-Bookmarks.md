@@ -17,8 +17,8 @@
 - [ ] [Bounty Hunters Only!](https://medium.com/@phwd/bounty-hunters-only-1f06739646a5)
 - [ ] [Grey Areas of Bugbounty World:](https://medium.com/@know.0nix/grey-areas-of-bugbounty-world-5dd794c697a3)
 - [ ] [Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
-- [ ] [**Fuzzing Web Applications**](https://medium.com/swlh/fuzzing-web-applications-e786ca4c4bb6)
-- [ ] [**Bug Bounty with Bash**](https://medium.com/cyberverse/bug-bounty-with-bash-438596ff72f5)
+- [X] [Fuzzing Web Applications](https://medium.com/swlh/fuzzing-web-applications-e786ca4c4bb6)
+- [X] [Bug Bounty with Bash](https://medium.com/cyberverse/bug-bounty-with-bash-438596ff72f5)
 - [ ] [Hacking WebSocket](https://medium.com/swlh/hacking-websocket-25d3cba6a4b9)
 - [ ] [Pwn Them All #BugBounty](https://medium.com/@bilalmerokhel/pwn-them-all-bugbounty-4ee60e13c83)
 - [ ] [Hunting Good Bugs with only <HTML>](https://medium.com/@know.0nix/hunting-good-bugs-with-only-html-d8fd40d17b38)
@@ -153,12 +153,16 @@
 
 ### RCE
 - [ ] [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37)
+- [ ] [A Not-So-Blind RCE with SQL Injection](https://medium.com/@notsoshant/a-not-so-blind-rce-with-sql-injection-13838026331e)
 
 ### Subdomain Takeover
 - [ ] [How i bought my way to subdomain takeover on Tokopedia](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
 
 ### HTTP Request Smuggling
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
+
+### Leaking Information
+- [X] [~~How I get my first SWAG from SIDN (Sensitive Data Expose)~~](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
 
 ### OTHERS
 - [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
@@ -167,7 +171,6 @@
 - [ ] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
 - [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
 - [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
-- [ ] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
 - [ ] [Top 25 RCE Bug Bounty Reports](https://medium.com/@corneacristian/top-25-rce-bug-bounty-reports-bc9555cca7bc)
 - [ ] [The unexpected bounty: A story of Zendesk takeover on REDACTED.com](https://medium.com/bugbountywriteup/the-unexpected-bounty-a-story-of-zendesk-takeover-on-redacted-com-f2aa96ce2026)

@@ -10,6 +10,7 @@
     - [Finding Subdomain Takeover](#finding-subdomain-takeover)
     - [Finding Race Conditions](#finding-race-conditions)
     - [Finding XXE](#finding-xxe)
+    - [Finding XSS](#finding-xss)
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
@@ -78,7 +79,7 @@
 - [ ] [How to Find Directories in Websites Using DirBuster](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-directories-websites-using-dirbuster-0157593/)
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
 - [ ] [Automating your reconnaissance workflow with 'meg'](https://edoverflow.com/2018/meg/)
-
+- [ ] [Subdomain Discovery - Bugcrwod Blog](https://forum.bugcrowd.com/t/subdomain-discovery/)
 
 ### Tools
 
@@ -88,13 +89,16 @@
 - [X] [Amass](https://github.com/OWASP/Amass)
 - [X] [ASN Lookup](https://github.com/yassineaboukir/Asnlookup)
 - [X] [FFUF](https://github.com/ffuf/ffuf)
+- [X] [Findomain](https://github.com/Edu4rdSHL/findomain)
 - [X] [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [ ] [Sublert](https://github.com/yassineaboukir/sublert)
 - [X] [MassDNS](https://github.com/blechschmidt/massdns)
 - [X] [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
 - [X] [HTTPROBE](https://github.com/tomnomnom/httprobe)
 - [ ] [Corsy](https://github.com/s0md3v/Corsy)
 - [ ] [CORStest](https://github.com/RUB-NDS/CORStest)
 - [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+
 
 **Others**
 
@@ -103,11 +107,9 @@
 - [X] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
 - [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
 - [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
-- [ ] [Sublert](https://github.com/yassineaboukir/sublert)
 - [ ] [SubJack](https://github.com/haccer/subjack)
 - [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
-- [X] [Findomain](https://github.com/Edu4rdSHL/findomain)
 - [ ] [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
 - [ ] [DirSearch](https://github.com/maurosoria/dirsearch)
@@ -138,10 +140,11 @@
 - [ ] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
 - [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
 - [ ] [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
+#### tools
 
 ### Finding Race Conditions
 - [ ] [Testing for Race Conditions (OWASP-AT-010)](https://www.owasp.org/index.php/Testing_for_Race_Conditions_(OWASP-AT-010))
-#### TOOLS
+#### tools
 - [ ] [Race The Web (RTW)](https://github.com/aaronhnatiw/race-the-web)
 
 ### Finding XXE
@@ -158,17 +161,17 @@
 - [ ] [SPILLING LOCAL FILES VIA XXE WHEN HTTP OOB FAILS](https://www.noob.ninja/2019/12/spilling-local-files-via-xxe-when-http.html)
 - [ ] [Vilnerability 1: XXE in community.{site}.com](https://esoln.net/blog/2019/03/05/xxe-in-community-site-com/)
 - [ ] [xxe-that-can-bypass-waf-protection](https://lab.wallarm.com/xxe-that-can-bypass-waf-protection-98f679452ce0/)
-#### TOOLS
+#### tools
 - [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
 - [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
 - [ ] [xxe-recursive-download](https://github.com/AonCyberLabs/xxe-recursive-download)
 - [ ] [XML External Entity Injection](https://github.com/rhamaa/Web-Application-Attack/blob/master/other-vulnerability/xxe-injection.md)
 - [ ] [PayloadsAllTheThings - XML External Entity](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection)
+- [ ] [Blind XXE Payload Generator](https://github.com/discodamone/XXE-Generator)
 
 ### Finding XSS
-#### Tools
-
-
+- [ ] [Actual XSS in 2020](https://netsec.expert/2020/02/01/xss-in-2020.html)
+#### tools
 
 ## Mobile
 - [ ] [HOW2HACK - GET STARTED HACKING MOBILE](https://www.hackerone.com/blog/How-to-Hack-Get-Started-Hacking-Mobile)
