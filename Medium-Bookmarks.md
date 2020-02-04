@@ -11,6 +11,7 @@
 - [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a)  
 - [ ] [The Hitchhiker’s Guide to Bug Bounty Hunting Throughout the Galaxy. v2](https://medium.com/@Nick_Jenkins/the-hitchhikers-guide-to-bug-bounty-hunting-throughout-the-galaxy-474ddb87ae15)
 - [ ] [BUG BOUNTY HUNTING (METHODOLOGY , TOOLKIT , TIPS & TRICKS , Blogs)](https://medium.com/bugbountywriteup/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65)
+- [ ] [Collection Of Bug Bounty Tip-Will Be updated daily](https://medium.com/@vignesh4303/collection-of-bug-bounty-tip-will-be-updated-daily-605911cfa248)
 - [ ] [Bug Bounty Toolkit](https://medium.com/bugbountyhunting/bug-bounty-toolkit-aa36f4365f3f)
 - [ ] [Bug Bounty — The Learning Mindset](https://medium.com/bugbountywriteup/bug-bounty-the-learning-mindset-d4d54f6db819)
 - [ ] [Bounty Hunters Only!](https://medium.com/@phwd/bounty-hunters-only-1f06739646a5)
