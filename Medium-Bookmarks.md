@@ -162,7 +162,7 @@
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
 
 ### Leaking Information
-- [X] [~~How I get my first SWAG from SIDN (Sensitive Data Expose)~~](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
+- [X] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
 
 ### OTHERS
 - [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
