@@ -4,7 +4,12 @@
 
 - [Bug Bounty](#bug-bounty)
     - [Recon](#recon)
+    - [Mobile](#mobile)
+    - [API Test](#api-test)
     - [WriteUps](#writeups)
+        - [IDOR](#idor)
+        - [SQLi](#sqli)
+        - [XSS](#xss)
 - [Hackthebox Writeups](#hackthebox-writeups)
 
 ## Bug Bounty
@@ -17,8 +22,8 @@
 - [ ] [Bounty Hunters Only!](https://medium.com/@phwd/bounty-hunters-only-1f06739646a5)
 - [ ] [Grey Areas of Bugbounty World:](https://medium.com/@know.0nix/grey-areas-of-bugbounty-world-5dd794c697a3)
 - [ ] [Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
-- [X] [Fuzzing Web Applications](https://medium.com/swlh/fuzzing-web-applications-e786ca4c4bb6)
-- [X] [Bug Bounty with Bash](https://medium.com/cyberverse/bug-bounty-with-bash-438596ff72f5)
+- [X] [**Fuzzing Web Applications**](https://medium.com/swlh/fuzzing-web-applications-e786ca4c4bb6)
+- [X] [**Bug Bounty with Bash**](https://medium.com/cyberverse/bug-bounty-with-bash-438596ff72f5)
 - [ ] [Hacking WebSocket](https://medium.com/swlh/hacking-websocket-25d3cba6a4b9)
 - [ ] [Pwn Them All #BugBounty](https://medium.com/@bilalmerokhel/pwn-them-all-bugbounty-4ee60e13c83)
 - [ ] [Hunting Good Bugs with only <HTML>](https://medium.com/@know.0nix/hunting-good-bugs-with-only-html-d8fd40d17b38)
@@ -29,16 +34,17 @@
 - [ ] [Fuzzing — where is the logic?](https://medium.com/@cyberwolf1900/fuzzing-where-is-the-logic-1d87e4034c9c)
 - [ ] [Crossing The Borders : The illegal trade of HTTP requests](https://medium.com/bugbountywriteup/crossing-the-borders-the-illegal-trade-of-http-requests-57da188520ca)
 - [ ] [Five easy steps to understand JSON Web Tokens (JWT)](https://medium.com/cyberverse/five-easy-steps-to-understand-json-web-tokens-jwt-7665d2ddf4d5)
-
+- [X] [Breaking the Competition (Bug Bounty Write-up)](https://medium.com/ctf-writeups/breaking-the-competition-bug-bounty-write-up-ca7cb7bc53f5)
+- [ ] [The Bugs Are Out There, Hiding in Plain Sight](https://medium.com/a-bugz-life/the-bugs-are-out-there-hiding-in-plain-sight-12d056613ea3)
 ### RECON
 - [ ] [Reconnaissance: a eulogy in three acts](https://medium.com/@europa_/recoinnassance-7840824b9ef2)
-- [ ] [**Subdomains Enumeration: what is, how to do it, monitoring automation using webhooks and centralizing your findings**](https://medium.com/@edu4rdshl/subdomains-enumeration-what-is-how-to-do-it-monitoring-automation-using-webhooks-and-5e0a0c6d9127)
-- [ ] [**Automated monitoring of subdomains for fun and profit — Release of Sublert**](https://medium.com/@yassineaboukir/automated-monitoring-of-subdomains-for-fun-and-profit-release-of-sublert-634cfc5d7708)
+- [X] [**Subdomains Enumeration: what is, how to do it, monitoring automation using webhooks and centralizing your findings**](https://medium.com/@edu4rdshl/subdomains-enumeration-what-is-how-to-do-it-monitoring-automation-using-webhooks-and-5e0a0c6d9127)
+- [X] [Automated monitoring of subdomains for fun and profit — Release of Sublert](https://medium.com/@yassineaboukir/automated-monitoring-of-subdomains-for-fun-and-profit-release-of-sublert-634cfc5d7708)
 - [ ] [What tools I use for my recon during](https://medium.com/bugbountywriteup/whats-tools-i-use-for-my-recon-during-bugbounty-ec25f7f12e6d)
 - [ ] [How To Do Your Reconnaissance Properly Before Chasing A Bug Bounty](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
 - [ ] [Recon done right](https://medium.com/@caon/recon-done-right-2210f5e426cb)
 - [ ] [Recon — my way.](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21)
-- [ ] [**Subdomain takeover and prevention using Knockpy**](https://medium.com/@ajay.manoharan/subdomain-takeover-and-prevention-using-knockpy-e4cf438e450b)
+- [X] [**Subdomain takeover and prevention using Knockpy**](https://medium.com/@ajay.manoharan/subdomain-takeover-and-prevention-using-knockpy-e4cf438e450b)
 - [ ] [Sub-Domain Takeovers — How Can Companies Better Secure Their Assets? Part 1](https://medium.com/@chevonmdphillip/sub-domain-takeovers-how-can-companies-better-secure-their-assets-part-1-9e778ef5d17)
 - [ ] [How to do 55.000+ Subdomain Takeover in a Blink of an Eye](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)
 - [ ] [Subdomain Takeover — New Level](https://medium.com/bugbountywriteup/subdomain-takeover-new-level-43f88b55e0b2)
@@ -48,18 +54,29 @@
 - [ ] [Automated Host Recon, Persistence and Exfiltration](https://medium.com/@Bank_Security/automated-host-recon-persistence-and-exfiltration-85d49423dcc2)
 - [ ] [Automating URL Reconnaissance in Web Applications Bug Bounty Hunting with Google Dorker Tool](https://medium.com/@isaacwangethi30/automating-url-reconnaissance-in-web-applications-bug-bounty-hunting-with-google-dorker-tool-f17439588537)
 - [ ] [Privilege Escalation with simple recon](https://medium.com/@RisingHunter_/privilege-escalation-with-simple-recon-da4e50fea9e5)
-- [ ] [**Fasten your Recon process using Shell Scripting**](https://medium.com/bugbountywriteup/fasten-your-recon-process-using-shell-scripting-359800905d2a)
-- [ ] [Recon like a boss! Automation using “Shell Scripting”](https://medium.com/cyberverse/recon-like-a-boss-automation-using-shell-scripting-f791862ae18d)
+- [X] [**Fasten your Recon process using Shell Scripting**](https://medium.com/bugbountywriteup/fasten-your-recon-process-using-shell-scripting-359800905d2a)
+- [X] [**Recon like a boss! Automation using “Shell Scripting”**](https://medium.com/cyberverse/recon-like-a-boss-automation-using-shell-scripting-f791862ae18d)
 - [ ] [Gathering domains/subdomains with IPRanges of organization](https://medium.com/@arbazhussain/gathering-domains-subdomains-with-ipranges-of-organization-49362d8a1271)
 - [ ] [“Practical recon techniques for bug hunters & pen testers” at LevelUp 0x02](https://blog.appsecco.com/practical-recon-techniques-for-bug-hunters-pen-testers-at-levelup-0x02-b72c15641972)
 - [ ] [How “Recon” helped Samsung protect their production repositories of SamsungTv, eCommerce / eStores](https://blog.usejournal.com/how-recon-helped-samsung-protect-their-production-repositories-of-samsungtv-ecommerce-estores-4c51d6ec4fdd)
 - [ ] [Recon Everything](https://medium.com/@maverickNerd/recon-everything-48aafbb8987)
 - [ ] [Recon As You Owns It | Cyberverse](https://medium.com/cyberverse/recon-like-you-owns-it-190175c81c42)
 - [ ] [How to Hack Your Neighbor with a Post-It Note, Part 1 (Performing Recon)](https://medium.com/@NullByteWht/how-to-hack-your-neighbor-with-a-post-it-note-part-1-performing-recon-5e9aea5fe1e5)
-- [ ] [**Beginner’s Guide to recon automation.**](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
+- [X] [**Beginner’s Guide to recon automation.**](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
 - [ ] [OSINT Recon Great? — Unique Usernames Are Better Than Unique Passwords](https://medium.com/@curtbraz/osint-recon-great-unique-usernames-are-better-than-unique-passwords-97816aa20d37)
 - [ ] [REST framework Admin Panel bypass and how I recon for this vulnerability](https://medium.com/@hackerb0y/rest-framework-admin-panel-bypass-and-how-i-recon-for-this-vulnerability-a0ee41b01102)
 - [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
+- [X] [Advanced Recon Automation (Subdomains) case 1](https://medium.com/soulsecteam/advanced-recon-automation-subdomains-case-1-9ffc4baebf70)
+- [ ] [NMAP CHEAT-SHEET (Nmap Scanning Types, Scanning Commands , NSE Scripts)](https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692)
+- [X] [Subdomain Enumeration Tools Evaluation](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
+- [ ] [Shodan, entre banners e filtros](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
+
+### Mobile
+- [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
+- [ ] [Analyzing WhatsApp Calls with Wireshark, radare2 and Frida](https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213)
+
+
+
 
 ### WriteUps
 #### IDOR
@@ -76,11 +93,14 @@
 - [ ] [Stories Of IDOR](https://medium.com/bugbountywriteup/stories-of-idor-4966369e6d82)
 - [ ] [Maybe the manager Is Hacker (IDOR)?](https://medium.com/@Hossam.Mesbah/maybe-the-manager-is-hacker-idor-d005f49aa0a3)
 - [ ] [BUG IDOR APPS MISTERALADIN](https://medium.com/@anggaid/bug-idor-apps-misteraladin-10e8c71edabf)
-
+- [ ] [**A Less Known Attack Vector, Second Order IDOR Attacks](https://blog.usejournal.com/a-less-known-attack-vector-second-order-idor-attacks-14468009781a)
+- [X] [Top 25 IDOR Bug Bounty Reports](https://medium.com/@corneacristian/top-25-idor-bug-bounty-reports-ba8cd59ad331)
+- [ ] [A Simple IDOR to Account Takeover](https://medium.com/@swapmaurya20/a-simple-idor-to-account-takeover-88b8a1d2ec24)
+- [ ] [Attention to Details : Finding Hidden IDORs](https://medium.com/@aseem.shrey/attention-to-details-a-curious-case-of-multiple-idors-5a4417ba8848)
 ### SQLi
 - [ ] [Blind SQL Injection](https://medium.com/@shahjerry33/blind-sql-injection-cb68864b8361)
 - [ ] [Blind SQL Injection without an “in”](https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952)
-
+- [ ] [SQL Injection Via Stopping the redirection to a login page](https://blog.usejournal.com/sql-injection-via-stopping-the-redirection-to-a-login-page-52b0792d5592)
 ### XSS
 - [ ] [Сookie-based XSS exploitation | $2300 Bug Bounty story](https://medium.com/@iSecMax/%D1%81ookie-based-xss-exploitation-2300-bug-bounty-story-9bc532ffa564)
 - [ ] [Reflect XSS in JS File on Subdomain (redacted.redacted.com)](https://medium.com/@eissen5c/reflect-xss-on-js-file-in-subdomain-fe017a843f5e)
@@ -96,7 +116,7 @@
 - [ ] [XSS on Sony subdomain](https://medium.com/@gguzelkokar.mdbf15/xss-on-sony-subdomain-feddaea8f5ac)
 - [ ] [Stored XSS on Snapchat](https://medium.com/@mrityunjoy/stored-xss-on-snapchat-5d704131d8fd)
 - [ ] [Effortlessly finding Cross Site Script Inclusion (XSSI) & JSONP for bug bounty](https://medium.com/bugbountywriteup/effortlessly-finding-cross-site-script-inclusion-xssi-jsonp-for-bug-bounty-38ae0b9e5c8a)
-- [ ] [BUG BOUNTY: How I earned $550 in less than 5 minutes. “Open Redirect chained with rXSS”](https://medium.com/@ahmadbrainworks/bug-bounty-how-i-earned-550-in-less-than-5-minutes-open-redirect-chained-with-rxss-8957979070e5)
+- [X] [BUG BOUNTY: How I earned $550 in less than 5 minutes. “Open Redirect chained with rXSS”](https://medium.com/@ahmadbrainworks/bug-bounty-how-i-earned-550-in-less-than-5-minutes-open-redirect-chained-with-rxss-8957979070e5)
 - [ ] [Blind Xss (A mind game to win the battle)](https://medium.com/@dirtycoder0124/blind-xss-a-mind-game-to-win-the-battle-4fc67c524678)
 - [ ] [**How I turned Self XSS to Stored via CSRF**](https://medium.com/@abhishake100/how-i-turned-self-xss-to-stored-via-csrf-d12eaaf59f2e)
 - [ ] [Roubo de sessão bypassando WAF com XSS — Roubando sessão com 1 click](https://medium.com/@vaultcybersec/roubo-de-sessao-bypassando-waf-xss-roubando-sessao-com-1-click-a76d31d93753)
@@ -135,14 +155,17 @@
 ### SSRF
 - [ ] [SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
 - [ ] [Vimeo SSRF with code execution potential.](https://medium.com/@rootxharsh_90844/vimeo-ssrf-with-code-execution-potential-68c774ba7c1e)
-- [ ] [How i found an SSRF in Yahoo! Guesthouse (Recon Wins)](https://medium.com/@th3g3nt3l/how-i-found-an-ssrf-in-yahoo-guesthouse-recon-wins-8722672e41d4)
+- [X] [**How i found an SSRF in Yahoo! Guesthouse (Recon Wins)](https://medium.com/@th3g3nt3l/how-i-found-an-ssrf-in-yahoo-guesthouse-recon-wins-8722672e41d4)
 - [ ] [How i converted SSRF TO XSS in jira.](https://medium.com/@D0rkerDevil/how-i-convert-ssrf-to-xss-in-a-ssrf-vulnerable-jira-e9f37ad5b158)
 - [ ] [Server-Side Request Forgery (SSRF) Attacks - Part 1: The basics](https://medium.com/poka-techblog/server-side-request-forgery-ssrf-attacks-part-1-the-basics-a42ba5cc244a)
 - [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
+- [ ] [Exploiting an SSRF: Trials and Tribulations](https://medium.com/a-bugz-life/exploiting-an-ssrf-trials-and-tribulations-14c5d8dbd69a)
 
 ### CSRF
 - [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
-
+- [ ] [Lack of CSRF token validation at server side](https://medium.com/@ck.behindthemask/lack-of-csrf-token-validation-at-server-side-b27b65068e78)
+- [ ] [How I CSRF’d My First Bounty!](https://medium.com/@rajeshranjan457/how-i-csrfd-my-first-bounty-a62b593d3f4d)
+- [ ] [How I exploit the JSON CSRF with method override technique](https://medium.com/@secureITmania/how-i-exploit-the-json-csrf-with-method-override-technique-71c0a9a7f3b0)
 ### CRLF
 - [ ] [Cross Site Request Forgery: Techniques](https://medium.com/@onehackman/cross-site-request-forgery-techniques-19270174ea4)
 - [ ] [CRLF Injection Playbook](https://medium.com/cyberverse/crlf-injection-playbook-472c67f1cb46)
@@ -150,10 +173,15 @@
 ### XXE
 - [ ] [XML External Entity (XXE) Injection Payload List](https://medium.com/@ismailtasdelen/xml-external-entity-xxe-injection-payload-list-937d33e5e116)
 - [ ] [Very cool XXE bug in a Web Service](https://medium.com/@soyelmago/very-cool-xxe-bug-in-a-web-service-85bfaa5b035c)
-
+- [ ] [RCE via Apache Struts2 - Still out there.](https://medium.com/@abhishake100/rce-via-apache-struts2-still-out-there-b15ce205aa21)
+- [ ] [$5,005 worth vulnerability Duplicated, How I loose $5,005 in a day? Denial of Service - Billion LAUGH Attack (XXE)](https://medium.com/@protector47/5-005-worth-vulnerability-duplicated-how-i-loose-5-005-in-a-day-831f5a064713)
 ### RCE
 - [ ] [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37)
 - [ ] [A Not-So-Blind RCE with SQL Injection](https://medium.com/@notsoshant/a-not-so-blind-rce-with-sql-injection-13838026331e)
+- [ ] [**Simple Remote Code Execution Vulnerability Examples for Beginners](https://medium.com/@ozguralp/simple-remote-code-execution-vulnerability-examples-for-beginners-985867878311)
+
+## Race Conditions
+= [ ] [Hacking Banks With Race Conditions](https://medium.com/swlh/hacking-banks-with-race-conditions-2f8d55b45a4b)
 
 ### Subdomain Takeover
 - [ ] [How i bought my way to subdomain takeover on Tokopedia](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
@@ -163,12 +191,18 @@
 
 ### Leaking Information
 - [X] [~~How I get my first SWAG from SIDN (Sensitive Data Expose)~~](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
-
+- [ ] [Easily leaking passenger information on an Airline](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
+- [ ] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
+- [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
+- [ ] [API secret key Leakage leads to disclosure of Employee’s Information](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
 ### OTHERS
 - [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
+- [ ] [SOP Bypass](https://medium.com/@kenanistaken/sop-bypass-ecae7f4a5c00)
 - [ ] [CORS Misconfiguration leading to Private Information Disclosure](https://medium.com/@sasaxxx777/cors-misconfiguration-leading-to-private-information-disclosure-3034cfcb4b93)
 - [ ] [How CORS (Cross-Origin Resource Sharing) Works?](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
 - [ ] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
+- [ ] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
+- [ ] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
 - [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
 - [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
@@ -183,6 +217,14 @@
 - [ ] [Facebook Bug bounty Story: $X000 for an Information Disclosure Bug](https://medium.com/bug-bounty-hunting/facebook-bug-bounty-story-x000-for-an-information-disclosure-bug-f0c0d19d7815)
 - [ ] [How I earn $500 from Razer open S3 bucket](https://medium.com/sourav-sahana/how-i-earn-500-from-razer-open-s3-bucket-fe314e4bbab8)
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
-
+- [ ] [How I was able to takeover the company’s LinkedIn Page](https://medium.com/@bathinivijaysimhareddy/how-i-takeover-the-companys-linkedin-page-790c9ed2b04d)
+- [X] [Finding a P1 in one minute with Shodan.io (RCE)](https://medium.com/@sw33tlie/finding-a-p1-in-one-minute-with-shodan-io-rce-735e08123f52)
+- [X] [Finding a P2 in two minutes with Shodan.io](https://medium.com/@sw33tlie/finding-a-p2-in-two-minutes-with-shodan-io-647e86744ee6)
+- [ ] [Tale of Account Takeovers (Part-1)](https://medium.com/@bathinivijaysimhareddy/tale-of-account-takeovers-part-1-b24e1f3c3187)
+- [X] [Broken session management leads to bypass 2FA and Permanent access to Facebook user’s](https://medium.com/@0xBarakat/broken-session-permanent-access-to-facebook-users-cfed68684113)
+- [ ] [How I bypassed the OTP verification process? Part - 3](https://medium.com/@aditya12anand/how-i-bypassed-the-otp-verification-process-part-3-1bd49f8d76b9)
+- [ ] [My Weirdest Bug Bounty — Getting PII from O365.](https://medium.com/@omaidfaizyar/my-weirdest-bug-bounty-getting-pii-from-o365-b4477f4739e)
+- [ ] [An Unexpected Bounty — Email Bounce Issues](https://medium.com/@keshavaarav22/an-unexpected-bounty-email-bounce-issues-b9f24a35eb68)
 ## Hackthebox Writeups
 - [ ] [Hack The Box — FriendZone Writeup w/o Metasploit](https://medium.com/swlh/hack-the-box-friendzone-writeup-w-o-metasploit-fb52adc73c96)
+- [ ] [DevOops — An XML External Entity (XXE) HackTheBox Walkthrough](https://medium.com/bugbountywriteup/devoops-an-xml-external-entity-xxe-hackthebox-walkthrough-fb5ba03aaaa2)

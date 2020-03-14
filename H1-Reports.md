@@ -2,6 +2,7 @@
 
 - [Subdomain Takeover](#subdomain-takeover)
 - [Open Redirect](#open-redirect)
+- [IDOR](#idor)
 - [XXE](#xxe)
 - [SSTI](#ssti)
 - [SQL Injection](#sql-injection)
@@ -10,6 +11,7 @@
 - [SSRF](#ssrf)
 - [CSRF](#csrf)
 - [CRLF](#crlf)
+- [Local File Include](#lfi)
 - [Race Condition](#race-condition)
 - [Leaking Information](#leaking-information)
 - [More Bugs](#more-bugs)
@@ -43,6 +45,9 @@
 
 ## Open Redirect
 - [ ] [Open Redirect](https://hackerone.com/reports/504751)
+
+## IDOR
+- [ ] [IDOR allow access to payments data of any user](https://hackerone.com/reports/751577)
 
 ## XXE
 - [ ] [open redirect while login at https://apps.dev.jupiterone.io can leak access code.](https://hackerone.com/reports/591266)
@@ -100,12 +105,16 @@
 
 ## SSRF
 - [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
+- [ ] [SSRF protection bypass](https://hackerone.com/reports/736867)
 ## CSRF
 - [ ] [Possible CSRF during external programs](https://hackerone.com/reports/174470)
 
 ## CRLF
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
 - [ ] [CRLF Injection in legacy url API (url.parse().hostname)](https://hackerone.com/reports/771596)
+
+## LFI
+- [ ] [Korea - LFI via path traversal at https://msr.istarbucks.co.kr:6443/appif/](https://hackerone.com/reports/780021)
 
 ## Race Condition
 - [] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)

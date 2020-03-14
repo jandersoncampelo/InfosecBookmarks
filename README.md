@@ -14,6 +14,7 @@
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
+- [API Test](#api-test)
 - [Labs](#labs)
 - [WriteUps](#writeups)
     - [Subdomain Takeover Writeups](#subdomain-takeover-writeups)
@@ -21,7 +22,8 @@
     - [XSS Writeups](#xss-writeups)
     - [SSRF Writeups](#ssrf-writeups)
     - [XXE Writeups](#xxe-writeups)
-- [Forensics](Forensics)
+- [Pentesting](#pentesting)
+- [Forensics](#forensics)
 - [Reverse Engineering](#reverse-engineering)
 - [Certifications](#Certifications)
 
@@ -29,7 +31,7 @@
 
 ## Bug Bounty
 - [ ] [OWASP Web Security Testing Guide](https://github.com/OWASP/wstg)
-- [ ] [Bug Bounty Methodology](https://github.com/0xhelloworld/public/wiki/Bug-Bounty-Methodology)
+- [X] [Bug Bounty Methodology](https://github.com/0xhelloworld/public/wiki/Bug-Bounty-Methodology)
 - [X] [Bug Hunting Methodology (part-1)Updated on 4-Jan-2020](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
 - [X] [Bug Hunting Methodology(Part-2)](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
 - [ ] [GETTING STARTED – BUG BOUNTY HUNTER METHODOLOGY](https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/)
@@ -46,12 +48,17 @@
 - [ ] [Bug Bounty Guide](https://bugbountyguide.com/)
 - [ ] [Bug Bounty Checklist for Web App](https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md )
 - [ ] [The Web Application Hacker's Handbook](https://gist.github.com/gbedoya/10935137)
+- [X] [Two easy ways to get a list of scopes from a hackerone](https://www.hahwul.com/2019/12/two-easy-ways-to-get-list-of-scopes-from-hackerone.html)
+- [ ] [DanielMiessler - ](https://danielmiessler.com/study/)
+- [ ] [Legion - open source network penetration testing tool](https://hakin9.org/legion-open-source-network-penetration-testing-tool/)
+- [ ] [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [ ] [ProTips: Bug Bounty Hunting with Random Robbie](https://securitytrails.com/blog/bug-bounty-hunting?from=relatedposts)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
 - [ ] [[Tools] Visual Recon – A beginners guide](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
-- [ ] [AQUATONE: A tool for domain flyovers](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
-- [ ] [AQUATONE: Now in Go](https://michenriksen.com/blog/aquatone-now-in-go/)
+- [X] [AQUATONE: A tool for domain flyovers](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
+- [X] [AQUATONE: Now in Go](https://michenriksen.com/blog/aquatone-now-in-go/)
 - [ ] [DISCOVERING SUBDOMAINS](https://www.bugcrowd.com/blog/discovering-subdomains/)
 - [ ] [https://appsecco.com/books/subdomain-enumeration/](https://appsecco.com/books/subdomain-enumeration/)
 - [ ] [HOW TO: RECON AND CONTENT DISCOVERY](https://www.hackerone.com/blog/how-to-recon-and-content-discovery)
@@ -80,31 +87,39 @@
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
 - [ ] [Automating your reconnaissance workflow with 'meg'](https://edoverflow.com/2018/meg/)
 - [ ] [Subdomain Discovery - Bugcrwod Blog](https://forum.bugcrowd.com/t/subdomain-discovery/)
-
+- [X] [WAFW00F - The Web Application Firewall Fingerprinting Tool](https://hakin9.org/wafw00f-the-web-application-firewall-fingerprinting-tool/)
+- [X] [ASN Lookup Tools, Strategies and Techniques](https://securitytrails.com/blog/asn-lookup)
+- [ ] [A penetration tester’s guide to subdomain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6)
+- [ ] [rebootuser - Tag Archives: enumeration](https://www.rebootuser.com/?tag=enumeration)
+- [ ] [Subdomains Enumeration Cheat Sheet](https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html)
+- [ ] [Asset Discovery: Doing Reconnaissance the Hard Way](https://0xpatrik.com/asset-discovery/)
 ### Tools
 
 **My Box**
 - [X] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
 - [X] [Aquatone](https://github.com/michenriksen/aquatone)
-- [X] [Amass](https://github.com/OWASP/Amass)
-- [X] [ASN Lookup](https://github.com/yassineaboukir/Asnlookup)
-- [X] [FFUF](https://github.com/ffuf/ffuf)
+- [ ] [Amass](https://github.com/OWASP/Amass)
+- [ ] [ASN Lookup](https://github.com/yassineaboukir/Asnlookup)
+- [ ] [FFUF](https://github.com/ffuf/ffuf)
 - [X] [Findomain](https://github.com/Edu4rdSHL/findomain)
 - [X] [Subfinder](https://github.com/projectdiscovery/subfinder)
-- [ ] [Sublert](https://github.com/yassineaboukir/sublert)
-- [X] [MassDNS](https://github.com/blechschmidt/massdns)
+- [X] [Sublert](https://github.com/yassineaboukir/sublert)
+- [ ] [MassDNS](https://github.com/blechschmidt/massdns)
+- [X] [NMap](https://nmap.org/book/install.html)
 - [X] [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
 - [X] [HTTPROBE](https://github.com/tomnomnom/httprobe)
 - [ ] [Corsy](https://github.com/s0md3v/Corsy)
 - [ ] [CORStest](https://github.com/RUB-NDS/CORStest)
 - [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
-
+- [X] [Knock](https://github.com/guelfoweb/knock)
+- [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
 
 **Others**
 
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
-- [X] [Sn1per](https://github.com/1N3/Sn1per)
-- [X] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
+- [ ] [Sn1per](https://github.com/1N3/Sn1per)
+- [ ] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
+- [ ] [Rock-ON (A One-Shoot Killer)](https://github.com/SilverPoision/Rock-ON)
 - [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
 - [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
 - [ ] [SubJack](https://github.com/haccer/subjack)
@@ -121,7 +136,10 @@
 - [ ] [GitRob](https://github.com/michenriksen/gitrob)
 - [ ] [GitGot](https://github.com/BishopFox/GitGot)
 - [ ] [GitLeaks](https://github.com/zricethezav/gitleaks)
+- [ ] [Git Grabber](https://github.com/mattrafalko/gitGrabber)
 - [ ] [ReconNG](https://github.com/lanmaster53/recon-ng)
+- [ ] [truffleHog](https://github.com/dxa4481/truffleHog)
+- [ ] [Jaeles](https://github.com/jaeles-project/jaeles)
 
 ### Awesome Lists
 - [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)
@@ -161,6 +179,8 @@
 - [ ] [SPILLING LOCAL FILES VIA XXE WHEN HTTP OOB FAILS](https://www.noob.ninja/2019/12/spilling-local-files-via-xxe-when-http.html)
 - [ ] [Vilnerability 1: XXE in community.{site}.com](https://esoln.net/blog/2019/03/05/xxe-in-community-site-com/)
 - [ ] [xxe-that-can-bypass-waf-protection](https://lab.wallarm.com/xxe-that-can-bypass-waf-protection-98f679452ce0/)
+- [ ] [External XML Entity via File Upload (SVG)](https://0xatul.github.io/posts/2020/02/external-xml-entity-via-file-upload-svg/)
+
 #### tools
 - [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
 - [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
@@ -192,6 +212,12 @@
 - [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
 - [android-security-awesome](https://github.com/ashishb/android-security-awesome)
 
+## API Test
+### API Test
+- [ ] [31-days-of-API-Security-Tips](https://github.com/smodnix/31-days-of-API-Security-Tips)
+- [ ] [A Deep Dive On The Most Critical API Vulnerability — BOLA (Broken Object Level Authorization)](https://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2)
+- [ ] [API Testing Tutorial: Learn in 10 minutes!](https://www.guru99.com/api-testing.html)
+
 ## Labs
 - [Web Security Academy](https://portswigger.net/web-security)
 - [CTF Hacker 101](https://ctf.hacker101.com/ctf)
@@ -218,6 +244,14 @@
 
 ### SSRF Writeups
 - [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
+
+### XXE
+
+### RCE
+- [ ] [Responsible Disclosure: Breaking out of a Sandboxed Editor to perform RCE](https://jatindhankhar.in/blog/responsible-disclosure-breaking-out-of-a-sandboxed-editor-to-perform-rce/)
+
+## Pentesting
+- [ ] [METASPLOIT UNLEASHED](https://www.offensive-security.com/metasploit-unleashed/)
 
 ## Forensics
 
