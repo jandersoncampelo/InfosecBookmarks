@@ -139,7 +139,6 @@
 ---
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
-
 - [ ] [WFuzz](https://github.com/xmendez/wfuzz)
 - [ ] [DirSearch](https://github.com/evilsocket/dirsearch)
 - [ ] [MEG](https://github.com/tomnomnom/meg)
