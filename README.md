@@ -53,6 +53,10 @@
 - [ ] [Legion - open source network penetration testing tool](https://hakin9.org/legion-open-source-network-penetration-testing-tool/)
 - [ ] [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 - [ ] [ProTips: Bug Bounty Hunting with Random Robbie](https://securitytrails.com/blog/bug-bounty-hunting?from=relatedposts)
+- [ ] [Content Security Policy (CSP) Bypasses](http://ghostlulz.com/content-security-policy-csp-bypasses/)
+- [ ] [Book of Bug Bounty Tips](https://gowsundar.gitbook.io/book-of-bugbounty-tips/)
+- [ ] [Bug Bounty catches part -1](https://pwnsec.ninja/2020/03/04/bug-bounty-catches-part-1/)
+- [X] [**Bug Bounty Hunting Tips #3 — Kicking S3 Buckets**](https://craighays.com/bug-bounty-hunting-tips-3-kicking-s3-buckets/)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
@@ -93,45 +97,51 @@
 - [ ] [rebootuser - Tag Archives: enumeration](https://www.rebootuser.com/?tag=enumeration)
 - [ ] [Subdomains Enumeration Cheat Sheet](https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html)
 - [ ] [Asset Discovery: Doing Reconnaissance the Hard Way](https://0xpatrik.com/asset-discovery/)
+- [ ] [A Shodan Tutorial and Primer](https://danielmiessler.com/study/shodan/)
 ### Tools
 
 **My Box**
 - [X] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
 - [X] [Aquatone](https://github.com/michenriksen/aquatone)
-- [ ] [Amass](https://github.com/OWASP/Amass)
+- [X] [Amass](https://github.com/OWASP/Amass)
 - [ ] [ASN Lookup](https://github.com/yassineaboukir/Asnlookup)
 - [ ] [FFUF](https://github.com/ffuf/ffuf)
+- [X] [Sublert](https://github.com/yassineaboukir/sublert)
 - [X] [Findomain](https://github.com/Edu4rdSHL/findomain)
 - [X] [Subfinder](https://github.com/projectdiscovery/subfinder)
-- [X] [Sublert](https://github.com/yassineaboukir/sublert)
-- [ ] [MassDNS](https://github.com/blechschmidt/massdns)
+- [X] [MassDNS](https://github.com/blechschmidt/massdns)
+- [ ] [AltDNS](https://github.com/infosec-au/altdns)
+- [ ] [Masscan](https://github.com/robertdavidgraham/masscan)
+- [X] [AltDNS](https://github.com/infosec-au/altdns)
 - [X] [NMap](https://nmap.org/book/install.html)
 - [X] [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
 - [X] [HTTPROBE](https://github.com/tomnomnom/httprobe)
 - [ ] [Corsy](https://github.com/s0md3v/Corsy)
 - [ ] [CORStest](https://github.com/RUB-NDS/CORStest)
+- [X] [CORScanner](https://github.com/chenjj/CORScanner)
 - [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
 - [X] [Knock](https://github.com/guelfoweb/knock)
 - [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+- [X] [SubJack](https://github.com/haccer/subjack)
+- [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
+- [ ] [DirSearch](https://github.com/maurosoria/dirsearch)
+- [ ] [GoBuster](https://github.com/OJ/gobuster)
 
 **Others**
-
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [ ] [Sn1per](https://github.com/1N3/Sn1per)
-- [ ] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
+- [X] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
 - [ ] [Rock-ON (A One-Shoot Killer)](https://github.com/SilverPoision/Rock-ON)
 - [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
 - [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
-- [ ] [SubJack](https://github.com/haccer/subjack)
-- [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
-- [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
 - [ ] [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
+- [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
+---
+- [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
-- [ ] [DirSearch](https://github.com/maurosoria/dirsearch)
-- [ ] [GoBuster](https://github.com/OJ/gobuster)
+
 - [ ] [WFuzz](https://github.com/xmendez/wfuzz)
 - [ ] [DirSearch](https://github.com/evilsocket/dirsearch)
-- [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
 - [ ] [MEG](https://github.com/tomnomnom/meg)
 - [ ] [GitRob](https://github.com/michenriksen/gitrob)
 - [ ] [GitGot](https://github.com/BishopFox/GitGot)
@@ -140,6 +150,9 @@
 - [ ] [ReconNG](https://github.com/lanmaster53/recon-ng)
 - [ ] [truffleHog](https://github.com/dxa4481/truffleHog)
 - [ ] [Jaeles](https://github.com/jaeles-project/jaeles)
+- [ ] [Notable](https://github.com/notable/notable)
+- [X] [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
+- [X] [WordList-Compendium](https://github.com/Dormidera/WordList-Compendium)
 
 ### Awesome Lists
 - [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)
@@ -191,6 +204,8 @@
 
 ### Finding XSS
 - [ ] [Actual XSS in 2020](https://netsec.expert/2020/02/01/xss-in-2020.html)
+- [ ] [Finding and Fixing Cross-site Scripting (XSS)](https://www.akimbocore.com/finding-and-fixing-cross-site-scripting-xss/)
+- [ ] [XSS on Cookie Pop-up](https://0x00sec.org/t/xss-on-cookie-pop-up/19580)
 #### tools
 
 ## Mobile
@@ -203,7 +218,7 @@
 - [ ] [MOBILE APPLICATION PENETRATION TESTING METHODOLOGY](https://hacken.io/research/education/mobile-application-penetration-testing-methodology/)
 - [ ] [Configuring Frida with BurpSuite and Genymotion to bypass Android SSL Pinning](https://spenkk.github.io/bugbounty/Configuring-Frida-with-Burp-and-GenyMotion-to-bypass-SSL-Pinning/)
 - [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
-
+- [ ] [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/)
 ### Mobile Tools
 - [FRIDA.RE](https://frida.re/docs/home/)
 - [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
@@ -241,17 +256,30 @@
 
 ### XSS Writeups
 - [ ] [Reflected XSS in graph.facebook.com leads to account takeover in IE/Edge](https://ysamm.com/?p=343)
+- [ ] [Arbitary File Upload too Stored XSS - Bug Bounty](https://m0chan.github.io/2020/02/04/Arbitary-File-Upload-Too-Stored-XSS.html)
 
 ### SSRF Writeups
 - [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
 
 ### XXE
 
+### IDOR
+- [ ] [Facebook OAuth Framework Vulnerability](https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/)
+
 ### RCE
 - [ ] [Responsible Disclosure: Breaking out of a Sandboxed Editor to perform RCE](https://jatindhankhar.in/blog/responsible-disclosure-breaking-out-of-a-sandboxed-editor-to-perform-rce/)
 
+### LFI
+- [ ] [LOCAL FILE READ VIA XSS IN DYNAMICALLY GENERATED PDF](https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html)
+
+### Misconfiguration
+- [ ] [S3 Bucket Misconfiguration: From Basics to Pawn](https://bugbountypoc.com/s3-bucket-misconfiguration-from-basics-to-pawn/)
+
 ## Pentesting
 - [ ] [METASPLOIT UNLEASHED](https://www.offensive-security.com/metasploit-unleashed/)
+- [ ] [Beginner’s Guide to Nexpose](https://www.hackingarticles.in/beginners-guide-to-nexpose/)
+- [ ] [A useful list of free tools to scan your website for security vulnerabilities](https://eforensicsmag.com/a-useful-list-of-free-tools-to-scan-your-website-for-security-vulnerabilities-by-erica-sunarjo/)
+- [ ] [Python WiFi Scanner Coding [FREE COURSE CONTENT]](https://hakin9.org/python-wifi-scanner-coding-free-course-content/)
 
 ## Forensics
 

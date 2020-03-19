@@ -68,8 +68,8 @@
 - [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
 - [X] [**Advanced Recon Automation (Subdomains) case 1**](https://medium.com/soulsecteam/advanced-recon-automation-subdomains-case-1-9ffc4baebf70)
 - [ ] [NMAP CHEAT-SHEET (Nmap Scanning Types, Scanning Commands , NSE Scripts)](https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692)
-- [X] [**Subdomain Enumeration Tools Evaluation**](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
-- [X] [**Shodan, entre banners e filtros**](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
+- [X] [~~Subdomain Enumeration Tools Evaluation~~](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
+- [X] [~~Shodan, entre banners e filtros~~](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
 
 ### Mobile
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
@@ -97,10 +97,12 @@
 - [X] [**Top 25 IDOR Bug Bounty Reports**](https://medium.com/@corneacristian/top-25-idor-bug-bounty-reports-ba8cd59ad331)
 - [ ] [A Simple IDOR to Account Takeover](https://medium.com/@swapmaurya20/a-simple-idor-to-account-takeover-88b8a1d2ec24)
 - [ ] [Attention to Details : Finding Hidden IDORs](https://medium.com/@aseem.shrey/attention-to-details-a-curious-case-of-multiple-idors-5a4417ba8848)
+
 ### SQLi
 - [ ] [Blind SQL Injection](https://medium.com/@shahjerry33/blind-sql-injection-cb68864b8361)
 - [ ] [Blind SQL Injection without an “in”](https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952)
 - [ ] [SQL Injection Via Stopping the redirection to a login page](https://blog.usejournal.com/sql-injection-via-stopping-the-redirection-to-a-login-page-52b0792d5592)
+
 ### XSS
 - [ ] [Сookie-based XSS exploitation | $2300 Bug Bounty story](https://medium.com/@iSecMax/%D1%81ookie-based-xss-exploitation-2300-bug-bounty-story-9bc532ffa564)
 - [ ] [Reflect XSS in JS File on Subdomain (redacted.redacted.com)](https://medium.com/@eissen5c/reflect-xss-on-js-file-in-subdomain-fe017a843f5e)
@@ -151,7 +153,7 @@
 - [ ] [[XSS] Reflected XSS Bypass Filter](https://medium.com/bugbountywriteup/xss-reflected-xss-bypass-filter-de41d35239a3)
 - [ ] [Story Of a Stored XSS Bypass](https://medium.com/bugbountywriteup/story-of-a-stored-xss-bypass-26e6659f807b)
 - [ ] [New technique to find Blind-XSS](https://medium.com/@renwa/new-technique-to-find-blind-xss-c2efcd377cc2)
-
+- [ ] [[FUN] Bypass XSS Detection WAF](https://medium.com/soulsecteam/fun-bypass-xss-detection-waf-cabd431e030e)
 ### SSRF
 - [ ] [SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
 - [ ] [Vimeo SSRF with code execution potential.](https://medium.com/@rootxharsh_90844/vimeo-ssrf-with-code-execution-potential-68c774ba7c1e)
@@ -160,7 +162,10 @@
 - [ ] [Server-Side Request Forgery (SSRF) Attacks - Part 1: The basics](https://medium.com/poka-techblog/server-side-request-forgery-ssrf-attacks-part-1-the-basics-a42ba5cc244a)
 - [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
 - [ ] [Exploiting an SSRF: Trials and Tribulations](https://medium.com/a-bugz-life/exploiting-an-ssrf-trials-and-tribulations-14c5d8dbd69a)
-
+- [X] [**SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1**](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
+- [X] [**SSRF — Server Side Request Forgery (Types and ways to exploit it) Part-2**](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-2-a085ec4332c0)
+- [X] [**SSRF — Server Side Request Forgery (Types and ways to exploit it) Part-3**](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-3-b0f5997e3739)
+- [ ] [SSRF on PDF generator.](https://medium.com/@michan001/ssrf-on-pdf-generator-36b81e16d67b)
 ### CSRF
 - [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
 - [ ] [Lack of CSRF token validation at server side](https://medium.com/@ck.behindthemask/lack-of-csrf-token-validation-at-server-side-b27b65068e78)
@@ -195,14 +200,18 @@
 - [ ] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
 - [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
 - [ ] [API secret key Leakage leads to disclosure of Employee’s Information](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
+
+### Misconfiguration
+- [X] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
+
 ### OTHERS
-- [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
-- [ ] [SOP Bypass](https://medium.com/@kenanistaken/sop-bypass-ecae7f4a5c00)
-- [ ] [CORS Misconfiguration leading to Private Information Disclosure](https://medium.com/@sasaxxx777/cors-misconfiguration-leading-to-private-information-disclosure-3034cfcb4b93)
-- [ ] [How CORS (Cross-Origin Resource Sharing) Works?](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
-- [ ] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
-- [ ] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
-- [ ] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
+- [X] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
+- [X] [SOP Bypass](https://medium.com/@kenanistaken/sop-bypass-ecae7f4a5c00)
+- [X] [CORS Misconfiguration leading to Private Information Disclosure](https://medium.com/@sasaxxx777/cors-misconfiguration-leading-to-private-information-disclosure-3034cfcb4b93)
+- [X] [How CORS (Cross-Origin Resource Sharing) Works?](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
+- [X] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
+- [X] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
+- [X] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
 - [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
 - [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
@@ -225,6 +234,8 @@
 - [ ] [How I bypassed the OTP verification process? Part - 3](https://medium.com/@aditya12anand/how-i-bypassed-the-otp-verification-process-part-3-1bd49f8d76b9)
 - [ ] [My Weirdest Bug Bounty — Getting PII from O365.](https://medium.com/@omaidfaizyar/my-weirdest-bug-bounty-getting-pii-from-o365-b4477f4739e)
 - [ ] [An Unexpected Bounty — Email Bounce Issues](https://medium.com/@keshavaarav22/an-unexpected-bounty-email-bounce-issues-b9f24a35eb68)
+- [X] [**Using Vulnerability Analytics Feature Like a Boss**](https://medium.com/@ozguralp/using-vulnerability-analytics-feature-like-a-boss-655fc1f1543b)
 ## Hackthebox Writeups
 - [ ] [Hack The Box — FriendZone Writeup w/o Metasploit](https://medium.com/swlh/hack-the-box-friendzone-writeup-w-o-metasploit-fb52adc73c96)
+- [ ] [Hack The Box — Safe Writeup w/o Metasploit](https://medium.com/@ranakhalil101/hack-the-box-safe-writeup-w-o-metasploit-c83b00185447)
 - [ ] [DevOops — An XML External Entity (XXE) HackTheBox Walkthrough](https://medium.com/bugbountywriteup/devoops-an-xml-external-entity-xxe-hackthebox-walkthrough-fb5ba03aaaa2)
