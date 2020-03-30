@@ -118,6 +118,11 @@
 
 ## Race Condition
 - [] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)
+- [ ] [Race Condition leads to undeletable group member](https://hackerone.com/reports/604534)
+
+## HTTP Smuggling
+- [ ] [HTTP SMUGGLING EXPOSED HMAC/DOS](https://hackerone.com/reports/753939)
+- [ ] [Mass account takeovers using HTTP Request Smuggling on https://slackb.com/ to steal session cookies](https://hackerone.com/reports/737140)
 
 ## Leaking Information
 - [ ] [Disclose Any Store products, Files, Purchase Orders Via Email through Shopify Stocky APP](https://hackerone.com/reports/763994)
@@ -126,7 +131,11 @@
 - [ ] [Password reset token leak on third party website via Referer header](https://hackerone.com/reports/272379)
 - [ ] [password reset token leaking allowed for ATO of an Uber account](https://hackerone.com/reports/173551)
 
+## GraphQL
+- [ ] [Disabled account can still use GraphQL endpoint](https://hackerone.com/reports/608656)
+
 ## More Bugs
+- [ ] [Unauthenticated users can obtain information about Checklist objects with unclaimed ChecklistCheck objects](https://hackerone.com/reports/781175)
 - [ ] [Account takeover via leaked session cookie](https://hackerone.com/reports/745324)
 - [ ] [JumpCloud API Key leaked via Open Github Repository.](https://hackerone.com/reports/716292)
 - [ ] [Misconfigured s3 Bucket exposure](https://hackerone.com/reports/700051)

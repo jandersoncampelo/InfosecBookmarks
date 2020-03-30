@@ -12,6 +12,14 @@
         - [XSS](#xss)
 - [Hackthebox Writeups](#hackthebox-writeups)
 
+## Web
+- [ ] [Entendendo o CORS — Parte 1](https://medium.com/@alexandremjacques/entendendo-o-cors-parte-8331d0a777e1)
+- [ ] [Entendendo o CORS — Parte 2](https://medium.com/@alexandremjacques/entendendo-o-cors-parte-2-e4172d6da206)
+- [ ] [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
+- [X] [How CORS (Cross-Origin Resource Sharing) Works?](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
+- [ ] [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
+- [ ] [Think Outside the Scope: Advanced CORS Exploitation Techniques](https://medium.com/bugbountywriteup/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397)
+
 ## Bug Bounty
 - [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a)  
 - [ ] [The Hitchhiker’s Guide to Bug Bounty Hunting Throughout the Galaxy. v2](https://medium.com/@Nick_Jenkins/the-hitchhikers-guide-to-bug-bounty-hunting-throughout-the-galaxy-474ddb87ae15)
@@ -36,6 +44,10 @@
 - [ ] [Five easy steps to understand JSON Web Tokens (JWT)](https://medium.com/cyberverse/five-easy-steps-to-understand-json-web-tokens-jwt-7665d2ddf4d5)
 - [X] [**Breaking the Competition (Bug Bounty Write-up)**](https://medium.com/ctf-writeups/breaking-the-competition-bug-bounty-write-up-ca7cb7bc53f5)
 - [ ] [The Bugs Are Out There, Hiding in Plain Sight](https://medium.com/a-bugz-life/the-bugs-are-out-there-hiding-in-plain-sight-12d056613ea3)
+- [X] [**BugBounty TIPS + Tools (continuously updated)**](https://medium.com/@soyelmago/bugbounty-tips-continuously-updated-dd8fe8914bdc)
+- [ ] [Mastering the Skills of Bug Bounty](https://medium.com/swlh/mastering-the-skills-of-bug-bounty-2201eb6a9f4)
+- [ ] [My first accepted bug report!](https://medium.com/@ksharinarayanan8/my-first-accepted-bug-report-dced83ca3361)
+
 ### RECON
 - [ ] [Reconnaissance: a eulogy in three acts](https://medium.com/@europa_/recoinnassance-7840824b9ef2)
 - [X] [**Subdomains Enumeration: what is, how to do it, monitoring automation using webhooks and centralizing your findings**](https://medium.com/@edu4rdshl/subdomains-enumeration-what-is-how-to-do-it-monitoring-automation-using-webhooks-and-5e0a0c6d9127)
@@ -70,13 +82,11 @@
 - [ ] [NMAP CHEAT-SHEET (Nmap Scanning Types, Scanning Commands , NSE Scripts)](https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692)
 - [X] [~~Subdomain Enumeration Tools Evaluation~~](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
 - [X] [~~Shodan, entre banners e filtros~~](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
+- [ ] [Discovering The Hidden Web](https://medium.com/bugbountywriteup/discovering-the-hidden-web-638a947361ad)
 
 ### Mobile
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
 - [ ] [Analyzing WhatsApp Calls with Wireshark, radare2 and Frida](https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213)
-
-
-
 
 ### WriteUps
 #### IDOR
@@ -119,6 +129,7 @@
 - [ ] [Stored XSS on Snapchat](https://medium.com/@mrityunjoy/stored-xss-on-snapchat-5d704131d8fd)
 - [ ] [Effortlessly finding Cross Site Script Inclusion (XSSI) & JSONP for bug bounty](https://medium.com/bugbountywriteup/effortlessly-finding-cross-site-script-inclusion-xssi-jsonp-for-bug-bounty-38ae0b9e5c8a)
 - [X] [**BUG BOUNTY: How I earned $550 in less than 5 minutes. “Open Redirect chained with rXSS”**](https://medium.com/@ahmadbrainworks/bug-bounty-how-i-earned-550-in-less-than-5-minutes-open-redirect-chained-with-rxss-8957979070e5)
+- [ ] [Bounty Tip- Open redirection escalated further into an XSS !!](https://medium.com/bugbountywriteup/bounty-tip-open-redirection-escalated-further-into-an-xss-edec8e3abe78)
 - [ ] [Blind Xss (A mind game to win the battle)](https://medium.com/@dirtycoder0124/blind-xss-a-mind-game-to-win-the-battle-4fc67c524678)
 - [X] [**How I turned Self XSS to Stored via CSRF**](https://medium.com/@abhishake100/how-i-turned-self-xss-to-stored-via-csrf-d12eaaf59f2e)
 - [ ] [Roubo de sessão bypassando WAF com XSS — Roubando sessão com 1 click](https://medium.com/@vaultcybersec/roubo-de-sessao-bypassando-waf-xss-roubando-sessao-com-1-click-a76d31d93753)
@@ -154,6 +165,8 @@
 - [ ] [Story Of a Stored XSS Bypass](https://medium.com/bugbountywriteup/story-of-a-stored-xss-bypass-26e6659f807b)
 - [ ] [New technique to find Blind-XSS](https://medium.com/@renwa/new-technique-to-find-blind-xss-c2efcd377cc2)
 - [ ] [[FUN] Bypass XSS Detection WAF](https://medium.com/soulsecteam/fun-bypass-xss-detection-waf-cabd431e030e)
+- [ ] [Self XSS to Account Takeover](https://medium.com/@ch3ckm4te/self-xss-to-account-takeover-72c89775cf8f)
+
 ### SSRF
 - [ ] [SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
 - [ ] [Vimeo SSRF with code execution potential.](https://medium.com/@rootxharsh_90844/vimeo-ssrf-with-code-execution-potential-68c774ba7c1e)
@@ -166,11 +179,16 @@
 - [X] [**SSRF — Server Side Request Forgery (Types and ways to exploit it) Part-2**](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-2-a085ec4332c0)
 - [X] [**SSRF — Server Side Request Forgery (Types and ways to exploit it) Part-3**](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-3-b0f5997e3739)
 - [ ] [SSRF on PDF generator.](https://medium.com/@michan001/ssrf-on-pdf-generator-36b81e16d67b)
+- [ ] [Blind SSRF - Sentry Misconfiguration](https://medium.com/@shahjerry33/blind-ssrf-sentry-misconfiguration-a68edc789db2)
+- [ ] [Exploiting SSRF in RethinkDB](https://medium.com/@d3fl4t3/exploiting-ssrf-in-rethinkdb-38a5a5438fb7)
+
 ### CSRF
 - [ ] [My First CSRF to Account Takeover worth $750](https://medium.com/@nishantrustlingup/my-first-csrf-to-account-takeover-worth-750-1332641d4304)
 - [ ] [Lack of CSRF token validation at server side](https://medium.com/@ck.behindthemask/lack-of-csrf-token-validation-at-server-side-b27b65068e78)
 - [ ] [How I CSRF’d My First Bounty!](https://medium.com/@rajeshranjan457/how-i-csrfd-my-first-bounty-a62b593d3f4d)
 - [ ] [How I exploit the JSON CSRF with method override technique](https://medium.com/@secureITmania/how-i-exploit-the-json-csrf-with-method-override-technique-71c0a9a7f3b0)
+- [ ] [CSRF(Cross-site Request Forgery Attack) and ways to combat it in Rails](https://medium.com/swlh/csrf-cross-site-request-forgery-attack-and-ways-to-combat-it-in-rails-7d0ae7de57d2)
+
 ### CRLF
 - [ ] [Cross Site Request Forgery: Techniques](https://medium.com/@onehackman/cross-site-request-forgery-techniques-19270174ea4)
 - [ ] [CRLF Injection Playbook](https://medium.com/cyberverse/crlf-injection-playbook-472c67f1cb46)
@@ -180,10 +198,31 @@
 - [ ] [Very cool XXE bug in a Web Service](https://medium.com/@soyelmago/very-cool-xxe-bug-in-a-web-service-85bfaa5b035c)
 - [ ] [RCE via Apache Struts2 - Still out there.](https://medium.com/@abhishake100/rce-via-apache-struts2-still-out-there-b15ce205aa21)
 - [ ] [$5,005 worth vulnerability Duplicated, How I loose $5,005 in a day? Denial of Service - Billion LAUGH Attack (XXE)](https://medium.com/@protector47/5-005-worth-vulnerability-duplicated-how-i-loose-5-005-in-a-day-831f5a064713)
+
 ### RCE
 - [ ] [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37)
 - [ ] [A Not-So-Blind RCE with SQL Injection](https://medium.com/@notsoshant/a-not-so-blind-rce-with-sql-injection-13838026331e)
 - [X] [**Simple Remote Code Execution Vulnerability Examples for Beginners**](https://medium.com/@ozguralp/simple-remote-code-execution-vulnerability-examples-for-beginners-985867878311)
+- [ ] [Remote Image Upload Leads to RCE (Inject Malicious Code to PHP-GD Image)](https://medium.com/@asdqwedev/remote-image-upload-leads-to-rce-inject-malicious-code-to-php-gd-image-90e1e8b2aada)
+- [ ] [Remote Code Execution - Explaination, Writeups and Tools.](https://medium.com/@ashishrohra/remote-code-execution-explaination-writeups-and-tools-a8e4c3362259)
+- [ ] [RoCET — Remote Code Execution Tool](https://medium.com/bugbountywriteup/rocet-remote-code-execution-tool-11efa54654d5)
+- [ ] [How an Instagram’s Story drives me to a Remote Code Execution.](https://medium.com/bugbountywriteup/how-an-instagrams-story-drives-me-to-a-remote-code-execution-9ff96458ec89)
+- [ ] [TOP 21 Remote Code Execution Exploit’s #RCE #InTheWild](https://medium.com/@1ZRR4H/top-21-remote-code-execution-exploits-rce-inthewild-102bba9be362)
+- [ ] [Remote Code Execution — Gaining Domain Admin due to a typo](https://medium.com/@DanielC7/remote-code-execution-gaining-domain-admin-privileges-due-to-a-typo-dbf8773df767)
+- [ ] [Jenkins RCE PoC or simple pre-auth remote code execution on the Server.](https://medium.com/@valeriyshevchenko/jenkins-rce-poc-or-simple-pre-auth-remote-code-execution-on-the-server-d18b868a77cb)
+- [ ] [How I exploited an arbitrary code execution vulnerability in fast-redact](https://itnext.io/how-i-exploited-a-remote-code-execution-vulnerability-in-fast-redact-9e69fa35572f)
+- [ ] [REMOTE CODE EXECUTION ! 😜 Recon Wins](https://medium.com/@vishnu0002/remote-code-execution-recon-wins-e9c1db79f3da)
+- [ ] [The Karamba Product Security Blog: Remote Code Execution](https://medium.com/@karambasec/the-karamba-product-security-blog-remote-code-execution-59e12a8cef0a)
+- [ ] [Backdoor Exploration of Webmin Remote Code Execution Vulnerabilities (CVE-2019–15107)](https://medium.com/@knownsec404team/backdoor-exploration-of-webmin-remote-code-execution-vulnerabilities-cve-2019-15107-55234c0bd486)
+- [ ] [Drupal Core Remote Code Execution Vulnerability: CVE-2019–6340](https://medium.com/@briskinfosec/drupal-core-remote-code-execution-vulnerability-cve-2019-6340-35dee6175afa)
+- [ ] [Rooting Nagios Via Outdated Libraries](https://medium.com/tenable-techblog/rooting-nagios-via-outdated-libraries-bb79427172)
+- [ ] [PHPMyAdmin 4.8.0 ~ 4.8.1 Remote Code Execution](https://medium.com/@happyholic1203/phpmyadmin-4-8-0-4-8-1-remote-code-execution-257bcc146f8e)
+- [ ] [Dell KACE K1000 Remote Code Execution — the Story of Bug K1–18652](https://medium.com/@MrTuxracer/dell-kace-k1000-remote-code-execution-the-story-of-bug-k1-18652-d7e2f3c981d5)
+- [ ] [Interspire Email Marketer 6.20< Remote Code Execution via Upload Files](https://medium.com/numanturle-com/interspire-email-marketer-6-20-exp-remote-code-execution-via-uplaod-files-27ef002ad813)
+- [ ] [Übersicht Remote Code Execution, Spotify takeover](https://medium.com/@Zemnmez/%C3%BCbersicht-remote-code-execution-spotify-takeover-a5f6fd6809d0)
+- [ ] [Two Easy RCE in Atlassian Products](https://medium.com/@valeriyshevchenko/two-easy-rce-in-atlassian-products-e8480eacdc7f)
+- [ ] [RCE in Jira(CVE-2019–11581)](https://medium.com/@ruvlol/rce-in-jira-cve-2019-11581-901b845f0f)
+- [ ] [Magento Web Exploit Case Studies](https://medium.com/magebit/magento-web-exploit-case-studies-bac57add8c0e)
 
 ## Race Conditions
 = [ ] [Hacking Banks With Race Conditions](https://medium.com/swlh/hacking-banks-with-race-conditions-2f8d55b45a4b)
@@ -208,7 +247,6 @@
 - [X] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
 - [X] [SOP Bypass](https://medium.com/@kenanistaken/sop-bypass-ecae7f4a5c00)
 - [X] [CORS Misconfiguration leading to Private Information Disclosure](https://medium.com/@sasaxxx777/cors-misconfiguration-leading-to-private-information-disclosure-3034cfcb4b93)
-- [X] [How CORS (Cross-Origin Resource Sharing) Works?](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
 - [X] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
 - [X] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
 - [X] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
@@ -235,7 +273,13 @@
 - [ ] [My Weirdest Bug Bounty — Getting PII from O365.](https://medium.com/@omaidfaizyar/my-weirdest-bug-bounty-getting-pii-from-o365-b4477f4739e)
 - [ ] [An Unexpected Bounty — Email Bounce Issues](https://medium.com/@keshavaarav22/an-unexpected-bounty-email-bounce-issues-b9f24a35eb68)
 - [X] [**Using Vulnerability Analytics Feature Like a Boss**](https://medium.com/@ozguralp/using-vulnerability-analytics-feature-like-a-boss-655fc1f1543b)
+- [ ] [Account Takeover Via Modifying Email ID — Codeigniter Framework](https://medium.com/@vbharad/account-takeover-via-modifying-email-id-codeigniter-framework-ca30741ad297)
+
 ## Hackthebox Writeups
 - [ ] [Hack The Box — FriendZone Writeup w/o Metasploit](https://medium.com/swlh/hack-the-box-friendzone-writeup-w-o-metasploit-fb52adc73c96)
 - [ ] [Hack The Box — Safe Writeup w/o Metasploit](https://medium.com/@ranakhalil101/hack-the-box-safe-writeup-w-o-metasploit-c83b00185447)
 - [ ] [DevOops — An XML External Entity (XXE) HackTheBox Walkthrough](https://medium.com/bugbountywriteup/devoops-an-xml-external-entity-xxe-hackthebox-walkthrough-fb5ba03aaaa2)
+- [ ] [Hack The Box — Forest Writeup w/o Metasploit](https://medium.com/@ranakhalil101/hack-the-box-forest-writeup-w-o-metasploit-63070c9020e4)
+- [ ] [Hacking through the Forest! Pwning Active Directory — HTB](https://medium.com/@pettyhacks/hacking-through-the-forest-pwning-active-directory-htb-9346db767f0b)
+- [ ] [HacktheBox — Forest](https://medium.com/bugbountywriteup/hackthebox-forest-5a11553de1)
+- [ ] [HacktheBox — Postman](https://medium.com/bugbountywriteup/hackthebox-postman-2f539f63aa)

@@ -57,6 +57,11 @@
 - [ ] [Book of Bug Bounty Tips](https://gowsundar.gitbook.io/book-of-bugbounty-tips/)
 - [ ] [Bug Bounty catches part -1](https://pwnsec.ninja/2020/03/04/bug-bounty-catches-part-1/)
 - [X] [**Bug Bounty Hunting Tips #3 — Kicking S3 Buckets**](https://craighays.com/bug-bounty-hunting-tips-3-kicking-s3-buckets/)
+- [ ] [Bug Bounty Hunting Tips #1— Always Read the Source Code](https://craighays.com/bug-bounty-hunting-tips-1-always-read-the-source-code/)
+- [X] [**Guia de Referência para Pentesters por Renato Andalik**](https://docs.andalik.com.br/guia-para-pentesters/)
+- [ ] [Bug Bounty Cheat Sheet](https://github.com/EdOverflow/bugbounty-cheatsheet)
+- [ ] [Automating Pentests for Applications with Integrity Checks using Burp Suite Custom Extension](https://www.notsosecure.com/automating-pentests-for-applications-with-integrity-checks-using-burpsuite/)
+- [ ] [Get out of the limited OWASP TOP-10/SANS TOP-25/Bug Bounty mindset](http://raviramesh.info/mindset.html)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
@@ -69,11 +74,13 @@
 - [ ] [HTTPRecon (Server Fingerprint)](https://w3dt.net/tools/httprecon)
 - [ ] [GitHub Gist Recon](https://secapps.com/tutorials/github-gist-recon/)
 - [ ] [GitHub tools collection](http://10degres.net/github-tools-collection/)
-- [ ] [A More Advanced Recon Automation #1 (Subdomains)](https://poc-server.com/blog/2019/01/18/advanced-recon-subdomains/)
+- [X] [**A More Advanced Recon Automation #1 (Subdomains)**](https://poc-server.com/blog/2019/01/18/advanced-recon-subdomains/)
+- [X] [**Expanding your scope (Recon automation #2)**](https://poc-server.com/blog/2019/01/31/expanding-your-scope-recon-automation/)
 - [ ] [Advanced Recon Automation (Subdomains) case 1](https://anhtai.me/advanced-recon-automation-subdomains-case-1/)
 - [ ] [Masscan Examples: From Installation to Everyday Use](https://danielmiessler.com/study/masscan/)
 - [ ] [Open Source Intelligence Gathering 101](https://blog.appsecco.com/open-source-intelligence-gathering-101-d2861d4429e3)
 - [ ] [Commonspeak: Content discovery wordlists built with BigQuery](https://pentester.io/commonspeak-bigquery-wordlists/)
+- [ ] [Commonspeak 2: Generating evolutionary wordlists](https://labs.assetnote.io/tool/release/2018/08/12/commonspeak2.html)
 - [ ] [Recon-ng Tutorial – Part 1 Install and Setup](http://securenetworkmanagement.com/recon-ng-tutorial-part-1/)
 - [ ] [Recon-ng Tutorial – Part 2 Workspaces and Import](http://securenetworkmanagement.com/recon-ng-tutorial-part-2/)
 - [ ] [Recon-ng Tutorial – Part 3 Usage and Reporting](http://securenetworkmanagement.com/recon-ng-tutorial-part-3/)
@@ -89,7 +96,7 @@
 - [ ] [Subdomain enumeration](http://10degres.net/subdomain-enumeration/)
 - [ ] [How to Find Directories in Websites Using DirBuster](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-directories-websites-using-dirbuster-0157593/)
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
-- [ ] [Automating your reconnaissance workflow with 'meg'](https://edoverflow.com/2018/meg/)
+- [X] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
 - [ ] [Subdomain Discovery - Bugcrwod Blog](https://forum.bugcrowd.com/t/subdomain-discovery/)
 - [X] [**WAFW00F - The Web Application Firewall Fingerprinting Tool](https://hakin9.org/wafw00f-the-web-application-firewall-fingerprinting-tool/)
 - [X] [**ASN Lookup Tools, Strategies and Techniques](https://securitytrails.com/blog/asn-lookup)
@@ -98,8 +105,13 @@
 - [ ] [Subdomains Enumeration Cheat Sheet](https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html)
 - [ ] [Asset Discovery: Doing Reconnaissance the Hard Way](https://0xpatrik.com/asset-discovery/)
 - [ ] [A Shodan Tutorial and Primer](https://danielmiessler.com/study/shodan/)
-### Tools
+- [ ] [Compilation of recon workflows](https://pentester.land/cheatsheets/2019/03/25/compilation-of-recon-workflows.html)
+- [ ] [Recon resources](https://pentester.land/cheatsheets/2019/04/15/recon-resources.html)
+- [ ] [The Art of Subdomain Enumeration](https://appsecco.com/books/subdomain-enumeration/)
+- [ ] [Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
+- [ ] [Recon with waybackmachine. For BugBounty!](https://www.hahwul.com/2020/03/recon-with-waybackmachine-for-bugbounty.html)
 
+### Tools
 **My Box**
 - [X] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
 - [X] [Aquatone](https://github.com/michenriksen/aquatone)
@@ -124,8 +136,13 @@
 - [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
 - [X] [SubJack](https://github.com/haccer/subjack)
 - [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
-- [ ] [DirSearch](https://github.com/maurosoria/dirsearch)
+- [X] [DirSearch in Python](https://github.com/maurosoria/dirsearch)
+- [X] [DirSearch in GO](https://github.com/evilsocket/dirsearch)
 - [ ] [GoBuster](https://github.com/OJ/gobuster)
+- [X] [nmap-bootstrap-xsl](https://github.com/honze-net/nmap-bootstrap-xsl)
+- [X] [**waybackurls**](https://github.com/tomnomnom/waybackurls)
+- [ ] [waybackrobots.py](https://gist.github.com/mhmdiaa/2742c5e147d49a804b408bfed3d32d07)
+- [ ] [waybackurls.py](https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050)
 
 **Others**
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
@@ -135,13 +152,13 @@
 - [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
 - [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
 - [ ] [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
-- [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
+- [X] [recon.sh](https://github.com/jobertabma/recon.sh)
+- [ ] [Recon My Way](https://github.com/ehsahil/recon-my-way)
 ---
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
 - [ ] [WFuzz](https://github.com/xmendez/wfuzz)
-- [ ] [DirSearch](https://github.com/evilsocket/dirsearch)
-- [ ] [MEG](https://github.com/tomnomnom/meg)
+- [X] [MEG](https://github.com/tomnomnom/meg)
 - [ ] [GitRob](https://github.com/michenriksen/gitrob)
 - [ ] [GitGot](https://github.com/BishopFox/GitGot)
 - [ ] [GitLeaks](https://github.com/zricethezav/gitleaks)
@@ -150,8 +167,11 @@
 - [ ] [truffleHog](https://github.com/dxa4481/truffleHog)
 - [ ] [Jaeles](https://github.com/jaeles-project/jaeles)
 - [ ] [Notable](https://github.com/notable/notable)
+- [ ] [Commonspeak2](https://github.com/assetnote/commonspeak2)
+- [ ] [Commonspeak2-Wordlists](https://github.com/assetnote/commonspeak2-wordlists)
 - [X] [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
 - [X] [WordList-Compendium](https://github.com/Dormidera/WordList-Compendium)
+- [ ] [Common Web Managers Fuzz Wordlists](https://github.com/kaimi-io/web-fuzz-wordlists)
 
 ### Awesome Lists
 - [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)
@@ -192,7 +212,11 @@
 - [ ] [Vilnerability 1: XXE in community.{site}.com](https://esoln.net/blog/2019/03/05/xxe-in-community-site-com/)
 - [ ] [xxe-that-can-bypass-waf-protection](https://lab.wallarm.com/xxe-that-can-bypass-waf-protection-98f679452ce0/)
 - [ ] [External XML Entity via File Upload (SVG)](https://0xatul.github.io/posts/2020/02/external-xml-entity-via-file-upload-svg/)
+- [ ] [XXE-scape through the front door: circumventing the firewall with HTTP request smuggling](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/)
+- [ ] [Burp Suite now reports blind XXE injection](https://portswigger.net/blog/burp-suite-now-reports-blind-xxe-injection)
 
+### Finding RCE
+- [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
 #### tools
 - [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
 - [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
@@ -205,6 +229,8 @@
 - [ ] [Actual XSS in 2020](https://netsec.expert/2020/02/01/xss-in-2020.html)
 - [ ] [Finding and Fixing Cross-site Scripting (XSS)](https://www.akimbocore.com/finding-and-fixing-cross-site-scripting-xss/)
 - [ ] [XSS on Cookie Pop-up](https://0x00sec.org/t/xss-on-cookie-pop-up/19580)
+- [ ] [21 things you can do with XSS](https://s0md3v.github.io/21-things-xss/)
+
 #### tools
 
 ## Mobile
@@ -218,6 +244,8 @@
 - [ ] [Configuring Frida with BurpSuite and Genymotion to bypass Android SSL Pinning](https://spenkk.github.io/bugbounty/Configuring-Frida-with-Burp-and-GenyMotion-to-bypass-SSL-Pinning/)
 - [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
 - [ ] [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/)
+- [ ] [[ Tutorial ] Genymotion + Konfigurasi Burpsuite SSL certificate dengan ADB [ Indonesian ]](https://medium.com/@danangtriatmaja/tutorial-genymotion-konfigurasi-burpsuite-ssl-certificate-dengan-adb-indonesian-1a3e9427429f)
+
 ### Mobile Tools
 - [FRIDA.RE](https://frida.re/docs/home/)
 - [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
@@ -227,10 +255,10 @@
 - [android-security-awesome](https://github.com/ashishb/android-security-awesome)
 
 ## API Test
-### API Test
 - [ ] [31-days-of-API-Security-Tips](https://github.com/smodnix/31-days-of-API-Security-Tips)
 - [ ] [A Deep Dive On The Most Critical API Vulnerability — BOLA (Broken Object Level Authorization)](https://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2)
 - [ ] [API Testing Tutorial: Learn in 10 minutes!](https://www.guru99.com/api-testing.html)
+- [ ] [API DOCS takeover on Readme.io](https://telegra.ph/API-DOCS-takeover-on-Readmeio-03-19)
 
 ## Labs
 - [Web Security Academy](https://portswigger.net/web-security)
@@ -249,9 +277,11 @@
 - [ ] [Subdomain Takeover in Velostrata - Google Acquisition](https://tutorgeeks.blogspot.com/2019/04/subdomain-takeover-in-velostrata-google.html)
 - [ ] [Subdomain Takeover using blog.greenhouse.io pointing to Hubspot](https://bugbountytuts.wordpress.com/2017/04/21/subdomain-takeover-using-blog-greenhouse-io-pointing-to-hubspot/)
 - [ ] [Shipt Subdomain TakeOver Via HeroKu ( Test.Shipt.Com )](https://www.mohamedharon.com/2018/08/Shipttakeover.html)
+- [ ] [How I Took Over 2 Subdomains with Azure CDN Profiles](https://m0chan.github.io/2019/12/16/Subdomain-Takeover-Azure-CDN.html)
 
 ### HTTP Request Smuggling Writeups
 - [ ] [HTTP Request Smuggling + IDOR](https://hipotermia.pw/bb/http-desync-idor)
+- [ ] [HTTP response splitting exploitations and mitigations](https://blog.detectify.com/2019/06/14/http-response-splitting-exploitations-and-mitigations/)
 
 ### XSS Writeups
 - [ ] [Reflected XSS in graph.facebook.com leads to account takeover in IE/Edge](https://ysamm.com/?p=343)
@@ -262,17 +292,36 @@
 
 ### XXE
 
+### SSTI
+- [ ] [Server-Side Template Injection in Netflix Conductor](https://securitylab.github.com/advisories/GHSL-2020-027-netflix-conductor)
+
 ### IDOR
 - [ ] [Facebook OAuth Framework Vulnerability](https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/)
 
 ### RCE
+- [ ] [A Not-So-Blind RCE with SQL Injection](https://notsoshant.github.io/blog/a-not-so-blind-rce-with-sql-injection/)
 - [ ] [Responsible Disclosure: Breaking out of a Sandboxed Editor to perform RCE](https://jatindhankhar.in/blog/responsible-disclosure-breaking-out-of-a-sandboxed-editor-to-perform-rce/)
+- [ ] [Turning Blind RCE into Good RCE via DNS Exfiltration using Collabfiltrator [Burp Plugin]](https://www.adamlogue.com/turning-blind-rce-into-good-rce-via-dns-exfiltration-using-collabfiltrator-burp-plugin/)
+- [ ] [CA20180614-01: Security Notice for CA Privileged Access Manager](https://techdocs.broadcom.com/us/product-content//recommended-reading/security-notices/ca20180614-01--security-notice-for-ca-privileged-access-manager.html)
+- [ ] [Shopify: Remote Code Execution](https://prakhar.prasad.pro/blog/shopify-remote-code-execution/)
+- [ ] [Hacking Jenkins Part 2 - Abusing Meta Programming for Unauthenticated RCE! ](https://blog.orange.tw/2019/02/abusing-meta-programming-for-unauthenticated-rce.html)
+- [ ] [Playing with Jenkins RCE Vulnerability](https://0xdf.gitlab.io/2019/02/27/playing-with-jenkins-rce-vulnerability.html?source=post_page-----d18b868a77cb----------------------)
+- [ ] [How we exploited a remote code execution vulnerability in math.js](https://capacitorset.github.io/mathjs/)
+- [ ] [Confluence Unauthorized RCE Vulnerability (CVE-2019-3396) Analysis](https://paper.seebug.org/886/)
+- [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
 
 ### LFI
 - [ ] [LOCAL FILE READ VIA XSS IN DYNAMICALLY GENERATED PDF](https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html)
 
 ### Misconfiguration
 - [ ] [S3 Bucket Misconfiguration: From Basics to Pawn](https://bugbountypoc.com/s3-bucket-misconfiguration-from-basics-to-pawn/)
+
+### CTF
+- [ ] [H1-702 CTF ~ Write-Up](https://poc-server.com/blog/2018/06/22/h1-702-write-up/)
+
+### OTHER
+- [ ] [CSS data exfiltration in Firefox via a single injection point](https://research.securitum.com/css-data-exfiltration-in-firefox-via-single-injection-point/)
+- [ ] [How I earned $800 for Host Header Injection Vulnerability](https://pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/)
 
 ## Pentesting
 - [ ] [METASPLOIT UNLEASHED](https://www.offensive-security.com/metasploit-unleashed/)
@@ -294,3 +343,7 @@
 - [ ] [OSCP-Survival-Guide](https://github.com/wwong99/pentest-notes/blob/master/oscp_resources/OSCP-Survival-Guide.md)
 - [ ] [OSCP Preparation – Stalking my Penetration Testing Passion](https://barasec.wordpress.com/2017/11/26/oscp-preparation-stalking-my-penetration-testing-passion/)
 - [ ] [Offensive Security Bookmarks](https://jivoi.github.io/2015/07/03/offensive-security-bookmarks/)
+
+## HackTheBox
+- [ ] [Forest - Hack The Box](https://snowscan.io/htb-writeup-forest/#)
+- [ ] [HTB: Forest](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
