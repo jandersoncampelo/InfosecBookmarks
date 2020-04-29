@@ -3,6 +3,7 @@
 > Organizando os bookmarks que acumulei no Chrome
 
 - [Bug Bounty](#bug-bounty)
+    - [WebHacking](#webhacking)
     - [Recon](#recon)
     - [Tools](#tools)
     - [Awesome Lists](#awesome-lists)
@@ -10,7 +11,11 @@
     - [Finding Subdomain Takeover](#finding-subdomain-takeover)
     - [Finding Race Conditions](#finding-race-conditions)
     - [Finding XXE](#finding-xxe)
+    - [Finding RCE](#finding-rce)
+    - [Finding SSRF](#finding-ssrf)
     - [Finding XSS](#finding-xss)
+    - [Finding SQLi](#finding-sqli)
+    - [Finding IDOR](#finding-idor)
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
@@ -20,8 +25,17 @@
     - [Subdomain Takeover Writeups](#subdomain-takeover-writeups)
     - [HTTP Request Smuggling Writeups](#http-request-smuggling-writeups)
     - [XSS Writeups](#xss-writeups)
+    - [CSRF Writeups](#csrf-writeups)
     - [SSRF Writeups](#ssrf-writeups)
     - [XXE Writeups](#xxe-writeups)
+    - [SSTI Writeups](#ssti-writeups)
+    - [IDOR Writeups](#idor-writeups)
+    - [RCE Writeups](#rce-writeups)
+    - [LFI Writeups](#lfi-writeups)
+    - [Open Redirection Writeups](#open-redirection-writeups)
+    - [Misconfiguration Writeups](#misconfiguration-writeups)
+    - [CTF Writeups](#ctf-writeups)
+    - [OTHERS Writeups](#others-writeups)
 - [Pentesting](#pentesting)
 - [Forensics](#forensics)
 - [Reverse Engineering](#reverse-engineering)
@@ -31,15 +45,14 @@
 
 ## Bug Bounty
 - [ ] [OWASP Web Security Testing Guide](https://github.com/OWASP/wstg)
-- [X] [**Bug Bounty Methodology](https://github.com/0xhelloworld/public/wiki/Bug-Bounty-Methodology)
-- [X] [**Bug Hunting Methodology (part-1)Updated on 4-Jan-2020](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
-- [X] [**Bug Hunting Methodology(Part-2)](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
+- [ ] [**Bug Bounty Methodology**](https://github.com/0xhelloworld/public/wiki/Bug-Bounty-Methodology)
+- [ ] [**Bug Hunting Methodology (part-1)Updated on 4-Jan-2020**](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
+- [ ] [**Bug Hunting Methodology(Part-2)**](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
 - [ ] [GETTING STARTED – BUG BOUNTY HUNTER METHODOLOGY](https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/)
 - [ ] [Bug Bounty Methodology (Methodology, Toolkit, Tips & Tricks, Blogs) V 1.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-methodology-toolkit-tips-tricks-blogs-v-1-0-by-sanyam-chawla/)
 - [ ] [Bug Bounty Methodology (TTP- Tactics,Techniques and Procedures) V 2.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-ttp-tacticstechniques-and-procedures-v-2-0/)
 - [ ] [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
 - [ ] [The Bug Hunters Methodology](https://github.com/jhaddix/tbhm)
-- [ ] [Penetration Testing Methodology](https://github.com/DeborahN/Penetration-Testing-Methodology)
 - [ ] [Bug Bounty Hunter Methodology v3](https://docs.google.com/presentation/d/1R-3eqlt31sL7_rj2f1_vGEqqb7hcx4vxX_L7E23lJVo/edit#slide=id.p)
 - [ ] [It's the Little Things II](https://docs.google.com/presentation/d/1xgvEScGZ_ukNY0rmfKz1JN0sn-CgZY_rTp2B_SZvijk/edit#slide=id.g4052c4692d_0_0)
 - [ ] [Web Application Security & Bug Bounty (Methodology, Reconnaissance, Vulnerabilities, Reporting)](https://blog.usejournal.com/web-application-security-bug-bounty-methodology-reconnaissance-vulnerabilities-reporting-635073cddcf2)
@@ -47,35 +60,66 @@
 - [ ] [Researcher Resources - How to become a Bug Bounty Hunter](https://forum.bugcrowd.com/t/researcher-resources-how-to-become-a-bug-bounty-hunter/1102)
 - [ ] [Bug Bounty Guide](https://bugbountyguide.com/)
 - [ ] [Bug Bounty Checklist for Web App](https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md )
-- [ ] [The Web Application Hacker's Handbook](https://gist.github.com/gbedoya/10935137)
-- [X] [**Two easy ways to get a list of scopes from a hackerone**](https://www.hahwul.com/2019/12/two-easy-ways-to-get-list-of-scopes-from-hackerone.html)
-- [ ] [DanielMiessler - ](https://danielmiessler.com/study/)
-- [ ] [Legion - open source network penetration testing tool](https://hakin9.org/legion-open-source-network-penetration-testing-tool/)
-- [ ] [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
-- [ ] [ProTips: Bug Bounty Hunting with Random Robbie](https://securitytrails.com/blog/bug-bounty-hunting?from=relatedposts)
-- [ ] [Content Security Policy (CSP) Bypasses](http://ghostlulz.com/content-security-policy-csp-bypasses/)
+- [ ] [**Two easy ways to get a list of scopes from a hackerone**](https://www.hahwul.com/2019/12/two-easy-ways-to-get-list-of-scopes-from-hackerone.html)
+- [ ] [**ProTips: Bug Bounty Hunting with Random Robbie**](https://securitytrails.com/blog/bug-bounty-hunting?from=relatedposts)
 - [ ] [Book of Bug Bounty Tips](https://gowsundar.gitbook.io/book-of-bugbounty-tips/)
 - [ ] [Bug Bounty catches part -1](https://pwnsec.ninja/2020/03/04/bug-bounty-catches-part-1/)
-- [X] [**Bug Bounty Hunting Tips #3 — Kicking S3 Buckets**](https://craighays.com/bug-bounty-hunting-tips-3-kicking-s3-buckets/)
+- [ ] [**Bug Bounty Hunting Tips #3 — Kicking S3 Buckets**](https://craighays.com/bug-bounty-hunting-tips-3-kicking-s3-buckets/)
 - [ ] [Bug Bounty Hunting Tips #1— Always Read the Source Code](https://craighays.com/bug-bounty-hunting-tips-1-always-read-the-source-code/)
-- [X] [**Guia de Referência para Pentesters por Renato Andalik**](https://docs.andalik.com.br/guia-para-pentesters/)
+- [ ] [**Guia de Referência para Pentesters por Renato Andalik**](https://docs.andalik.com.br/guia-para-pentesters/)
 - [ ] [Bug Bounty Cheat Sheet](https://github.com/EdOverflow/bugbounty-cheatsheet)
 - [ ] [Automating Pentests for Applications with Integrity Checks using Burp Suite Custom Extension](https://www.notsosecure.com/automating-pentests-for-applications-with-integrity-checks-using-burpsuite/)
 - [ ] [Get out of the limited OWASP TOP-10/SANS TOP-25/Bug Bounty mindset](http://raviramesh.info/mindset.html)
+- [ ] [**The Bug Bounty Bucket List**](https://blog.intigriti.com/2019/07/01/the-bounty-bucket-list/)
+- [ ] [**The best write-ups 2018 brought us**](https://blog.intigriti.com/2018/12/30/ten-best-write-ups-of-2018/)
+- [ ] [Run other application on Burp suite](https://www.hahwul.com/2019/12/run-other-application-on-burp-suiteburp.html)
+- [ ] [**BugBounty - RepoToStoreBugBountyInfo**](https://github.com/m0chan/BugBounty)
+- [ ] [Bug Hunting Guide](http://cybertheta.blogspot.com/2018/08/bug-hunting-guide.html)
+- [ ] [Bug Bounty Reference](https://github.com/jhaddix/bug-bounty-reference)
+- [ ] [A beginners guide to bug bounties](https://ret2libc.wordpress.com/2016/03/22/a-beginners-guide-to-bug-bounties/)
+- [ ] [So You Want To Become a Bug Bounty Hunter?](https://hack-ed.net/2016/10/31/so-you-want-to-become-a-bug-bounty-hunter/)
+- [ ] [HOW TO BECOME A SUCCESSFUL BUG BOUNTY HUNTER](https://www.hackerone.com/blog/become-a-successful-bug-bounty-hunter)
+- [ ] [BUGCROWD - Researcher Resources - Tutorials](https://forum.bugcrowd.com/t/researcher-resources-tutorials/370)
+- [ ] [BUGCROWD - Researcher Resources - Tools](https://forum.bugcrowd.com/t/researcher-resources-tools/167)
+- [ ] [BUGCROWD - Researcher Resources: Thick Client Focused](https://forum.bugcrowd.com/t/researcher-resources-thick-client-focused/1772)
+- [ ] [BUGCROWD - Researcher Resources - Bounty Bug Write-ups](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
+- [ ] [BUGCROWD - Researcher Resources: Mobile Focused](https://forum.bugcrowd.com/t/researcher-resources-mobile-focused/1376)
+- [ ] [BUGCROWD - OWASP Bug Bounties: Getting Started & Discussion](https://forum.bugcrowd.com/t/owasp-bug-bounties-getting-started-discussion/1703)
+- [ ] [BUGCROWD - Common Assessment Tool Cheatsheets](https://forum.bugcrowd.com/t/common-assessment-tool-cheatsheets/502)
+
+### WebHacking
+- [ ] [**Top 10 web hacking techniques of 2019**](https://portswigger.net/research/top-10-web-hacking-techniques-of-2019)
+- [ ] [Exposed Log and Configuration Files](http://ghostlulz.com/exposed-log-and-configuration-files/)]
+- [ ] [**CORS Misconfigurations Explained**](https://blog.detectify.com/2018/04/26/cors-misconfigurations-explained/)
+- [ ] [Exploiting CORS misconfigurations for Bitcoins and bounties](https://portswigger.net/research/exploiting-cors-misconfigurations-for-bitcoins-and-bounties)
+- [ ] [A guide to HTTP security headers for better web browser security](https://blog.detectify.com/2019/02/05/guide-http-security-headers-for-better-web-browser-security/)
+- [ ] [**Web Application Penetration Testing**](https://docs.google.com/document/d/101EsKlu41ICdeE7mEv189SS8wMtcdXfRtua0ClYjP1M/mobilebasic)
+- [ ] [Web Security: an introduction to HTTP](https://www.freecodecamp.org/news/web-security-an-introduction-to-http-5fa07140f9b3/)
+- [ ] [OWASP TOP 10: Broken Authentication](https://blog.detectify.com/2016/05/06/owasp-top-10-broken-authentication-and-session-management/)
+- [ ] [AUTHENTICATION BYPASS](https://www.bugcrowd.com/blog/authentication-bypass/)
+- [ ] [Content Security Policy (CSP) Bypasses](http://ghostlulz.com/content-security-policy-csp-bypasses/)
+- [ ] [DanielMiessler - ](https://danielmiessler.com/study/)
+- [ ] [Legion - open source network penetration testing tool](https://hakin9.org/legion-open-source-network-penetration-testing-tool/)
+- [ ] [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [ ] [The Web Application Hacker's Handbook](https://gist.github.com/gbedoya/10935137)
+- [ ] [Penetration Testing Methodology](https://github.com/DeborahN/Penetration-Testing-Methodology)
+- [ ] [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+- [ ] [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries)
+- [ ] [OWASP Testing Guide v4 Table of Contents](https://wiki.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
 - [ ] [[Tools] Visual Recon – A beginners guide](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
-- [X] [**AQUATONE: A tool for domain flyovers**](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
-- [X] [**AQUATONE: Now in Go**](https://michenriksen.com/blog/aquatone-now-in-go/)
+- [ ] [**AQUATONE: A tool for domain flyovers**](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
+- [ ] [**AQUATONE: Now in Go**](https://michenriksen.com/blog/aquatone-now-in-go/)
 - [ ] [DISCOVERING SUBDOMAINS](https://www.bugcrowd.com/blog/discovering-subdomains/)
 - [ ] [https://appsecco.com/books/subdomain-enumeration/](https://appsecco.com/books/subdomain-enumeration/)
 - [ ] [HOW TO: RECON AND CONTENT DISCOVERY](https://www.hackerone.com/blog/how-to-recon-and-content-discovery)
 - [ ] [HTTPRecon (Server Fingerprint)](https://w3dt.net/tools/httprecon)
 - [ ] [GitHub Gist Recon](https://secapps.com/tutorials/github-gist-recon/)
 - [ ] [GitHub tools collection](http://10degres.net/github-tools-collection/)
-- [X] [**A More Advanced Recon Automation #1 (Subdomains)**](https://poc-server.com/blog/2019/01/18/advanced-recon-subdomains/)
-- [X] [**Expanding your scope (Recon automation #2)**](https://poc-server.com/blog/2019/01/31/expanding-your-scope-recon-automation/)
+- [ ] [**A More Advanced Recon Automation #1 (Subdomains)**](https://poc-server.com/blog/2019/01/18/advanced-recon-subdomains/)
+- [ ] [**Expanding your scope (Recon automation #2)**](https://poc-server.com/blog/2019/01/31/expanding-your-scope-recon-automation/)
 - [ ] [Advanced Recon Automation (Subdomains) case 1](https://anhtai.me/advanced-recon-automation-subdomains-case-1/)
 - [ ] [Masscan Examples: From Installation to Everyday Use](https://danielmiessler.com/study/masscan/)
 - [ ] [Open Source Intelligence Gathering 101](https://blog.appsecco.com/open-source-intelligence-gathering-101-d2861d4429e3)
@@ -96,10 +140,10 @@
 - [ ] [Subdomain enumeration](http://10degres.net/subdomain-enumeration/)
 - [ ] [How to Find Directories in Websites Using DirBuster](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-directories-websites-using-dirbuster-0157593/)
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
-- [X] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
+- [ ] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
 - [ ] [Subdomain Discovery - Bugcrwod Blog](https://forum.bugcrowd.com/t/subdomain-discovery/)
-- [X] [**WAFW00F - The Web Application Firewall Fingerprinting Tool**](https://hakin9.org/wafw00f-the-web-application-firewall-fingerprinting-tool/)
-- [X] [**ASN Lookup Tools, Strategies and Techniques**](https://securitytrails.com/blog/asn-lookup)
+- [ ] [**WAFW00F - The Web Application Firewall Fingerprinting Tool**](https://hakin9.org/wafw00f-the-web-application-firewall-fingerprinting-tool/)
+- [ ] [**ASN Lookup Tools, Strategies and Techniques**](https://securitytrails.com/blog/asn-lookup)
 - [ ] [A penetration tester’s guide to subdomain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6)
 - [ ] [rebootuser - Tag Archives: enumeration](https://www.rebootuser.com/?tag=enumeration)
 - [ ] [Subdomains Enumeration Cheat Sheet](https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html)
@@ -110,55 +154,56 @@
 - [ ] [The Art of Subdomain Enumeration](https://appsecco.com/books/subdomain-enumeration/)
 - [ ] [Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
 - [ ] [Recon with waybackmachine. For BugBounty!](https://www.hahwul.com/2020/03/recon-with-waybackmachine-for-bugbounty.html)
+- [ ] [Hacking Articles - Web Penetration Testing](https://www.hackingarticles.in/web-penetration-testing/)
 
 ### Tools
 **My Box**
-- [X] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
-- [X] [Aquatone](https://github.com/michenriksen/aquatone)
-- [X] [Amass](https://github.com/OWASP/Amass)
+- [ ] [ASSETFINDER](https://github.com/tomnomnom/assetfinder)
+- [ ] [Aquatone](https://github.com/michenriksen/aquatone)
+- [ ] [Amass](https://github.com/OWASP/Amass)
 - [ ] [ASN Lookup](https://github.com/yassineaboukir/Asnlookup)
 - [ ] [FFUF](https://github.com/ffuf/ffuf)
-- [X] [Sublert](https://github.com/yassineaboukir/sublert)
-- [X] [Findomain](https://github.com/Edu4rdSHL/findomain)
-- [X] [Subfinder](https://github.com/projectdiscovery/subfinder)
-- [X] [MassDNS](https://github.com/blechschmidt/massdns)
+- [ ] [Sublert](https://github.com/yassineaboukir/sublert)
+- [ ] [Findomain](https://github.com/Edu4rdSHL/findomain)
+- [ ] [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [ ] [MassDNS](https://github.com/blechschmidt/massdns)
 - [ ] [AltDNS](https://github.com/infosec-au/altdns)
 - [ ] [Masscan](https://github.com/robertdavidgraham/masscan)
-- [X] [AltDNS](https://github.com/infosec-au/altdns)
-- [X] [NMap](https://nmap.org/book/install.html)
-- [X] [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
-- [X] [HTTPROBE](https://github.com/tomnomnom/httprobe)
+- [ ] [AltDNS](https://github.com/infosec-au/altdns)
+- [ ] [NMap](https://nmap.org/book/install.html)
+- [ ] [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
+- [ ] [HTTPROBE](https://github.com/tomnomnom/httprobe)
 - [ ] [Corsy](https://github.com/s0md3v/Corsy)
 - [ ] [CORStest](https://github.com/RUB-NDS/CORStest)
-- [X] [CORScanner](https://github.com/chenjj/CORScanner)
-- [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
-- [X] [Knock](https://github.com/guelfoweb/knock)
-- [X] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
-- [X] [SubJack](https://github.com/haccer/subjack)
+- [ ] [CORScanner](https://github.com/chenjj/CORScanner)
+- [ ] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+- [ ] [Knock](https://github.com/guelfoweb/knock)
+- [ ] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
+- [ ] [SubJack](https://github.com/haccer/subjack)
 - [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
-- [X] [DirSearch in Python](https://github.com/maurosoria/dirsearch)
-- [X] [DirSearch in GO](https://github.com/evilsocket/dirsearch)
+- [ ] [DirSearch in Python](https://github.com/maurosoria/dirsearch)
+- [ ] [DirSearch in GO](https://github.com/evilsocket/dirsearch)
 - [ ] [GoBuster](https://github.com/OJ/gobuster)
-- [X] [nmap-bootstrap-xsl](https://github.com/honze-net/nmap-bootstrap-xsl)
-- [X] [**waybackurls**](https://github.com/tomnomnom/waybackurls)
+- [ ] [nmap-bootstrap-xsl](https://github.com/honze-net/nmap-bootstrap-xsl)
+- [ ] [**waybackurls**](https://github.com/tomnomnom/waybackurls)
 - [ ] [waybackrobots.py](https://gist.github.com/mhmdiaa/2742c5e147d49a804b408bfed3d32d07)
 - [ ] [waybackurls.py](https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050)
 
 **Others**
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [ ] [Sn1per](https://github.com/1N3/Sn1per)
-- [X] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
+- [ ] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
 - [ ] [Rock-ON (A One-Shoot Killer)](https://github.com/SilverPoision/Rock-ON)
 - [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
 - [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
 - [ ] [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
-- [X] [recon.sh](https://github.com/jobertabma/recon.sh)
+- [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
 - [ ] [Recon My Way](https://github.com/ehsahil/recon-my-way)
 ---
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
 - [ ] [WFuzz](https://github.com/xmendez/wfuzz)
-- [X] [MEG](https://github.com/tomnomnom/meg)
+- [ ] [MEG](https://github.com/tomnomnom/meg)
 - [ ] [GitRob](https://github.com/michenriksen/gitrob)
 - [ ] [GitGot](https://github.com/BishopFox/GitGot)
 - [ ] [GitLeaks](https://github.com/zricethezav/gitleaks)
@@ -169,15 +214,15 @@
 - [ ] [Notable](https://github.com/notable/notable)
 - [ ] [Commonspeak2](https://github.com/assetnote/commonspeak2)
 - [ ] [Commonspeak2-Wordlists](https://github.com/assetnote/commonspeak2-wordlists)
-- [X] [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
-- [X] [WordList-Compendium](https://github.com/Dormidera/WordList-Compendium)
+- [ ] [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
+- [ ] [WordList-Compendium](https://github.com/Dormidera/WordList-Compendium)
 - [ ] [Common Web Managers Fuzz Wordlists](https://github.com/kaimi-io/web-fuzz-wordlists)
 
 ### Awesome Lists
 - [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)
+- [awesome-google-vrp-writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups)
 
 ## Bugs
-
 ### Finding Subdomain Takeover
 - [ ] [A GUIDE TO SUBDOMAIN TAKEOVERS](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
 - [ ] [Subdomain takeover - Chapter one: Methodology](https://blog.cystack.net/subdomain-takeover/)
@@ -190,6 +235,7 @@
 - [ ] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
 - [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
 - [ ] [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
+- [ ] [**Subdomain Takeover Explained with Practical**](https://blog.initd.sh/others-attacks/mis-configuration/subdomain-takeover-explained/)
 #### tools
 
 ### Finding Race Conditions
@@ -214,27 +260,53 @@
 - [ ] [External XML Entity via File Upload (SVG)](https://0xatul.github.io/posts/2020/02/external-xml-entity-via-file-upload-svg/)
 - [ ] [XXE-scape through the front door: circumventing the firewall with HTTP request smuggling](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/)
 - [ ] [Burp Suite now reports blind XXE injection](https://portswigger.net/blog/burp-suite-now-reports-blind-xxe-injection)
+- [ ] [Exploiting The Entity: XXE (XML External Entity Injection)](https://pentestmag.com/exploiting-the-entity-xme-xml-external-entity-injection/)
 
 ### Finding RCE
 - [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
+- [ ] [A Questionable Journey From XSS to RCE](https://zero.lol/2019-05-13-xss-to-rce/)
 #### tools
 - [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
-- [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
 - [ ] [xxe-recursive-download](https://github.com/AonCyberLabs/xxe-recursive-download)
 - [ ] [XML External Entity Injection](https://github.com/rhamaa/Web-Application-Attack/blob/master/other-vulnerability/xxe-injection.md)
 - [ ] [PayloadsAllTheThings - XML External Entity](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection)
 - [ ] [Blind XXE Payload Generator](https://github.com/discodamone/XXE-Generator)
 
+### Finding SSRF
+- [ ] [Server Side Request Forgery SSRF Types And Ways To Exploit It (Part-1)](https://hackersonlineclub.com/server-side-request-forgery-ssrf-types/)
+- [ ] [SSRF – Server Side Request Forgery Types And Ways To Exploit It (Part-2)](https://hackersonlineclub.com/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-2/)
+- [ ] [HOW TO: SERVER-SIDE REQUEST FORGERY (SSRF)](https://www.hackerone.com/blog-How-To-Server-Side-Request-Forgery-SSRF)
+- [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
+- [ ] [From SSRF to Port Scanner](https://blog.cobalt.io/from-ssrf-to-port-scanner-3e8ef5921fbf)
+- [ ] [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
+- [ ] [P4 to P2 - The story of one blind SSRF](https://mike-n1.github.io/SSRF_P4toP2)
+
 ### Finding XSS
+- [ ] [**One XSS cheatsheet to rule them all**](https://portswigger.net/research/one-xss-cheatsheet-to-rule-them-all)
 - [ ] [Actual XSS in 2020](https://netsec.expert/2020/02/01/xss-in-2020.html)
 - [ ] [Finding and Fixing Cross-site Scripting (XSS)](https://www.akimbocore.com/finding-and-fixing-cross-site-scripting-xss/)
 - [ ] [XSS on Cookie Pop-up](https://0x00sec.org/t/xss-on-cookie-pop-up/19580)
 - [ ] [21 things you can do with XSS](https://s0md3v.github.io/21-things-xss/)
-
+- [ ] [Bypass XSS filters using JavaScript global variables](https://www.secjuice.com/bypass-xss-filters-using-javascript-global-variables/)
+- [ ] [XSS in Limited Input Formats](https://brutelogic.com.br/blog/xss-limited-input-formats/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [ ] [Location Based Payloads – Part III](https://brutelogic.com.br/blog/location-based-payloads-part-iii/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [ ] [Extended XSS Searcher and Finder - scans for different types of XSS on a list of URLs.](https://hakin9.org/extended-xss-searcher-and-finder-scans-for-different-types-of-xss-on-a-list-of-urls/)
 #### tools
 
+### Finding SQLi
+- [ ] [Sqlmap Tricks for Advanced SQL Injection](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/sqlmap-tricks-for-advanced-sql-injection/)
+- [ ] [addslashes() Versus mysql_real_escape_string()](http://shiflett.org/blog/2006/addslashes-versus-mysql-real-escape-string)
+- [ ] [SQLI Injection](https://guif.re/sqli)
+- [ ] [Bypass Addslashes using Multibyte Character](http://www.securityidiots.com/Web-Pentest/SQL-Injection/addslashes-bypass-sql-injection.html)
+- [ ] [SQL Injection Via Stopping the redirection to a login page](https://blog.usejournal.com/sql-injection-via-stopping-the-redirection-to-a-login-page-52b0792d5592)
+- [ ] [SQLMap Tamper Scripts (SQL Injection and WAF bypass)](https://forum.bugcrowd.com/t/sqlmap-tamper-scripts-sql-injection-and-waf-bypass/423)
+
+### Finding IDOR
+- [ ] [**HOW-TO: FIND IDOR (INSECURE DIRECT OBJECT REFERENCE) VULNERABILITIES FOR LARGE BOUNTY REWARDS**](https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)
+
 ## Mobile
-- [ ] [HOW2HACK - GET STARTED HACKING MOBILE](https://www.hackerone.com/blog/How-to-Hack-Get-Started-Hacking-Mobile)
+- [ ] [**Android Basic Security Testing**](https://mobile-security.gitbook.io/mobile-security-testing-guide/android-testing-guide/0x05b-basic-security_testing)
+- [ ] [**HOW2HACK - GET STARTED HACKING MOBILE**](https://www.hackerone.com/blog/How-to-Hack-Get-Started-Hacking-Mobile)
 - [ ] [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
 - [ ] [OWASP Mobile Security Testing Guide - GitBook](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
 - [ ] [BUG BOUNTY & ANDROID APPLICATIONS - PART 1](https://x1m.nl/posts/android-app-testing-part-1/)
@@ -245,7 +317,15 @@
 - [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
 - [ ] [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/)
 - [ ] [[ Tutorial ] Genymotion + Konfigurasi Burpsuite SSL certificate dengan ADB [ Indonesian ]](https://medium.com/@danangtriatmaja/tutorial-genymotion-konfigurasi-burpsuite-ssl-certificate-dengan-adb-indonesian-1a3e9427429f)
-
+- [ ] [**Expanding the Attack Surface: React Native Android Applications**](http://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/)
+- [ ] [#ANDROIDHACKINGMONTH: INTRODUCTION TO ANDROID HACKING BY @0XTEKNOGEEK](https://www.hackerone.com/blog/androidhackingmonth-intro-to-android-hacking)
+- [ ] [How to test a Mobile App](https://appspider.help.rapid7.com/docs/how-to-test-a-mobile-app)
+- [ ] [MOBILE TESTING: SETTING UP YOUR ANDROID DEVICE PT. 1](https://www.bugcrowd.com/blog/mobile-testing-setting-up-your-android-device-part-1/)
+- [ ] [Bug Bounty Hunting Tips #2 —Target their mobile apps (Android Edition)](https://craighays.com/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition/)
+- [ ] [Zero to Hero - Mobile Application Testing - Android Platform](https://nileshsapariya.blogspot.com/2016/11/zero-to-hero-mobile-application-testing.html)
+- [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
+- [ ] [Pentesting Mobile Applications with Burpsuite](https://resources.infosecinstitute.com/pentesting-mobile-applications-burpsuite/#gref)
+- [ ] [Beginner's Guide to Mobile Applications Penetration Testing](http://www.irongeek.com/i.php?page=videos/grrcon2019/grrcon-2019-3-14-beginners-guide-to-mobile-applications-penetration-testing-whitney-phillips)
 ### Mobile Tools
 - [FRIDA.RE](https://frida.re/docs/home/)
 - [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
@@ -259,6 +339,7 @@
 - [ ] [A Deep Dive On The Most Critical API Vulnerability — BOLA (Broken Object Level Authorization)](https://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2)
 - [ ] [API Testing Tutorial: Learn in 10 minutes!](https://www.guru99.com/api-testing.html)
 - [ ] [API DOCS takeover on Readme.io](https://telegra.ph/API-DOCS-takeover-on-Readmeio-03-19)
+- [ ] [**API-Security-Checklist**](https://github.com/shieldfy/API-Security-Checklist)
 
 ## Labs
 - [Web Security Academy](https://portswigger.net/web-security)
@@ -267,6 +348,10 @@
 - [OWASP Juice Shop](https://juice-shop.herokuapp.com/)
 - [Lesser Known Web Attack Lab](https://github.com/weev3/LKWA)
 - [XSS Game](https://xss.pwnfunction.com/)
+- [XSS Hunter](https://xsshunter.com/app)
+- [How to setup Metasploitable 3 on Windows 10](https://www.hackingtutorials.org/metasploit-tutorials/setup-metasploitable-3-windows-10/)
+- [XVWA – Xtreme Vulnerable Web Application](https://www.100security.com.br/xvwa/)
+- [OWASP Vulnerable Web Applications Directory Project-VWAD](https://github.com/OWASP/OWASP-VWAD)
 
 ## WriteUps
 
@@ -282,23 +367,41 @@
 ### HTTP Request Smuggling Writeups
 - [ ] [HTTP Request Smuggling + IDOR](https://hipotermia.pw/bb/http-desync-idor)
 - [ ] [HTTP response splitting exploitations and mitigations](https://blog.detectify.com/2019/06/14/http-response-splitting-exploitations-and-mitigations/)
+- [ ] [HTTP Request Smuggling (CL.TE)](https://memn0ps.github.io/2019/09/13/HTTP-Request-Smuggling-CL-TE.html)
+- [ ] [Checking HTTP Smuggling issues in 2015 - Part1](http://regilero.github.io/security/english/2015/10/04/http_smuggling_in_2015_part_one/)
 
 ### XSS Writeups
 - [ ] [Reflected XSS in graph.facebook.com leads to account takeover in IE/Edge](https://ysamm.com/?p=343)
 - [ ] [Arbitary File Upload too Stored XSS - Bug Bounty](https://m0chan.github.io/2020/02/04/Arbitary-File-Upload-Too-Stored-XSS.html)
+- [ ] [XSS to Account Takeover - Bypassing CSRF Header Protection and HTTPOnly Cookie](https://noobe.io/articles/2019-10/xss-to-account-takeover)
+- [ ] [Exploiting Cookie Based XSS by Finding RCE](https://noobe.io/articles/2019-09/exploiting-cookie-based-xss-by-finding-rce)
+- [ ] [AirBnb Bug Bounty: Turning Self-XSS into Good-XSS #2](https://www.geekboy.ninja/blog/airbnb-bug-bounty-turning-self-xss-into-good-xss-2/)
+
+### CSRF Writeups
+- [ ] [Google Bug Bounty: CSRF in learndigital.withgoogle.com](https://santuysec.com/2020/01/21/google-bug-bounty-csrf-in-learndigital-withgoogle-com/)
 
 ### SSRF Writeups
 - [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
+- [ ] [BugBounty | A Simple SSRF](https://jinone.github.io/bugbounty-a-simple-ssrf/)
+- [ ] [My First SSRF Using DNS Rebinding](https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing/)
 
-### XXE
+### XXE Writeups
 
-### SSTI
+### SSTI Writeups
 - [ ] [Server-Side Template Injection in Netflix Conductor](https://securitylab.github.com/advisories/GHSL-2020-027-netflix-conductor)
+- [ ] [Knocking the door to Server-side Template Injection. Part 1](https://pentestmag.com/knocking-the-door-to-server-side-template-injection-part-1/)
 
-### IDOR
+### IDOR Writeups
 - [ ] [Facebook OAuth Framework Vulnerability](https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/)
+- [ ] [IDOR vulnerability in Hackerone](https://bugbountypoc.com/idor-vulnerability-in-hackerone/)
+- [ ] [Get as image function pulls any Insights/NRQL data from any New Relic account (IDOR)](https://www.jonbottarini.com/tag/idor/)
+- [ ] [IDOR leads to account takeover](https://s0cket7.com/idor-account-takeover/)
+- [ ] [IDOR (at Private Bug Bounty Program) that could Leads to Personal Data Leaks](http://www.firstsight.me/2018/04/idor-at-private-bug-bounty-program-that-could-leads-to-personal-data-leaks/)
+- [ ] [IDOR – HOW I WAS ABLE TO UNMUTE ANYONE IN ANY FACEBOOK GROUP](https://www.secureboy.com/2020/01/idor-how-i-was-able-to-unmute-anyone-in-any-facebook-group/)
+- [ ] [InvisionApp IDOR [ Explained ]](https://bugbountypoc.com/invisionapp-idor-explained/)
+- [ ] [Blind IDOR in LinkedIn iOS application](https://hailstorm1422.com/linkedin-blind-idor/)
 
-### RCE
+### RCE Writeups
 - [ ] [A Not-So-Blind RCE with SQL Injection](https://notsoshant.github.io/blog/a-not-so-blind-rce-with-sql-injection/)
 - [ ] [Responsible Disclosure: Breaking out of a Sandboxed Editor to perform RCE](https://jatindhankhar.in/blog/responsible-disclosure-breaking-out-of-a-sandboxed-editor-to-perform-rce/)
 - [ ] [Turning Blind RCE into Good RCE via DNS Exfiltration using Collabfiltrator [Burp Plugin]](https://www.adamlogue.com/turning-blind-rce-into-good-rce-via-dns-exfiltration-using-collabfiltrator-burp-plugin/)
@@ -306,30 +409,80 @@
 - [ ] [Shopify: Remote Code Execution](https://prakhar.prasad.pro/blog/shopify-remote-code-execution/)
 - [ ] [Hacking Jenkins Part 2 - Abusing Meta Programming for Unauthenticated RCE! ](https://blog.orange.tw/2019/02/abusing-meta-programming-for-unauthenticated-rce.html)
 - [ ] [Playing with Jenkins RCE Vulnerability](https://0xdf.gitlab.io/2019/02/27/playing-with-jenkins-rce-vulnerability.html?source=post_page-----d18b868a77cb----------------------)
+- [ ] [awesome-jenkins-rce-2019](https://github.com/orangetw/awesome-jenkins-rce-2019)
+- [ ] [Story of a Hundred Vulnerable Jenkins Plugins](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/may/story-of-a-hundred-vulnerable-jenkins-plugins/)
 - [ ] [How we exploited a remote code execution vulnerability in math.js](https://capacitorset.github.io/mathjs/)
 - [ ] [Confluence Unauthorized RCE Vulnerability (CVE-2019-3396) Analysis](https://paper.seebug.org/886/)
 - [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
+- [ ] [$36k Google App Engine RCE](https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce)
+- [ ] [Advisory | Seagate Central Storage Remote Code Execution 0day](https://pentest.blog/advisory-seagate-central-storage-remote-code-execution/)
+- [ ] [Cacti v1.2.8 authenticated Remote Code Execution (CVE-2020-8813)](https://shells.systems/cacti-v1-2-8-authenticated-remote-code-execution-cve-2020-8813/)
+- [ ] [HTML to PDF converter bug leads to RCE in Facebook server.](https://ysamm.com/?p=280)
 
-### LFI
+### LFI Writeups
 - [ ] [LOCAL FILE READ VIA XSS IN DYNAMICALLY GENERATED PDF](https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html)
 
-### Misconfiguration
+### Open Redirection Writeups
+- [ ] [Open URL Redirection](https://bugbountytuts.wordpress.com/2017/04/21/open-url-redirection/)
+- [ ] [Basic Open URL Redirection Vulnerability](https://bugbountytuts.wordpress.com/2017/04/21/simple-open-url-redirection/)
+
+### Misconfiguration Writeups
 - [ ] [S3 Bucket Misconfiguration: From Basics to Pawn](https://bugbountypoc.com/s3-bucket-misconfiguration-from-basics-to-pawn/)
 
-### CTF
+### CTF Writeups
 - [ ] [H1-702 CTF ~ Write-Up](https://poc-server.com/blog/2018/06/22/h1-702-write-up/)
+- [ ] [Intigriti XSS Challenge - Solution and problem solving approach](https://dee-see.github.io/intigriti/xss/2019/05/02/intigriti-xss-challenge-writeup.html)
+- [ ] [Intigriti XSS Challenge 2 and how I lost time to a bad assumption](https://dee-see.github.io/intigriti/xss/2019/05/26/intigriti-xss-challenge-2-writeup.html)
+- [ ] [How our community hacked our own XSS challenge](https://blog.intigriti.com/2019/05/27/winner-announced-how-our-community-hacked-our-own-xss-challenge/)
+- [ ] [XSS Challenge - 10K Followers Intigriti](https://hipotermia.pw/bb/xss-10k-intigriti)
+- [ ] [Hack the Pentester Lab: from SQL injection to Shell II (Blind SQL Injection)](https://www.hackingarticles.in/hack-pentester-lab-sql-injection-shell-ii-blind-sql-injection/)
+- [ ] [Raven 2: Vulnhub Walkthrough](https://www.hackingarticles.in/raven-2-vulnhub-walkthrough/)
 
-### OTHER
+### OTHERS Writeups
 - [ ] [CSS data exfiltration in Firefox via a single injection point](https://research.securitum.com/css-data-exfiltration-in-firefox-via-single-injection-point/)
 - [ ] [How I earned $800 for Host Header Injection Vulnerability](https://pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/)
+- [ ] [**Exploiting Insecure Firebase Database!**](http://blog.securitybreached.org/2020/02/04/exploiting-insecure-firebase-database-bugbounty/)
+- [ ] [Broken Link Hijacking - s3 buckets](https://tutorgeeks.blogspot.com/2019/09/broken-link-hijacking-s3-buckets.html)
+- [ ] [**User Account Takeover via Signup Feature | Bug Bounty POC**](https://blog.securitybreached.org/2020/01/22/user-account-takeover-via-signup-feature-bug-bounty-poc/)
+- [ ] [Cross-Site Websocket Hijacking bug in Facebook that leads to account takeover](https://ysamm.com/?p=363)
+- [ ] [Misconfigured Django Apps Are Exposing Secret API Keys, Database Passwords](https://www.bleepingcomputer.com/news/security/misconfigured-django-apps-are-exposing-secret-api-keys-database-passwords/)
+- [ ] [SOP Bypass via browser-cache](https://enumerated.wordpress.com/2019/12/24/sop-bypass-via-browser-cache/)
+- [ ] [**Winter Is Here. All Your Domains Are Belong to Me!!! By Stephen Kofi Asamoah**](https://hakin9.org/winter-is-here-all-your-domains-are-belong-to-me/)
+- [ ] [**Reading Uber’s Internal Emails [Uber Bug Bounty report worth $10,000]**](https://vulners.com/pentestnepal/PENTESTNEPAL:9D60A80B4149C46A4AF06C5BDBA0EAD3)
+- [ ] [CVE-2020-10560 - OSSN Arbitrary File Read](https://techanarchy.net/blog/cve-2020-10560-ossn-arbitrary-file-read)
+- [ ] [Cross-Origin Resource Sharing CORS Misconfiguration Impact](https://hackersonlineclub.com/cross-origin-resource-sharing-cors-misconfiguration-impact/)
+- [ ] [United Airlines Mileage Plus/Points.com Information Disclosure](https://blog.docbert.org/united-airlines-information-disclosure/)
 
 ## Pentesting
+- [ ] [Hacking](https://www.ethicalhackx.com/hacking/)
 - [ ] [METASPLOIT UNLEASHED](https://www.offensive-security.com/metasploit-unleashed/)
 - [ ] [Beginner’s Guide to Nexpose](https://www.hackingarticles.in/beginners-guide-to-nexpose/)
 - [ ] [A useful list of free tools to scan your website for security vulnerabilities](https://eforensicsmag.com/a-useful-list-of-free-tools-to-scan-your-website-for-security-vulnerabilities-by-erica-sunarjo/)
 - [ ] [Python WiFi Scanner Coding [FREE COURSE CONTENT]](https://hakin9.org/python-wifi-scanner-coding-free-course-content/)
+- [ ] [**Mass Exploitation, Hunting While Sleeping**](https://0xsha.io/posts/mass-exploitation-hunting-while-sleeping#demo)
+- [ ] [Getting an Entry Level Cyber Security Job the Right Way](https://www.hackingloops.com/entry-level-cyber-security-job/)
+- [X] [**Talk is cheap. Show me the money!**](http://maycon.hacknroll.io/bug-bounty/2018/02/03/talk-is-cheap-show-me-the-money-en.html)
+- [ ] [Python: Como injetar código num processo em execução](https://lrcezimbra.com.br/python-como-injetar-codigo-num-processo-em-execucao/)
+- [ ] [WPA2 Attack Tutorial [FREE COURSE CONTENT]](https://eforensicsmag.com/wpa2-attack-tutorial-free-course-content/?fbclid=IwAR3_vAkstbhPZ2qZvyii3AeIOVDLvUMXhBabyJYPhltqF3NWp1ZwHA-NkeQ)
+- [ ] [TrackMania - a Chrome plugin to stalk your friends on Tinder](https://labs.detectify.com/2017/09/26/trackmania-a-chrome-plugin-to-stalk-your-friends/)
+- [ ] [Leading Methodologies Used by a Penetration Tester by Claire Mackerras](https://hakin9.org/leading-methodologies-used-by-a-penetration-tester/)
+- [ ] [Running a .NET Assembly in Memory with Meterpreter](https://www.praetorian.com/blog/running-a-net-assembly-in-memory-with-meterpreter)
+- [ ] [Extract credentials from lsass remotely](https://en.hackndo.com/remote-lsass-dump-passwords/)
+- [ ] [A practical guide to RFID badge copying](https://blog.nviso.eu/2017/01/11/a-practical-guide-to-rfid-badge-copying/)
+- [ ] [Upgrading Simple Shells to Fully Interactive TTYs](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
+- [ ] [Metasploit commands](https://www.hackingtutorials.org/metasploit-tutorials/metasploit-commands/)
+- [ ] [Upgrading Netcat shells to Meterpreter sessions](https://www.hackingtutorials.org/networking/upgrading-netcat-shells-to-meterpreter/)
+- [ ] [**WiFi Hacker : Shell Script For Attacking Wireless Connections Using Built-In Kali Tools**](https://kalilinuxtutorials.com/wifi-hacker/)
+- [ ] [Gone in 30 seconds – a HID cable story tale](https://www.davidsopas.com/gone-in-30-seconds-a-hid-cable-story-tale/)
+### tools
+- [ ] [🐚   Reverse shell   🐚](https://github.com/Rikozi/reverse-shell)
+- [ ] [THE SOCIAL-ENGINEER TOOLKIT (SET)](https://www.trustedsec.com/tools/the-social-engineer-toolkit-set/)
+- [ ] [PRIVACY HEROES](https://privacyheroes.io/)
 
 ## Forensics
+- [ ] [Searching public aviation records for OSINT [FREE COURSE CONTENT]](https://eforensicsmag.com/searching-public-records-for-aviation-free-course-content/)
+- [ ] [The Curious Case of WebCrypto Diffie-Hellman on Firefox - Small Subgroups Key Recovery Attack on DH](http://blog.intothesymmetry.com/2020/01/the-curious-case-of-webcrypto-diffie.html)
+- [ ] [Análise forense – Obtendo URLs visitadas no pagefile.sys](https://mundotecnologico.net/2019/08/29/analise-forense-obtendo-urls-visitadas-no-pagefile-sys/)
 
 ## Reverse Engineering
 
@@ -338,11 +491,13 @@
 - [ ] [Try Harder! My Penetration Testing with Kali Linux OSCP Review and course/lab experience — My OSCP Review | by Jason Bernier](https://hakin9.org/try-harder-my-penetration-testing-with-kali-linux-oscp-review-and-courselab-experience-my-oscp-review-by-jason-bernier/)
 - [ ] [MY OSCP GUIDE: A PHILOSOPHICAL APPROACH](https://www.offensive-security.com/offsec/my-philosophical-approach-to-oscp/)
 - [ ] [OSCP-Prep](https://github.com/RustyShackleford221/OSCP-Prep)
-- [ ] [The Journey to Try Harder: TJnull’s Preparation Guide for PWK/OSCP](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html)
+- [ ] [**The Journey to Try Harder: TJnull’s Preparation Guide for PWK/OSCP**](https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html)
 - [ ] [oscp like stack buffer overflow](https://github.com/r4j0x00/oscp-like-stack-buffer-overflow)
 - [ ] [OSCP-Survival-Guide](https://github.com/wwong99/pentest-notes/blob/master/oscp_resources/OSCP-Survival-Guide.md)
 - [ ] [OSCP Preparation – Stalking my Penetration Testing Passion](https://barasec.wordpress.com/2017/11/26/oscp-preparation-stalking-my-penetration-testing-passion/)
 - [ ] [Offensive Security Bookmarks](https://jivoi.github.io/2015/07/03/offensive-security-bookmarks/)
+- [ ] [Zero to OSCP Hero - PWK Course - Week 1](https://www.pathtoroot.net/l/zero-to-oscp-hero-pwk-course-week-1/)
+- [ ] [offensive cheatsheet](https://0xsp.com/offensive/offensive-cheatsheet)
 
 ## HackTheBox
 - [ ] [Forest - Hack The Box](https://snowscan.io/htb-writeup-forest/#)
