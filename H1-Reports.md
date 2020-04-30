@@ -84,6 +84,8 @@
 - [ ] [Stored XSS in Shopify Chat](https://hackerone.com/reports/756729)
 - [ ] [Reflected XSS at https://pay.gold.razer.com escalated to account takeover](https://hackerone.com/reports/723060)
 - [ ] [Reflective Cross-site Scripting via Newsletter Form](https://hackerone.com/reports/709336)
+- [ ] [Reflected cross-site scripting on multiple Starbucks assets.](https://hackerone.com/reports/629745)
+- [ ] [IE only: stored Cross-Site Scripting (XSS) vulnerability through Program Asset identifier](https://hackerone.com/reports/449351)
 - [ ] [H1514 Stored XSS on Wholesale sales channel allows cross-organization data leakage](https://hackerone.com/reports/423454)
 - [ ] [XSS in "explore-keywords-dropdown" results.](https://hackerone.com/reports/347567)
 - [ ] [Xss was found by exploiting the URL markdown on http://store.steampowered.com](https://hackerone.com/reports/313250)

@@ -98,7 +98,8 @@
 - [X] [**Subdomain Enumeration Tools Evaluation**](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
 - [X] [**Shodan, entre banners e filtros**](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
 - [ ] [Discovering The Hidden Web](https://medium.com/bugbountywriteup/discovering-the-hidden-web-638a947361ad)
-- [ ] [**From Recon to P1 (Critical) — An Easy Win**](https://medium.com/@hbothra22/from-recon-to-p1-critical-an-easy-win-6ca93d5b6e6d)
+- [X] [**From Recon to P1 (Critical) — An Easy Win**](https://medium.com/@hbothra22/from-recon-to-p1-critical-an-easy-win-6ca93d5b6e6d)
+- [ ] [**Recon to Sensitive Information Disclosure in Minutes**](https://medium.com/@hbothra22/recon-to-sensitive-information-disclosure-in-minutes-503fc7ccdf0b)
 
 ### Mobile
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
@@ -121,7 +122,8 @@
 - [ ] [BUG IDOR APPS MISTERALADIN](https://medium.com/@anggaid/bug-idor-apps-misteraladin-10e8c71edabf)
 - [ ] [**A Less Known Attack Vector, Second Order IDOR Attacks**](https://blog.usejournal.com/a-less-known-attack-vector-second-order-idor-attacks-14468009781a)
 - [ ] [**Top 25 IDOR Bug Bounty Reports**](https://medium.com/@corneacristian/top-25-idor-bug-bounty-reports-ba8cd59ad331)
-- [ ] [A Simple IDOR to Account Takeover](https://medium.com/@swapmaurya20/a-simple-idor-to-account-takeover-88b8a1d2ec24)
+- [ ] [**A Simple IDOR to Account Takeover**](https://medium.com/@swapmaurya20/a-simple-idor-to-account-takeover-88b8a1d2ec24)
+- [ ] [**IDOR to Account Takeover**](https://medium.com/@mr.sparsh.k/idor-to-account-takeover-ebdab0f62017)
 - [ ] [Attention to Details : Finding Hidden IDORs](https://medium.com/@aseem.shrey/attention-to-details-a-curious-case-of-multiple-idors-5a4417ba8848)
 
 ### SQLi
@@ -216,6 +218,10 @@
 - [ ] [$5,005 worth vulnerability Duplicated, How I loose $5,005 in a day? Denial of Service - Billion LAUGH Attack (XXE)](https://medium.com/@protector47/5-005-worth-vulnerability-duplicated-how-i-loose-5-005-in-a-day-831f5a064713)
 - [ ] [Exploiting XML External Entity (XXE) Injections](https://medium.com/@onehackman/exploiting-xml-external-entity-xxe-injections-b0e3eac388f9)
 - [ ] [Hacking XML Data](https://medium.com/swlh/hacking-xml-data-a64c870b0988)
+- [ ] [Out of Band XXE Injection Via gopher](https://medium.com/@osama.alaa/xxe-injection-in-oracle-application-server-11g-cc05f6ab55ab)
+- [ ] [**XXE Attacks— Part 1: XML Basics**](https://medium.com/@klose7/https-medium-com-klose7-xxe-attacks-part-1-xml-basics-6fa803da9f26)
+- [ ] [**XXE Attacks — Part 2: XML DTD related Attacks**](https://medium.com/@klose7/xxe-attacks-part-2-xml-dtd-related-attacks-a572e8deb478)
+
 ### RCE
 - [ ] [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37)
 - [ ] [A Not-So-Blind RCE with SQL Injection](https://medium.com/@notsoshant/a-not-so-blind-rce-with-sql-injection-13838026331e)
@@ -257,6 +263,7 @@
 - [ ] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
 - [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
 - [ ] [API secret key Leakage leads to disclosure of Employee’s Information](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
+- [ ] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
 
 ### Misconfiguration
 - [ ] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
@@ -268,6 +275,7 @@
 - [ ] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
 - [ ] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
 - [ ] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
+- [ ] [Fun With CORS Misconfiguration — II](https://medium.com/@amangupta566/fun-with-cors-misconfiguration-ii-927caccfe932)
 - [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
 - [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
