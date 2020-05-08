@@ -10,6 +10,7 @@
 - [Bugs](#bugs)
     - [Finding Subdomain Takeover](#finding-subdomain-takeover)
     - [Finding Race Conditions](#finding-race-conditions)
+    - [Finding Open Redirections](#finding-open-redirections)
     - [Finding XXE](#finding-xxe)
     - [Finding RCE](#finding-rce)
     - [Finding SSRF](#finding-ssrf)
@@ -19,6 +20,7 @@
 - [Mobile](#mobile)
     - [Tools](#mobile-tools)
     - [CheatSheet](#mobile-cheatsheet)
+    - [Mobile Writeups](#mobile-writeups)
 - [API Test](#api-test)
 - [Labs](#labs)
 - [WriteUps](#writeups)
@@ -106,6 +108,8 @@
 - [ ] [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
 - [ ] [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries)
 - [ ] [OWASP Testing Guide v4 Table of Contents](https://wiki.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
+- [ ] [Cross-Origin Resource Sharing (CORS)](http://ghostlulz.com/cross-origin-resource-sharing-cors/)
+- [ ] [Automating Pentests for Applications with Integrity Checks using Burp Suite Custom Extension](https://www.notsosecure.com/automating-pentests-for-applications-with-integrity-checks-using-burpsuite/)
 
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
@@ -137,7 +141,7 @@
 - [ ] [Comprehensive Guide on Dirb Tool](https://www.hackingarticles.in/comprehensive-guide-on-dirb-tool/)
 - [ ] [amass — Automated Attack Surface Mapping](https://danielmiessler.com/study/amass/)
 - [ ] [Auto Web Application Penetration Testing: Intelligence Gathering](https://securityonline.info/auto-web-application-penetration-testing/)
-- [ ] [Subdomain enumeration](http://10degres.net/subdomain-enumeration/)
+- [ ] [**Subdomain enumeration**](http://10degres.net/subdomain-enumeration/)
 - [ ] [How to Find Directories in Websites Using DirBuster](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-directories-websites-using-dirbuster-0157593/)
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
 - [ ] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
@@ -200,6 +204,7 @@
 - [ ] [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/README.en.md)
 ---
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
+- [ ] [Sublist3r](https://github.com/aboul3la/Sublist3r)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
 - [ ] [WFuzz](https://github.com/xmendez/wfuzz)
 - [ ] [MEG](https://github.com/tomnomnom/meg)
@@ -216,7 +221,7 @@
 - [ ] [WordList-Compendium](https://github.com/Dormidera/WordList-Compendium)
 - [ ] [Common Web Managers Fuzz Wordlists](https://github.com/kaimi-io/web-fuzz-wordlists)
 - [ ] [OpenRedireX](https://github.com/devanshbatham/OpenRedireX)
-
+---
 **WordLists & Payloads**
 - [X] [SecLists](https://github.com/danielmiessler/SecLists)
 - [X] [webHunt](https://github.com/ghsec/webHunt)
@@ -240,12 +245,18 @@
 - [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
 - [ ] [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
 - [ ] [**Subdomain Takeover Explained with Practical**](https://blog.initd.sh/others-attacks/mis-configuration/subdomain-takeover-explained/)
+- [ ] [**Subdomain takeover - DNS expiration**](http://10degres.net/subdomain-takeover-dns-expiration/)
 #### tools
 
 ### Finding Race Conditions
 - [ ] [Testing for Race Conditions (OWASP-AT-010)](https://www.owasp.org/index.php/Testing_for_Race_Conditions_(OWASP-AT-010))
-#### tools
+**tools**
 - [ ] [Race The Web (RTW)](https://github.com/aaronhnatiw/race-the-web)
+
+### Finding Open Redirections
+- [ ] [Open Redirects - Everything That You Should Know](https://0xnanda.github.io/Open-Redirects-Everything-That-You-Should-Know/)
+- [ ] [Open Redirect Cheat Sheet](https://pentester.land/cheatsheets/2018/11/02/open-redirect-cheatsheet.html)
+- [ ] [The real impact of an Open Redirect vulnerability](https://blog.detectify.com/2019/05/16/the-real-impact-of-an-open-redirect/)
 
 ### Finding XXE
 - [ ] [OWASP - XML External Entity (XXE) Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
@@ -264,11 +275,12 @@
 - [ ] [External XML Entity via File Upload (SVG)](https://0xatul.github.io/posts/2020/02/external-xml-entity-via-file-upload-svg/)
 - [ ] [Burp Suite now reports blind XXE injection](https://portswigger.net/blog/burp-suite-now-reports-blind-xxe-injection)
 - [ ] [Exploiting The Entity: XXE (XML External Entity Injection)](https://pentestmag.com/exploiting-the-entity-xme-xml-external-entity-injection/)
+- [ ] [The road from sandboxed SSTI to SSRF and XXE](https://www.reddit.com/r/Slackers/comments/g6pt8t/the_road_from_sandboxed_ssti_to_ssrf_and_xxe/)
 
 ### Finding RCE
 - [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
 - [ ] [A Questionable Journey From XSS to RCE](https://zero.lol/2019-05-13-xss-to-rce/)
-#### tools
+**tools**
 - [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
 - [ ] [xxe-recursive-download](https://github.com/AonCyberLabs/xxe-recursive-download)
 - [ ] [XML External Entity Injection](https://github.com/rhamaa/Web-Application-Attack/blob/master/other-vulnerability/xxe-injection.md)
@@ -283,6 +295,8 @@
 - [ ] [From SSRF to Port Scanner](https://blog.cobalt.io/from-ssrf-to-port-scanner-3e8ef5921fbf)
 - [ ] [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
 - [ ] [P4 to P2 - The story of one blind SSRF](https://mike-n1.github.io/SSRF_P4toP2)
+**tools**
+- [ ] [SSRF Sheriff](https://github.com/teknogeek/ssrf-sheriff)
 
 ### Finding XSS
 - [ ] [**One XSS cheatsheet to rule them all**](https://portswigger.net/research/one-xss-cheatsheet-to-rule-them-all)
@@ -294,7 +308,7 @@
 - [ ] [XSS in Limited Input Formats](https://brutelogic.com.br/blog/xss-limited-input-formats/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [ ] [Location Based Payloads – Part III](https://brutelogic.com.br/blog/location-based-payloads-part-iii/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [ ] [Extended XSS Searcher and Finder - scans for different types of XSS on a list of URLs.](https://hakin9.org/extended-xss-searcher-and-finder-scans-for-different-types-of-xss-on-a-list-of-urls/)
-#### tools
+**tools**
 
 ### Finding SQLi
 - [ ] [Sqlmap Tricks for Advanced SQL Injection](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/sqlmap-tricks-for-advanced-sql-injection/)
@@ -321,7 +335,7 @@
 - [ ] [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/)
 - [ ] [[ Tutorial ] Genymotion + Konfigurasi Burpsuite SSL certificate dengan ADB [ Indonesian ]](https://medium.com/@danangtriatmaja/tutorial-genymotion-konfigurasi-burpsuite-ssl-certificate-dengan-adb-indonesian-1a3e9427429f)
 - [ ] [**Expanding the Attack Surface: React Native Android Applications**](http://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/)
-- [ ] [#ANDROIDHACKINGMONTH: INTRODUCTION TO ANDROID HACKING BY @0XTEKNOGEEK](https://www.hackerone.com/blog/androidhackingmonth-intro-to-android-hacking)
+- [ ] [**#ANDROIDHACKINGMONTH: INTRODUCTION TO ANDROID HACKING BY @0XTEKNOGEEK**](https://www.hackerone.com/blog/androidhackingmonth-intro-to-android-hacking)
 - [ ] [How to test a Mobile App](https://appspider.help.rapid7.com/docs/how-to-test-a-mobile-app)
 - [ ] [MOBILE TESTING: SETTING UP YOUR ANDROID DEVICE PT. 1](https://www.bugcrowd.com/blog/mobile-testing-setting-up-your-android-device-part-1/)
 - [ ] [Bug Bounty Hunting Tips #2 —Target their mobile apps (Android Edition)](https://craighays.com/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition/)
@@ -329,13 +343,17 @@
 - [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
 - [ ] [Pentesting Mobile Applications with Burpsuite](https://resources.infosecinstitute.com/pentesting-mobile-applications-burpsuite/#gref)
 - [ ] [Beginner's Guide to Mobile Applications Penetration Testing](http://www.irongeek.com/i.php?page=videos/grrcon2019/grrcon-2019-3-14-beginners-guide-to-mobile-applications-penetration-testing-whitney-phillips)
-### Mobile Tools
+- [ ] [Android Application Penetration Testing / Bug Bounty Checklist](https://blog.softwaroid.com/2020/05/02/android-application-penetration-testing-bug-bounty-checklist/)
+**Mobile Tools**
 - [FRIDA.RE](https://frida.re/docs/home/)
 - [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 
 ### Mobile CheatSheet
 - [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
 - [android-security-awesome](https://github.com/ashishb/android-security-awesome)
+
+### Mobile Writeups
+- [ ] [Hacking Razer Pay Ewallet App](https://blog.sambal0x.com/2020/04/30/Hacking-razer-pay-ewallet-app.html)
 
 ## API Test
 - [ ] [31-days-of-API-Security-Tips](https://github.com/smodnix/31-days-of-API-Security-Tips)
@@ -379,7 +397,7 @@
 - [ ] [XSS to Account Takeover - Bypassing CSRF Header Protection and HTTPOnly Cookie](https://noobe.io/articles/2019-10/xss-to-account-takeover)
 - [ ] [Exploiting Cookie Based XSS by Finding RCE](https://noobe.io/articles/2019-09/exploiting-cookie-based-xss-by-finding-rce)
 - [ ] [AirBnb Bug Bounty: Turning Self-XSS into Good-XSS #2](https://www.geekboy.ninja/blog/airbnb-bug-bounty-turning-self-xss-into-good-xss-2/)
-
+- [ ] [DOM XSS in Gmail with a little help from Chrome](https://opnsec.com/2020/05/dom-xss-in-gmail-with-a-little-help-from-chrome/)
 ### CSRF Writeups
 - [ ] [Google Bug Bounty: CSRF in learndigital.withgoogle.com](https://santuysec.com/2020/01/21/google-bug-bounty-csrf-in-learndigital-withgoogle-com/)
 
@@ -429,6 +447,7 @@
 ### Open Redirection Writeups
 - [ ] [Open URL Redirection](https://bugbountytuts.wordpress.com/2017/04/21/open-url-redirection/)
 - [ ] [Basic Open URL Redirection Vulnerability](https://bugbountytuts.wordpress.com/2017/04/21/simple-open-url-redirection/)
+- [ ] [Airbnb – Chaining Third-Party Open Redirect into Server-Side Request Forgery (SSRF) via LivePerson Chat](https://buer.haus/2017/03/09/airbnb-chaining-third-party-open-redirect-into-server-side-request-forgery-ssrf-via-liveperson-chat/)
 
 ### Misconfiguration Writeups
 - [ ] [S3 Bucket Misconfiguration: From Basics to Pawn](https://bugbountypoc.com/s3-bucket-misconfiguration-from-basics-to-pawn/)

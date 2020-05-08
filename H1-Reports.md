@@ -18,6 +18,7 @@
 - [More Bugs](#more-bugs)
 
 ## Subdomain Takeover
+- [ ] [subdomain takeover at status0.stripo.email](https://hackerone.com/reports/737695)
 - [ ] [Bulgaria - Subdomain takeover of mail.starbucks.bg](https://hackerone.com/reports/736863)
 - [ ] [Subdomain takeover on mta1a1.spmail.uber.com](https://hackerone.com/reports/707748)
 - [ ] [Subdomain takeover of datacafe-cert.starbucks.com](https://hackerone.com/reports/665398)
@@ -44,9 +45,12 @@
 - [ ] [Subdomain takeover due to unclaimed Amazon S3 bucket on a2.bime.io](https://hackerone.com/reports/121461)
 - [ ] [Subdomain takeover in http://support.scan.me pointing to Zendesk (a Snapchat acquisition)](https://hackerone.com/reports/114134)
 - [ ] [URGENT - Subdomain Takeover on media.vine.co due to unclaimed domain pointing to AWS](https://hackerone.com/reports/32825)
+- [ ] [Subdomain Takeover at creatorforum.roblox.com](https://hackerone.com/reports/264494)
+- [ ] [AWS subdomain Takeover at estore.razersynapse.com](https://hackerone.com/reports/785179)
 
 ## Open Redirect
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
+- [ ] [Open Redirect on Greater Asia domains](https://hackerone.com/reports/731618)
 - [ ] [open redirect while login at https://apps.dev.jupiterone.io can leak access code.](https://hackerone.com/reports/591266)
 - [ ] [Open Redirect](https://hackerone.com/reports/504751)
 - [ ] [Open redirect open.rocket.chat/file-upload/ID/filename.svg](https://hackerone.com/reports/368927)
@@ -60,6 +64,7 @@
 - [ ] [IDOR in marketing calendar tool](https://hackerone.com/reports/797685)
 
 ## XXE
+- [ ] [XXE through injection of a payload in the XMP metadata of a JPEG file](https://hackerone.com/reports/836877)
 - [ ] [XXE at ecjobs.starbucks.com.cn/retail/hxpublic_v6/hxdynamicpage6.aspx](https://hackerone.com/reports/500515)
 - [ ] [Partial bypass of #483774 with Blind XXE on https://duckduckgo.com](https://hackerone.com/reports/486732)
 - [ ] [XXE on ██████████ by bypassing WAF ████](https://hackerone.com/reports/433996)
@@ -77,8 +82,11 @@
 - [ ] [SQL injection in https://labs.data.gov/dashboard/datagov/csv_to_json via User-agent](https://hackerone.com/reports/297478)
 - [ ] [Blind SQL injection and making any profile comments from any users to disappear using "like" function (2 in 1 issues)](https://hackerone.com/reports/363815)
 - [ ] [SQL Injection https://www.olx.co.id](https://hackerone.com/reports/446293)
+- [ ] [SQL Injection on cookie parameter](https://hackerone.com/reports/761304)
 
 ## XSS
+- [ ] [Potential stored Cross-Site Scripting vulnerability in Support Backend](https://hackerone.com/reports/858894)
+- [ ] [Reflected XSS on www.hackerone.com and resources.hackerone.com](https://hackerone.com/reports/840759)
 - [ ] [Html Injection and Possible XSS in main nordvpn.com domain](https://hackerone.com/reports/780632)
 - [ ] [Stored XSS | api.mapbox.com | IE 11 | Styles name](https://hackerone.com/reports/763812)
 - [ ] [Stored XSS in Shopify Chat](https://hackerone.com/reports/756729)
@@ -126,15 +134,19 @@
 - [ ] [RCE on Steam Client via buffer overflow in Server Info](https://hackerone.com/reports/470520)
 - [ ] [Unsecured DB instance](https://hackerone.com/reports/189192)
 - [ ] [Completed Compromise & Source Code Disclosure via Exposed Jenkins Dashboard at https://jenkins101.udemy.com](https://hackerone.com/reports/182104)
+- [ ] [Code injection in macOS Desktop Client](https://hackerone.com/reports/633266)
 
 ## SSRF
 - [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
 - [ ] [SSRF protection bypass](https://hackerone.com/reports/736867)
 - [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
+- [ ] [SSRF on fleet.city-mobil.ru leads to local file read](https://hackerone.com/reports/748069)
+- [ ] [SSRF & LFR via on city-mobil.ru](https://hackerone.com/reports/748123)
 
 ## CSRF
 - [ ] [CSS Injection on /embed/ via bgcolor parameter leaks user's CSRF token and allows for XSS](https://hackerone.com/reports/386334)
 - [ ] [Possible CSRF during external programs](https://hackerone.com/reports/174470)
+- [ ] [H1514 CSRF in Domain transfer allows adding your domain to other user's account](https://hackerone.com/reports/416978)
 
 ## CRLF
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
@@ -152,11 +164,13 @@
 - [ ] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)
 
 ## HTTP Smuggling
+- [ ] [HTTP Request Smuggling on my.stripo.email](https://hackerone.com/reports/777651)
 - [ ] [HTTP SMUGGLING EXPOSED HMAC/DOS](https://hackerone.com/reports/753939)
 - [ ] [Mass account takeovers using HTTP Request Smuggling on https://slackb.com/ to steal session cookies](https://hackerone.com/reports/737140)
 - [ ] [HTTP-Response-Splitting on v.shopify.com](https://hackerone.com/reports/106427)
 
 ## Leaking Information
+- [ ] [Arbitrary file read via the UploadsRewriter when moving and issue](https://hackerone.com/reports/827052)
 - [ ] [Disclose Any Store products, Files, Purchase Orders Via Email through Shopify Stocky APP](https://hackerone.com/reports/763994)
 - [ ] [Password reset token leakage via referer](https://hackerone.com/reports/342693)
 - [ ] [[www.coursera.org] Leaking password reset link on referrer header](https://hackerone.com/reports/303322)
@@ -179,12 +193,14 @@
 - [ ] [A HackerOne employee's GitHub personal access token exposed in Travis CI build logs](https://hackerone.com/reports/215625)
 - [ ] [Bypass rate limiting on /users/password (possibly site-wide rate limit bypass?)](https://hackerone.com/reports/170310)
 - [ ] [AWS S3 bucket writeable for authenticated aws users](https://hackerone.com/reports/128088)
+- [ ] [Open S3 Bucket Accessible by any Aws User](https://hackerone.com/reports/819278)
 
 ## Business Logic Errors
 - [ ] [[www.zomato.com] Tampering with Order Quantity and paying less amount then actual amount, leads to business loss](https://hackerone.com/reports/403783)
 
 ## More Bugs
 - [ ] [Unauthenticated users can obtain information about Checklist objects with unclaimed ChecklistCheck objects](https://hackerone.com/reports/781175)
+- [ ] [SOP bypass using browser cache](https://hackerone.com/reports/761726)
 - [ ] [Account takeover via leaked session cookie](https://hackerone.com/reports/745324)
 - [ ] [JumpCloud API Key leaked via Open Github Repository.](https://hackerone.com/reports/716292)
 - [ ] [Misconfigured s3 Bucket exposure](https://hackerone.com/reports/700051)
@@ -202,3 +218,6 @@
 - [ ] [IRC-Bot exposes information](https://hackerone.com/reports/222870)
 - [ ] [[Studio.twitter.com] See someone else pics](https://hackerone.com/reports/164649)
 - [ ] [Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)](https://hackerone.com/reports/143717)
+- [ ] [Email Confirmation Bypass in myshop.myshopify.com that Leads to Full Privilege Escalation to Any Shop Owner by Taking Advantage of the Shopify SSO](https://hackerone.com/reports/791775)
+- [ ] [[Part II] Email Confirmation Bypass in myshop.myshopify.com that Leads to Full Privilege Escalation](https://hackerone.com/reports/796808)
+- [ ] [Able to Takeover Merchants Accounts Even They Have Already Setup SSO, After Bypassing the Email Confirmation](https://hackerone.com/reports/796956)

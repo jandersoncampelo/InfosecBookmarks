@@ -20,7 +20,10 @@
         - [HTTP Request Smuggling](#http-request-smuggling)
         - [Leaking Information](#leaking-information)
         - [Misconfiguration](#misconfiguration)
+- [CTF](#ctf)
 - [Pentesting](#pentesting)
+- [Certifications](#certifications)
+- [Linux](#linux)
 - [Hackthebox Writeups](#hackthebox-writeups)
 
 ## Web
@@ -31,6 +34,11 @@
 - [ ] [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
 - [ ] [Think Outside the Scope: Advanced CORS Exploitation Techniques](https://medium.com/bugbountywriteup/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397)
 - [ ] [**A Noob Guide to setup your Own OOB DNS Server**](https://medium.com/@spade.com/a-noob-guide-to-setup-your-own-oob-dns-server-870d9e05b54a)
+- [ ] [**GraphQL — Common vulnerabilities & how to exploit them**](https://medium.com/@the.bilal.rizwan/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696)
+- [ ] [Content-Security-Policy (CSP) Bypass Techniques](https://medium.com/bugbountywriteup/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
+- [ ] [Hacking the Web With Fiddler](https://medium.com/swlh/hacking-the-web-with-fiddler-72d026eee6bd)
+- [ ] [Bypass OTP using http header.](https://medium.com/@rapidsafeguard/bypass-otp-using-http-header-a579ace73ed2)
+- [ ] [Abusing feature to steal your tokens](https://medium.com/@rootxharsh_90844/abusing-feature-to-steal-your-tokens-f15f78cebf74)
 
 ## Bug Bounty
 - [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a)  
@@ -62,6 +70,8 @@
 - [ ] [**Collection Of Bug Bounty Tip-Will Be updated daily**](https://medium.com/@vignesh4303/collection-of-bug-bounty-tip-will-be-updated-daily-605911cfa248)
 - [ ] [Bounty Tip !! Easiest way to bypass API’s Rate Limit.](https://medium.com/bugbountywriteup/bounty-tip-easiest-way-to-bypass-apis-rate-limit-f984fad40093)
 - [ ] [**BugBounty types — HTML injection via email**](https://medium.com/@elberandre/bugbounty-types-html-injection-via-email-8409b6dc4d18)
+- [ ] [**Bug Bounty Hunting Tips #5 — Aim to Become World-Class in Your Niche**](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-5-aim-to-become-world-class-in-your-niche-1b030af4582)
+- [ ] [Bounty Tip : How to Push Injection through JSON/XML stubs for API](https://medium.com/bugbountywriteup/bounty-tip-how-to-push-injection-through-json-xml-stubs-for-api-699f4959fc5)
 
 ### RECON
 - [ ] [Reconnaissance: a eulogy in three acts](https://medium.com/@europa_/recoinnassance-7840824b9ef2)
@@ -129,6 +139,9 @@
 ### SQLi
 - [ ] [Blind SQL Injection](https://medium.com/@shahjerry33/blind-sql-injection-cb68864b8361)
 - [ ] [Blind SQL Injection without an “in”](https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952)
+- [ ] [SQL Injection Via Stopping the redirection to a login page](https://blog.usejournal.com/sql-injection-via-stopping-the-redirection-to-a-login-page-52b0792d5592)
+- [ ] [Security: Preventing SQL Injection (SQLi)](https://medium.com/bugbountywriteup/security-preventing-sql-injection-sqli-ade81c5fd092)
+- [ ] [Learn SQL Injection by Ethically Hacking a Rails App](https://medium.com/better-programming/learn-sql-injection-by-ethically-hacking-a-rails-app-e96906f8c593)
 
 ### XSS
 - [ ] [Get Reflected XSS within 3 minutes](https://medium.com/@gguzelkokar.mdbf15/get-reflected-xss-within-3-minutes-baa314e25489)
@@ -184,6 +197,8 @@
 - [ ] [New technique to find Blind-XSS](https://medium.com/@renwa/new-technique-to-find-blind-xss-c2efcd377cc2)
 - [ ] [[FUN] Bypass XSS Detection WAF](https://medium.com/soulsecteam/fun-bypass-xss-detection-waf-cabd431e030e)
 - [ ] [Self XSS to Account Takeover](https://medium.com/@ch3ckm4te/self-xss-to-account-takeover-72c89775cf8f)
+- [ ] [Reflected XSS on Microsoft.com via Angular Js template injection](https://medium.com/@impratikdabhi/reflected-xss-on-microsoft-com-via-angular-template-injection-2e26d80a7fd8)
+- [ ] [XsS Back Button - I Can See You From Behind](https://medium.com/@shahjerry33/xss-back-button-i-can-see-you-from-behind-d15b3388404d)
 
 ### SSRF
 - [ ] [SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
@@ -221,11 +236,12 @@
 - [ ] [Out of Band XXE Injection Via gopher](https://medium.com/@osama.alaa/xxe-injection-in-oracle-application-server-11g-cc05f6ab55ab)
 - [ ] [**XXE Attacks— Part 1: XML Basics**](https://medium.com/@klose7/https-medium-com-klose7-xxe-attacks-part-1-xml-basics-6fa803da9f26)
 - [ ] [**XXE Attacks — Part 2: XML DTD related Attacks**](https://medium.com/@klose7/xxe-attacks-part-2-xml-dtd-related-attacks-a572e8deb478)
+- [ ] [XXE on Windows system …then what ??](https://medium.com/@canavaroxum/xxe-on-windows-system-then-what-76d571d66745)
 
 ### RCE
+- [ ] [**Simple Remote Code Execution Vulnerability Examples for Beginners**](https://medium.com/@ozguralp/simple-remote-code-execution-vulnerability-examples-for-beginners-985867878311)
 - [ ] [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37)
 - [ ] [A Not-So-Blind RCE with SQL Injection](https://medium.com/@notsoshant/a-not-so-blind-rce-with-sql-injection-13838026331e)
-- [ ] [**Simple Remote Code Execution Vulnerability Examples for Beginners**](https://medium.com/@ozguralp/simple-remote-code-execution-vulnerability-examples-for-beginners-985867878311)
 - [ ] [Remote Image Upload Leads to RCE (Inject Malicious Code to PHP-GD Image)](https://medium.com/@asdqwedev/remote-image-upload-leads-to-rce-inject-malicious-code-to-php-gd-image-90e1e8b2aada)
 - [ ] [Remote Code Execution - Explaination, Writeups and Tools.](https://medium.com/@ashishrohra/remote-code-execution-explaination-writeups-and-tools-a8e4c3362259)
 - [ ] [RoCET — Remote Code Execution Tool](https://medium.com/bugbountywriteup/rocet-remote-code-execution-tool-11efa54654d5)
@@ -247,12 +263,14 @@
 - [ ] [RCE in Jira(CVE-2019–11581)](https://medium.com/@ruvlol/rce-in-jira-cve-2019-11581-901b845f0f)
 - [ ] [Magento Web Exploit Case Studies](https://medium.com/magebit/magento-web-exploit-case-studies-bac57add8c0e)
 - [ ] [From Recon to Optimizing RCE Results - Simple Story with One of the Biggest ICT Company in the World](https://medium.com/bugbountywriteup/from-recon-to-optimizing-rce-results-simple-story-with-one-of-the-biggest-ict-company-in-the-ea710bca487a)
+- [ ] [**Data exfiltration over DNS with Remote Code Execution**](https://medium.com/bugbountywriteup/data-exfiltration-over-dns-with-remote-code-execution-22c2b228e373)
 
 ### Race Conditions
 = [ ] [Hacking Banks With Race Conditions](https://medium.com/swlh/hacking-banks-with-race-conditions-2f8d55b45a4b)
 
 ### Subdomain Takeover
 - [ ] [How i bought my way to subdomain takeover on Tokopedia](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
+- [ ] [Pantheon Subdomain Takeover](https://medium.com/@halilahmad/pantheon-subdomain-takeover-154f03a47057)
 
 ### HTTP Request Smuggling
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
@@ -262,20 +280,21 @@
 - [ ] [Easily leaking passenger information on an Airline](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
 - [ ] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
 - [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
-- [ ] [API secret key Leakage leads to disclosure of Employee’s Information](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
+- [ ] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
 - [ ] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
 
 ### Misconfiguration
 - [ ] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
 
 ### OTHERS
+- [ ] [CORS Misconfiguration Leads To Steal Sensitive Information Disclosure](https://medium.com/@amangupta566/cors-misconfiguration-leads-to-steal-sensitive-information-disclosure-fdf050b68b66)
 - [ ] [Bypassing CORS](https://medium.com/@saadahmedx/bypassing-cors-13e46987a45b)
 - [ ] [SOP Bypass](https://medium.com/@kenanistaken/sop-bypass-ecae7f4a5c00)
 - [ ] [CORS Misconfiguration leading to Private Information Disclosure](https://medium.com/@sasaxxx777/cors-misconfiguration-leading-to-private-information-disclosure-3034cfcb4b93)
 - [ ] [Exploitation of CORS(Cross Origin Resource Sharing) on Edmodo](https://medium.com/@Skylinearafat/exploitation-of-cors-cross-origin-resource-sharing-on-edmodo-aa90431a3cb6)
 - [ ] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
 - [ ] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
-- [ ] [Fun With CORS Misconfiguration — II](https://medium.com/@amangupta566/fun-with-cors-misconfiguration-ii-927caccfe932)
+- [ ] [**Fun With CORS Misconfiguration — II**](https://medium.com/@amangupta566/fun-with-cors-misconfiguration-ii-927caccfe932)
 - [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
 - [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
@@ -300,9 +319,28 @@
 - [ ] [An Unexpected Bounty — Email Bounce Issues](https://medium.com/@keshavaarav22/an-unexpected-bounty-email-bounce-issues-b9f24a35eb68)
 - [ ] [**Using Vulnerability Analytics Feature Like a Boss**](https://medium.com/@ozguralp/using-vulnerability-analytics-feature-like-a-boss-655fc1f1543b)
 - [ ] [Account Takeover Via Modifying Email ID — Codeigniter Framework](https://medium.com/@vbharad/account-takeover-via-modifying-email-id-codeigniter-framework-ca30741ad297)
+- [ ] [Yet Another .NET deserialization](https://medium.com/@frycos/yet-another-net-deserialization-35f6ce048df7)
+- [ ] [The Wondeful World of OAuth: Bug Bounty Edition](https://medium.com/a-bugz-life/the-wondeful-world-of-oauth-bug-bounty-edition-af3073b354c1)
+- [ ] [How I got my first BUG on BugCrowd](https://medium.com/@nagdiveshubham850/how-i-got-my-first-bug-on-bugcrowd-541e8f811601)
+- [ ] [Full Account Takeover By Guessing Token In Verizon Media](https://medium.com/@ahmed2061559.aa/full-account-takeover-by-guessing-token-in-verizon-media-a389184bf5d2)
+- [ ] [Web Cache Poisoning in Postmates [$1500]](https://medium.com/@aungpyaehackeronetester/web-cache-poisoning-in-postmates-1500-a67eee4fc118)
+- [ ] [#BugBounty — Adding Money Using Response Modification](https://medium.com/@sandeepkumarsingh1902/bugbounty-adding-money-using-response-modification-334448d34251)
+
+## CTF
+- [ ] [Beginner’s Guide to CTFs](https://medium.com/bugbountywriteup/beginners-guide-to-ctfs-c934a0d7f5f9)
 
 ## Pentesting
-- [Back to Basics -> Junior pentester tips and methodology](https://medium.com/@tom.business/back-to-basics-junior-pentester-tips-and-methodology-c459bdd0863d)
+- [ ] [Intro to Metasploit](https://medium.com/swlh/intro-to-metasploit-19e3d07ff725)
+- [ ] [Intro to Nmap](https://medium.com/bugbountywriteup/intro-to-nmap-192c1796bb39)
+- [ ] [Back to Basics -> Junior pentester tips and methodology](https://medium.com/@tom.business/back-to-basics-junior-pentester-tips-and-methodology-c459bdd0863d)
+
+## Certifications
+- [ ] [My OSCP Journey — 30–03–2020](https://medium.com/@infosecsanyam/my-oscp-journey-30-03-2020-48444af3d786)
+
+## Linux
+- [ ] [The Bash Scripting Tutorial, Part 1](https://medium.com/swlh/the-bash-scripting-tutorial-part-1-34971f5260f7)
+- [ ] [Creating new bash commands and aliases](https://medium.com/swlh/creating-new-bash-commands-and-aliases-c9272fd589c4)
+- [ ] [How to Create Productive Bash Command Aliases](https://medium.com/better-programming/how-to-create-productive-bash-command-aliases-c5418f9ffa6e)
 
 ## Hackthebox Writeups
 - [ ] [Hack The Box — FriendZone Writeup w/o Metasploit](https://medium.com/swlh/hack-the-box-friendzone-writeup-w-o-metasploit-fb52adc73c96)
