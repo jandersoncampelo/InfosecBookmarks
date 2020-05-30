@@ -285,12 +285,12 @@
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
 
 ### Leaking Information
-- [X] [**How I get my first SWAG from SIDN (Sensitive Data Expose)**](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
-- [ ] [Easily leaking passenger information on an Airline](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
+- [X] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
+- [X] [**Easily leaking passenger information on an Airline**](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
 - [ ] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
 - [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
-- [ ] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
-- [ ] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
+- [X] [*API secret key Leakage leads to disclosure of Employee’s Information*](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
+- [X] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
 - [ ] [Information Disclosure via Misconfigured AWS to AWS Bucket Takeover](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
 
 ### Misconfiguration
