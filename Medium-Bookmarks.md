@@ -138,7 +138,7 @@
 - [ ] [**A Simple IDOR to Account Takeover**](https://medium.com/@swapmaurya20/a-simple-idor-to-account-takeover-88b8a1d2ec24)
 - [ ] [**IDOR to Account Takeover**](https://medium.com/@mr.sparsh.k/idor-to-account-takeover-ebdab0f62017)
 - [ ] [Attention to Details : Finding Hidden IDORs](https://medium.com/@aseem.shrey/attention-to-details-a-curious-case-of-multiple-idors-5a4417ba8848)
-
+- [ ] [IDOR in session cookie leading to Mass Account Takeover](https://medium.com/@zonduu/idor-in-session-cookie-leading-to-mass-account-takeover-d815ff3732d5)
 ### SQLi
 - [ ] [Blind SQL Injection](https://medium.com/@shahjerry33/blind-sql-injection-cb68864b8361)
 - [ ] [Blind SQL Injection without an “in”](https://medium.com/@terjanq/blind-sql-injection-without-an-in-1e14ba1d4952)
@@ -287,11 +287,13 @@
 ### Leaking Information
 - [X] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
 - [X] [**Easily leaking passenger information on an Airline**](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
-- [ ] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
+- [/] [Page Admin Disclosure via an Upgraded Page Post](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
+- [/] [Page Admin Disclosure | Facebook Bug Bounty 2019](https://medium.com/bugbountywriteup/page-admin-disclosure-facebook-bug-bounty-2019-ee9920e768eb)
+- [/] [Disclosure of Facebook Page Admin due to insecure tagging behavior](https://medium.com/bugbountywriteup/disclosure-of-facebook-page-admin-due-to-insecure-tagging-behavior-24ff09de5c29)
 - [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
-- [X] [*API secret key Leakage leads to disclosure of Employee’s Information*](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
-- [X] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
-- [ ] [Information Disclosure via Misconfigured AWS to AWS Bucket Takeover](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
+- [X] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
+- [/] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
+- [X] [**Information Disclosure via Misconfigured AWS to AWS Bucket Takeover**](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
 
 ### Misconfiguration
 - [ ] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
