@@ -8,6 +8,7 @@
 - [SQL Injection](#sql-injection)
 - [XSS](#xss)    
 - [RCE](#rce)
+- [Command Injection](#command-injection)
 - [SSRF](#ssrf)
 - [CSRF](#csrf)
 - [CRLF](#crlf)
@@ -18,6 +19,7 @@
 - [More Bugs](#more-bugs)
 
 ## Subdomain Takeover
+- [ ] [AWS subdomain Takeover at estore.razersynapse.com](https://hackerone.com/reports/785179)
 - [ ] [subdomain takeover at status0.stripo.email](https://hackerone.com/reports/737695)
 - [ ] [Bulgaria - Subdomain takeover of mail.starbucks.bg](https://hackerone.com/reports/736863)
 - [ ] [Subdomain takeover on mta1a1.spmail.uber.com](https://hackerone.com/reports/707748)
@@ -30,8 +32,11 @@
 - [ ] [Subdomain takeover on wfmnarptpc.starbucks.com](https://hackerone.com/reports/388622)
 - [ ] [Subdomain Takeover at test.shipt.com](https://hackerone.com/reports/387760)
 - [ ] [svcardproxydevus.starbucks.com Subdomain take over](https://hackerone.com/reports/380158)
+- [ ] [[engineering.udemy.com] - Subdomain Takeover (ghost.io)](https://hackerone.com/reports/368119)
 - [ ] [Subdomain takeover on svcgatewayus.starbucks.com](https://hackerone.com/reports/325336)
+- [ ] [Subdomain Takeover due to unclaimed domain pointing to AWS](https://hackerone.com/reports/317005)
 - [ ] [subdomain takeover at news-static.semrush.com](https://hackerone.com/reports/294201)
+- [ ] [Subdomain Takeover at creatorforum.roblox.com](https://hackerone.com/reports/264494)
 - [ ] [Account Takeover using Third party Auth CSRF](https://hackerone.com/reports/225653)
 - [ ] [[ux.shopify.com] Subdomain takeover](https://hackerone.com/reports/221631)
 - [ ] [Authentication bypass on auth.uber.com via subdomain takeover of saostatic.uber.com](https://hackerone.com/reports/219205)
@@ -45,8 +50,6 @@
 - [ ] [Subdomain takeover due to unclaimed Amazon S3 bucket on a2.bime.io](https://hackerone.com/reports/121461)
 - [ ] [Subdomain takeover in http://support.scan.me pointing to Zendesk (a Snapchat acquisition)](https://hackerone.com/reports/114134)
 - [ ] [URGENT - Subdomain Takeover on media.vine.co due to unclaimed domain pointing to AWS](https://hackerone.com/reports/32825)
-- [ ] [Subdomain Takeover at creatorforum.roblox.com](https://hackerone.com/reports/264494)
-- [ ] [AWS subdomain Takeover at estore.razersynapse.com](https://hackerone.com/reports/785179)
 
 ## Open Redirect
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
@@ -132,9 +135,13 @@
 ## RCE
 - [ ] [RCE and Complete Server Takeover of http://www.█████.starbucks.com.sg/](https://hackerone.com/reports/502758)
 - [ ] [RCE on Steam Client via buffer overflow in Server Info](https://hackerone.com/reports/470520)
+- [ ] [Remote code execution by hijacking an unclaimed S3 bucket in Rocket.Chat's installation script.](https://hackerone.com/reports/399166)
 - [ ] [Unsecured DB instance](https://hackerone.com/reports/189192)
 - [ ] [Completed Compromise & Source Code Disclosure via Exposed Jenkins Dashboard at https://jenkins101.udemy.com](https://hackerone.com/reports/182104)
 - [ ] [Code injection in macOS Desktop Client](https://hackerone.com/reports/633266)
+
+## Command Injection
+- [ ] [Webshell via File Upload on ecjobs.starbucks.com.cn](https://hackerone.com/reports/506646)
 
 ## SSRF
 - [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
@@ -147,10 +154,18 @@
 - [ ] [CSS Injection on /embed/ via bgcolor parameter leaks user's CSRF token and allows for XSS](https://hackerone.com/reports/386334)
 - [ ] [Possible CSRF during external programs](https://hackerone.com/reports/174470)
 - [ ] [H1514 CSRF in Domain transfer allows adding your domain to other user's account](https://hackerone.com/reports/416978)
+- [ ] [Persistent CSRF in /GiftCert-AddToBasket prevents purchases on eCommerce sites](https://hackerone.com/reports/206319)
+- [ ] [CSRF in all API endpoints when authenticated using HTTP Authentication](https://hackerone.com/reports/195156)
+- [ ] [CSRF To Like/Unlike Photos](https://hackerone.com/reports/230837)
+- [ ] [JSON CSRF on POST Heartbeats API](https://hackerone.com/reports/245346)
+- [ ] [CRLF Injection on https://vpn.mixmax.com](https://hackerone.com/reports/234758)
+- [ ] [CSRF vulnerability that allows an attacker to purge plugin metric data](https://hackerone.com/reports/157270)
+- [ ] [Cross-Site Request Forgery (CSRF)](https://hackerone.com/reports/152569)
 
 ## CRLF
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
 - [ ] [CRLF Injection in legacy url API (url.parse().hostname)](https://hackerone.com/reports/771596)
+- [ ] [CRLF and XSS stored on ton.twitter.com](https://hackerone.com/reports/191380)
 
 ## LFI
 - [ ] [Korea - LFI via path traversal at https://msr.istarbucks.co.kr:6443/appif/](https://hackerone.com/reports/780021)
@@ -179,7 +194,10 @@
 
 ## GraphQL
 - [ ] [Email address of any user can be queried on Report Invitation GraphQL type when username is known](https://hackerone.com/reports/792927)
+- [ ] [Private information exposed through GraphQL filters](https://hackerone.com/reports/645299)
 - [ ] [Disabled account can still use GraphQL endpoint](https://hackerone.com/reports/608656)
+- [ ] [Confidential data of users and limited metadata of programs and reports accessible via GraphQL](https://hackerone.com/reports/489146)
+- [ ] [SQL injection in GraphQL endpoint through embedded_submission_form_uuid parameter](https://hackerone.com/reports/435066)
 
 ## Others
 - [ ] [Private account causes displayed through API](https://hackerone.com/reports/826005)

@@ -15,6 +15,7 @@
     - [Finding RCE](#finding-rce)
     - [Finding SSRF](#finding-ssrf)
     - [Finding XSS](#finding-xss)
+    - [Finding CSRF](#finding-csrf)
     - [Finding SQLi](#finding-sqli)
     - [Finding IDOR](#finding-idor)
 - [Mobile](#mobile)
@@ -29,6 +30,7 @@
     - [XSS Writeups](#xss-writeups)
     - [CSRF Writeups](#csrf-writeups)
     - [SSRF Writeups](#ssrf-writeups)
+    - [CRLF Writeups](#crlf-writeups)
     - [XXE Writeups](#xxe-writeups)
     - [SSTI Writeups](#ssti-writeups)
     - [IDOR Writeups](#idor-writeups)
@@ -53,7 +55,7 @@
 - [ ] [GETTING STARTED – BUG BOUNTY HUNTER METHODOLOGY](https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/)
 - [ ] [Bug Bounty Methodology (Methodology, Toolkit, Tips & Tricks, Blogs) V 1.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-methodology-toolkit-tips-tricks-blogs-v-1-0-by-sanyam-chawla/)
 - [ ] [Bug Bounty Methodology (TTP- Tactics,Techniques and Procedures) V 2.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-ttp-tacticstechniques-and-procedures-v-2-0/)
-- [ ] [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
+- [ ] [**Resources-for-Beginner-Bug-Bounty-Hunters**](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
 - [ ] [The Bug Hunters Methodology](https://github.com/jhaddix/tbhm)
 - [ ] [Bug Bounty Hunter Methodology v3](https://docs.google.com/presentation/d/1R-3eqlt31sL7_rj2f1_vGEqqb7hcx4vxX_L7E23lJVo/edit#slide=id.p)
 - [ ] [It's the Little Things II](https://docs.google.com/presentation/d/1xgvEScGZ_ukNY0rmfKz1JN0sn-CgZY_rTp2B_SZvijk/edit#slide=id.g4052c4692d_0_0)
@@ -88,6 +90,7 @@
 - [ ] [BUGCROWD - Researcher Resources: Mobile Focused](https://forum.bugcrowd.com/t/researcher-resources-mobile-focused/1376)
 - [ ] [BUGCROWD - OWASP Bug Bounties: Getting Started & Discussion](https://forum.bugcrowd.com/t/owasp-bug-bounties-getting-started-discussion/1703)
 - [ ] [BUGCROWD - Common Assessment Tool Cheatsheets](https://forum.bugcrowd.com/t/common-assessment-tool-cheatsheets/502)
+- [ ] [5 Tips Bug Bounty Programs *Want* You to Know About](https://medium.com/@d0nut/5-tips-bug-bounty-programs-want-you-to-know-about-544d29888aeb)
 
 ### WebHacking
 - [ ] [**Top 10 web hacking techniques of 2019**](https://portswigger.net/research/top-10-web-hacking-techniques-of-2019)
@@ -103,6 +106,7 @@
 - [ ] [DanielMiessler - ](https://danielmiessler.com/study/)
 - [ ] [Legion - open source network penetration testing tool](https://hakin9.org/legion-open-source-network-penetration-testing-tool/)
 - [ ] [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [ ] [HTTP/Headers/Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)
 - [ ] [The Web Application Hacker's Handbook](https://gist.github.com/gbedoya/10935137)
 - [ ] [Penetration Testing Methodology](https://github.com/DeborahN/Penetration-Testing-Methodology)
 - [ ] [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
@@ -110,7 +114,10 @@
 - [ ] [OWASP Testing Guide v4 Table of Contents](https://wiki.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
 - [ ] [Cross-Origin Resource Sharing (CORS)](http://ghostlulz.com/cross-origin-resource-sharing-cors/)
 - [ ] [Automating Pentests for Applications with Integrity Checks using Burp Suite Custom Extension](https://www.notsosecure.com/automating-pentests-for-applications-with-integrity-checks-using-burpsuite/)
-
+- [ ] [**Piercing the Veal: Short Stories to Read with Friends**](https://medium.com/@d0nut/piercing-the-veal-short-stories-to-read-with-friends-4aa86d606fc5)
+- [X] [**API Hacking GraphQL**](http://ghostlulz.com/api-hacking-graphql/)
+- [ ] [Making HTTP Requests](https://launchschool.com/books/http/read/making_requests)
+- [ ] [DVWA - Main Login Page - Brute Force HTTP POST Form With CSRF Tokens](https://blog.g0tmi1k.com/dvwa/login/)
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
 - [ ] [[Tools] Visual Recon – A beginners guide](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
@@ -180,9 +187,8 @@
 - [X] [Corsy](https://github.com/s0md3v/Corsy)
 - [X] [CORScanner](https://github.com/chenjj/CORScanner)
 - [ ] [WAFW00F](https://github.com/EnableSecurity/wafw00f)
-- [ ] [Knock](https://github.com/guelfoweb/knock)
 - [X] [SubJack](https://github.com/haccer/subjack)
-- [ ] [SubOVer](https://github.com/Ice3man543/SubOver)
+- [X] [SubOVer](https://github.com/Ice3man543/SubOver)
 - [ ] [DirSearch in Python](https://github.com/maurosoria/dirsearch)
 - [ ] [DirSearch in GO](https://github.com/evilsocket/dirsearch)
 - [ ] [GoBuster](https://github.com/OJ/gobuster)
@@ -190,7 +196,7 @@
 - [ ] [**waybackurls**](https://github.com/tomnomnom/waybackurls)
 - [ ] [waybackrobots.py](https://gist.github.com/mhmdiaa/2742c5e147d49a804b408bfed3d32d07)
 - [ ] [waybackurls.py](https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050)
-
+- [ ] [getallurls (gau)](https://github.com/lc/gau#installation)
 **Others**
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [X] [Sn1per](https://github.com/1N3/Sn1per)
@@ -203,6 +209,7 @@
 - [ ] [Recon My Way](https://github.com/ehsahil/recon-my-way)
 - [ ] [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/README.en.md)
 ---
+- [ ] [Knock](https://github.com/guelfoweb/knock)
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
 - [ ] [Sublist3r](https://github.com/aboul3la/Sublist3r)
 - [ ] [VHostScan](https://github.com/codingo/VHostScan)
@@ -233,20 +240,25 @@
 
 ## Bugs
 ### Finding Subdomain Takeover
-- [ ] [A GUIDE TO SUBDOMAIN TAKEOVERS](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
+- [X] [**Can I take over XYZ?**](https://github.com/EdOverflow/can-i-take-over-xyz)
+- [X] [**A GUIDE TO SUBDOMAIN TAKEOVERS**](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
 - [ ] [Subdomain takeover - Chapter one: Methodology](https://blog.cystack.net/subdomain-takeover/)
 - [ ] [Subdomain takeover - Chapter two: Azure Services](https://blog.cystack.net/subdomain-takeover-chapter-two-azure-services/)
-- [ ] [Find Subdomain Takeover with Amass + SubJack](https://www.hahwul.com/2019/10/find-subdomain-takeover-with-amass-and-subjack.html)
+- [X] [**Find Subdomain Takeover with Amass + SubJack**](https://www.hahwul.com/2019/10/find-subdomain-takeover-with-amass-and-subjack.html)
 - [ ] [5 Subdomain Takeover #ProTips](https://securitytrails.com/blog/subdomain-takeover-tips)
 - [ ] [Subdomain Takeover](https://enciphers.com/subdomain-takeover/)
 - [ ] [Subdomain takeover via pantheon](https://smaranchand.com.np/2019/12/subdomain-takeover-via-pantheon/)
 - [ ] [Subdomain takeover detection with AQUATONE](https://michenriksen.com/blog/subdomain-takeover-detection-with-aquatone/)
-- [ ] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
+- [X] [Subdomain Takeover: Basics](https://0xpatrik.com/subdomain-takeover-basics/)
 - [ ] [Subdomain Takeover: Finding Candidates](https://0xpatrik.com/subdomain-takeover-candidates/)
-- [ ] [Can I take over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)
 - [ ] [**Subdomain Takeover Explained with Practical**](https://blog.initd.sh/others-attacks/mis-configuration/subdomain-takeover-explained/)
-- [ ] [**Subdomain takeover - DNS expiration**](http://10degres.net/subdomain-takeover-dns-expiration/)
-#### tools
+- [X] [**Subdomain takeover - DNS expiration**](http://10degres.net/subdomain-takeover-dns-expiration/)
+- [ ] [Introduction to Subdomain takeovers](https://www.bramfitt-tech-labs.com/developers/introduction-to-subdomain-takeovers/)
+- [ ] [Part 2: Subdomain takeovers](https://www.bramfitt-tech-labs.com/developers/part-2-subdomain-takeovers/)
+- [ ] [Heroku Custom Domain or Subdomain Takeover](https://exploit.linuxsec.org/heroku-custom-domain-subdomain-takeover/)
+- [ ] [FastMail Custom Domain or Subdomain Takeover](https://exploit.linuxsec.org/fastmail-custom-domain-subdomain-takeover/)
+- [ ] [Subdomain Takeover Frontify](https://github.com/robotshell/subdomainTakeover/wiki/Subdomain-Takeover-Frontify)
+- [ ] [Attempting EC2 Subdomain Takeover](https://enfinlay.github.io/ec2/deadend/2019/10/19/ec2-takeover-attempt.html)
 
 ### Finding Race Conditions
 - [ ] [Testing for Race Conditions (OWASP-AT-010)](https://www.owasp.org/index.php/Testing_for_Race_Conditions_(OWASP-AT-010))
@@ -276,10 +288,6 @@
 - [ ] [Burp Suite now reports blind XXE injection](https://portswigger.net/blog/burp-suite-now-reports-blind-xxe-injection)
 - [ ] [Exploiting The Entity: XXE (XML External Entity Injection)](https://pentestmag.com/exploiting-the-entity-xme-xml-external-entity-injection/)
 - [ ] [The road from sandboxed SSTI to SSRF and XXE](https://www.reddit.com/r/Slackers/comments/g6pt8t/the_road_from_sandboxed_ssti_to_ssrf_and_xxe/)
-
-### Finding RCE
-- [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
-- [ ] [A Questionable Journey From XSS to RCE](https://zero.lol/2019-05-13-xss-to-rce/)
 **tools**
 - [ ] [XML External Entity (XXE) Injection Payload List](https://github.com/payloadbox/xxe-injection-payload-list)
 - [ ] [xxe-recursive-download](https://github.com/AonCyberLabs/xxe-recursive-download)
@@ -287,14 +295,19 @@
 - [ ] [PayloadsAllTheThings - XML External Entity](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection)
 - [ ] [Blind XXE Payload Generator](https://github.com/discodamone/XXE-Generator)
 
+### Finding RCE
+- [ ] [My first RCE: a tale of good ideas and good friends](https://rez0.blog/hacking/2019/11/29/rce-via-imagetragick.html)
+- [ ] [A Questionable Journey From XSS to RCE](https://zero.lol/2019-05-13-xss-to-rce/)
+
 ### Finding SSRF
+- [ ] [**HOW TO: SERVER-SIDE REQUEST FORGERY (SSRF)**](https://www.hackerone.com/blog-How-To-Server-Side-Request-Forgery-SSRF)
 - [ ] [Server Side Request Forgery SSRF Types And Ways To Exploit It (Part-1)](https://hackersonlineclub.com/server-side-request-forgery-ssrf-types/)
 - [ ] [SSRF – Server Side Request Forgery Types And Ways To Exploit It (Part-2)](https://hackersonlineclub.com/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-2/)
-- [ ] [HOW TO: SERVER-SIDE REQUEST FORGERY (SSRF)](https://www.hackerone.com/blog-How-To-Server-Side-Request-Forgery-SSRF)
 - [ ] [B-XSSRF](https://github.com/SpiderMate/B-XSSRF)
 - [ ] [From SSRF to Port Scanner](https://blog.cobalt.io/from-ssrf-to-port-scanner-3e8ef5921fbf)
 - [ ] [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
 - [ ] [P4 to P2 - The story of one blind SSRF](https://mike-n1.github.io/SSRF_P4toP2)
+- [ ] [https://github.com/cujanovic/SSRF-Testing](https://github.com/cujanovic/SSRF-Testing)
 **tools**
 - [ ] [SSRF Sheriff](https://github.com/teknogeek/ssrf-sheriff)
 
@@ -310,6 +323,15 @@
 - [ ] [Extended XSS Searcher and Finder - scans for different types of XSS on a list of URLs.](https://hakin9.org/extended-xss-searcher-and-finder-scans-for-different-types-of-xss-on-a-list-of-urls/)
 **tools**
 
+### Finding CSRF
+- [ ] [CROSS – SITE REQUEST FORGERY (CSRF)](https://hydrasky.com/network-security/cross-site-request-forgery-csrf/)
+- [ ] [CORS CSRF](https://github.com/graphql-python/graphene-django/wiki/CORS-CSRF)
+- [ ] [ENTENDENDO A VULNERABILIDADE CSRF](https://www.xlabs.com.br/blog/entendendo-a-vulnerabilidade-csrf/)
+- [ ] [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
+
+### Finding CRLF
+- [ ] [CRLF Injection Define](https://hackersonlineclub.com/crlf-injection/)
+
 ### Finding SQLi
 - [ ] [Sqlmap Tricks for Advanced SQL Injection](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/sqlmap-tricks-for-advanced-sql-injection/)
 - [ ] [addslashes() Versus mysql_real_escape_string()](http://shiflett.org/blog/2006/addslashes-versus-mysql-real-escape-string)
@@ -322,7 +344,6 @@
 - [ ] [**HOW-TO: FIND IDOR (INSECURE DIRECT OBJECT REFERENCE) VULNERABILITIES FOR LARGE BOUNTY REWARDS**](https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)
 
 ## Mobile
-- [ ] [**Android Basic Security Testing**](https://mobile-security.gitbook.io/mobile-security-testing-guide/android-testing-guide/0x05b-basic-security_testing)
 - [ ] [**HOW2HACK - GET STARTED HACKING MOBILE**](https://www.hackerone.com/blog/How-to-Hack-Get-Started-Hacking-Mobile)
 - [ ] [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg/)
 - [ ] [OWASP Mobile Security Testing Guide - GitBook](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
@@ -332,18 +353,22 @@
 - [ ] [MOBILE APPLICATION PENETRATION TESTING METHODOLOGY](https://hacken.io/research/education/mobile-application-penetration-testing-methodology/)
 - [ ] [Configuring Frida with BurpSuite and Genymotion to bypass Android SSL Pinning](https://spenkk.github.io/bugbounty/Configuring-Frida-with-Burp-and-GenyMotion-to-bypass-SSL-Pinning/)
 - [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
-- [ ] [Android App Reverse Engineering 101](https://maddiestone.github.io/AndroidAppRE/)
+- [ ] [**Android App Reverse Engineering 101**](https://maddiestone.github.io/AndroidAppRE/)
 - [ ] [[ Tutorial ] Genymotion + Konfigurasi Burpsuite SSL certificate dengan ADB [ Indonesian ]](https://medium.com/@danangtriatmaja/tutorial-genymotion-konfigurasi-burpsuite-ssl-certificate-dengan-adb-indonesian-1a3e9427429f)
 - [ ] [**Expanding the Attack Surface: React Native Android Applications**](http://blog.assetnote.io/bug-bounty/2020/02/01/expanding-attack-surface-react-native/)
 - [ ] [**#ANDROIDHACKINGMONTH: INTRODUCTION TO ANDROID HACKING BY @0XTEKNOGEEK**](https://www.hackerone.com/blog/androidhackingmonth-intro-to-android-hacking)
 - [ ] [How to test a Mobile App](https://appspider.help.rapid7.com/docs/how-to-test-a-mobile-app)
-- [ ] [MOBILE TESTING: SETTING UP YOUR ANDROID DEVICE PT. 1](https://www.bugcrowd.com/blog/mobile-testing-setting-up-your-android-device-part-1/)
+- [ ] [**MOBILE TESTING: SETTING UP YOUR ANDROID DEVICE PT. 1**](https://www.bugcrowd.com/blog/mobile-testing-setting-up-your-android-device-part-1/)
 - [ ] [Bug Bounty Hunting Tips #2 —Target their mobile apps (Android Edition)](https://craighays.com/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition/)
-- [ ] [Zero to Hero - Mobile Application Testing - Android Platform](https://nileshsapariya.blogspot.com/2016/11/zero-to-hero-mobile-application-testing.html)
+- [ ] [**Zero to Hero - Mobile Application Testing - Android Platform**](https://nileshsapariya.blogspot.com/2016/11/zero-to-hero-mobile-application-testing.html)
 - [ ] [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
 - [ ] [Pentesting Mobile Applications with Burpsuite](https://resources.infosecinstitute.com/pentesting-mobile-applications-burpsuite/#gref)
 - [ ] [Beginner's Guide to Mobile Applications Penetration Testing](http://www.irongeek.com/i.php?page=videos/grrcon2019/grrcon-2019-3-14-beginners-guide-to-mobile-applications-penetration-testing-whitney-phillips)
 - [ ] [Android Application Penetration Testing / Bug Bounty Checklist](https://blog.softwaroid.com/2020/05/02/android-application-penetration-testing-bug-bounty-checklist/)
+- [ ] [From checkra1n to Frida: iOS App Pentesting Quickstart on iOS 13](https://spaceraccoon.dev/from-checkra1n-to-frida-ios-app-pentesting-quickstart-on-ios-13)
+- [ ] [How Facebook-Research app works](https://ivrodriguez.com/how-facebook-research-app-works/)
+- [ ] [Intercepting HTTP and HTTPS / SSL Mоbile traffic using Burp Suite.](https://www.hackingloops.com/intercepting-mobile-traffic-using-burp-suite/)
+
 **Mobile Tools**
 - [FRIDA.RE](https://frida.re/docs/home/)
 - [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
@@ -384,6 +409,7 @@
 - [ ] [Subdomain Takeover using blog.greenhouse.io pointing to Hubspot](https://bugbountytuts.wordpress.com/2017/04/21/subdomain-takeover-using-blog-greenhouse-io-pointing-to-hubspot/)
 - [ ] [Shipt Subdomain TakeOver Via HeroKu ( Test.Shipt.Com )](https://www.mohamedharon.com/2018/08/Shipttakeover.html)
 - [ ] [How I Took Over 2 Subdomains with Azure CDN Profiles](https://m0chan.github.io/2019/12/16/Subdomain-Takeover-Azure-CDN.html)
+- [X] [**Subdomain takeover via Ngrok service​**](https://blog.pareshparmar.com/subdomain-takeover-ngrok/)
 
 ### HTTP Request Smuggling Writeups
 - [ ] [HTTP Request Smuggling + IDOR](https://hipotermia.pw/bb/http-desync-idor)
@@ -399,12 +425,17 @@
 - [ ] [AirBnb Bug Bounty: Turning Self-XSS into Good-XSS #2](https://www.geekboy.ninja/blog/airbnb-bug-bounty-turning-self-xss-into-good-xss-2/)
 - [ ] [DOM XSS in Gmail with a little help from Chrome](https://opnsec.com/2020/05/dom-xss-in-gmail-with-a-little-help-from-chrome/)
 ### CSRF Writeups
-- [ ] [Google Bug Bounty: CSRF in learndigital.withgoogle.com](https://santuysec.com/2020/01/21/google-bug-bounty-csrf-in-learndigital-withgoogle-com/)
+- [X] [Google Bug Bounty: CSRF in learndigital.withgoogle.com](https://santuysec.com/2020/01/21/google-bug-bounty-csrf-in-learndigital-withgoogle-com/)
+- [ ] [GoodSAM App – CSRF/Stored XSS Chain Full Disclosure](https://blog.jameshemmings.co.uk/2017/07/17/goodsam-csrfxss-chain-full-disclosure/)
 
 ### SSRF Writeups
 - [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
 - [ ] [BugBounty | A Simple SSRF](https://jinone.github.io/bugbounty-a-simple-ssrf/)
 - [ ] [My First SSRF Using DNS Rebinding](https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing/)
+- [ ] [SSRF – Server Side Request Forgery Interesting Links](https://darkweblinks.org/2018/08/10/ssrf-server-side-request-forgery-interesting-links/)
+
+### CRLF Writeups
+- [ ] [CRLF injection on Twitter or why blacklists fail](https://blog.innerht.ml/twitter-crlf-injection/)
 
 ### XXE Writeups
 - [ ] [**XXE-scape through the front door: circumventing the firewall with HTTP request smuggling**](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/)

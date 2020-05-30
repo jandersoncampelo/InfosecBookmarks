@@ -34,14 +34,16 @@
 - [ ] [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
 - [ ] [Think Outside the Scope: Advanced CORS Exploitation Techniques](https://medium.com/bugbountywriteup/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397)
 - [ ] [**A Noob Guide to setup your Own OOB DNS Server**](https://medium.com/@spade.com/a-noob-guide-to-setup-your-own-oob-dns-server-870d9e05b54a)
-- [ ] [**GraphQL — Common vulnerabilities & how to exploit them**](https://medium.com/@the.bilal.rizwan/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696)
+- [X] [**GraphQL — Common vulnerabilities & how to exploit them**](https://medium.com/@the.bilal.rizwan/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696)
 - [ ] [Content-Security-Policy (CSP) Bypass Techniques](https://medium.com/bugbountywriteup/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
 - [ ] [Hacking the Web With Fiddler](https://medium.com/swlh/hacking-the-web-with-fiddler-72d026eee6bd)
 - [ ] [Bypass OTP using http header.](https://medium.com/@rapidsafeguard/bypass-otp-using-http-header-a579ace73ed2)
 - [ ] [Abusing feature to steal your tokens](https://medium.com/@rootxharsh_90844/abusing-feature-to-steal-your-tokens-f15f78cebf74)
 
 ## Bug Bounty
-- [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a)  
+- [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a) 
+- [ ] [Bug Bounty Hunting Tips #1— Always read the source code](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-1-always-read-the-source-code-f5a56ee242df)
+- [ ] [Bug Bounty Hunting Tips #6 — Simplify](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-6-simplify-e02ec2c069f2)
 - [ ] [The Hitchhiker’s Guide to Bug Bounty Hunting Throughout the Galaxy. v2](https://medium.com/@Nick_Jenkins/the-hitchhikers-guide-to-bug-bounty-hunting-throughout-the-galaxy-474ddb87ae15)
 - [ ] [BUG BOUNTY HUNTING (METHODOLOGY , TOOLKIT , TIPS & TRICKS , Blogs)](https://medium.com/bugbountywriteup/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65)
 - [ ] [**Collection Of Bug Bounty Tip-Will Be updated daily**](https://medium.com/@vignesh4303/collection-of-bug-bounty-tip-will-be-updated-daily-605911cfa248)
@@ -72,6 +74,7 @@
 - [ ] [**BugBounty types — HTML injection via email**](https://medium.com/@elberandre/bugbounty-types-html-injection-via-email-8409b6dc4d18)
 - [ ] [**Bug Bounty Hunting Tips #5 — Aim to Become World-Class in Your Niche**](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-5-aim-to-become-world-class-in-your-niche-1b030af4582)
 - [ ] [Bounty Tip : How to Push Injection through JSON/XML stubs for API](https://medium.com/bugbountywriteup/bounty-tip-how-to-push-injection-through-json-xml-stubs-for-api-699f4959fc5)
+- [ ] [HOW TO GET STARTED IN BUG BOUNTY (9+pro tips)](https://medium.com/@stokochtrubbel/how-to-get-started-in-bug-bounty-9-pro-tips-69c13f3c74c6)
 
 ### RECON
 - [ ] [Reconnaissance: a eulogy in three acts](https://medium.com/@europa_/recoinnassance-7840824b9ef2)
@@ -125,7 +128,7 @@
 - [ ] [1st Bounty Story | Rewarded 300$ (IDOR)](https://medium.com/@mdhridoy_4607/1st-bounty-story-rewarded-300-idor-bc4e1708e8e0)
 - [ ] [IDOR leads to getting Access tokens of users linked to Google Drive on Edmodo](https://medium.com/bugbountywriteup/idor-leads-to-getting-access-tokens-of-users-linked-to-google-drive-on-edmodo-3978017134bd)
 - [ ] [Automating BURP to find IDORs](https://medium.com/cyberverse/automating-burp-to-find-idors-2b3dbe9fa0b8)
-- [ ] [GraphQL IDOR leads to information disclosure](https://medium.com/@R0X4R/graphql-idor-leads-to-information-disclosure-175eb560170d)
+- [X] [**GraphQL IDOR leads to information disclosure**](https://medium.com/@R0X4R/graphql-idor-leads-to-information-disclosure-175eb560170d)
 - [ ] [Account takeover using IDOR and the misleading case of error 403.](https://medium.com/bugbountywriteup/account-takeover-using-idor-and-the-misleading-case-of-error-403-cb42c96ea310)
 - [ ] [Stories Of IDOR](https://medium.com/bugbountywriteup/stories-of-idor-4966369e6d82)
 - [ ] [Maybe the manager Is Hacker (IDOR)?](https://medium.com/@Hossam.Mesbah/maybe-the-manager-is-hacker-idor-d005f49aa0a3)
@@ -221,6 +224,7 @@
 - [ ] [How I CSRF’d My First Bounty!](https://medium.com/@rajeshranjan457/how-i-csrfd-my-first-bounty-a62b593d3f4d)
 - [ ] [How I exploit the JSON CSRF with method override technique](https://medium.com/@secureITmania/how-i-exploit-the-json-csrf-with-method-override-technique-71c0a9a7f3b0)
 - [ ] [CSRF(Cross-site Request Forgery Attack) and ways to combat it in Rails](https://medium.com/swlh/csrf-cross-site-request-forgery-attack-and-ways-to-combat-it-in-rails-7d0ae7de57d2)
+- [ ] [Cross Site Request Forgery (CSRF)](https://medium.com/@asfiyashaikh10/cross-site-request-forgery-csrf-8ce6f9ee0379)
 
 ### CRLF
 - [ ] [Cross Site Request Forgery: Techniques](https://medium.com/@onehackman/cross-site-request-forgery-techniques-19270174ea4)
@@ -269,8 +273,13 @@
 = [ ] [Hacking Banks With Race Conditions](https://medium.com/swlh/hacking-banks-with-race-conditions-2f8d55b45a4b)
 
 ### Subdomain Takeover
-- [ ] [How i bought my way to subdomain takeover on Tokopedia](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
-- [ ] [Pantheon Subdomain Takeover](https://medium.com/@halilahmad/pantheon-subdomain-takeover-154f03a47057)
+- [ ] [**How i bought my way to subdomain takeover on Tokopedia**](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
+- [ ] [**Pantheon Subdomain Takeover**](https://medium.com/@halilahmad/pantheon-subdomain-takeover-154f03a47057)
+- [ ] [**How we Hijacked 26+ Subdomains**](https://medium.com/@aishwaryakendle/how-we-hijacked-26-subdomains-9c05c94c7049)
+- [X] [**How To Setup an Automated Sub-domain Takeover Scanner for All Bug Bounty Programs in 5 Minutes**](https://medium.com/@hakluke/how-to-setup-an-automated-sub-domain-takeover-scanner-for-all-bug-bounty-programs-in-5-minutes-3562eb621db3)
+- [X] [**How I could make more then 1.700 Subdomains Takeover on Amazon S3 in few minutes**](https://medium.com/@thebuckhacker/how-i-could-make-more-then-1-700-subdomains-takeovers-on-amazon-s3-in-few-minutes-8f6b27bffe0d)
+- [X] [**How I takeover subdomain by claim unclaimed s3 bucket**](https://medium.com/@syedabuthahir/how-i-takeover-subdomain-by-claim-unclaimed-s3-bucket-81a68823af74)
+- [X] [**How Recon helped me to to find a Facebook domain takeover**](https://medium.com/@sudhanshur705/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
 
 ### HTTP Request Smuggling
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
@@ -282,9 +291,12 @@
 - [ ] [Internal Information Disclosure using Hidden NTLM Authentication](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
 - [ ] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
 - [ ] [**Simple Logic: Leads to account takeover.**](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
+- [ ] [Information Disclosure via Misconfigured AWS to AWS Bucket Takeover](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
 
 ### Misconfiguration
 - [ ] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
+- [ ] [Fun with Amazon S3— Leaks and bucket takeover attack](https://medium.com/@woj_ciech/fun-with-amazon-s3-leaks-and-bucket-takeover-attack-ddb17da1c431)
+- [ ] [AWS NS Takeover](https://medium.com/@shivsahni2/aws-ns-takeover-356d2a293bca)
 
 ### OTHERS
 - [ ] [CORS Misconfiguration Leads To Steal Sensitive Information Disclosure](https://medium.com/@amangupta566/cors-misconfiguration-leads-to-steal-sensitive-information-disclosure-fdf050b68b66)
@@ -295,6 +307,7 @@
 - [ ] [CORS Misconfiguration to Account TakeOver [Out of scope to grab items In-Scope]](https://medium.com/@mashoud1122/cors-misconfiguration-account-takeover-out-of-scope-to-grab-items-in-scope-66d9d18c7a46)
 - [ ] [Broke limited scope with a chain of bugs (tips for every rider CORS)](https://medium.com/bugbountywriteup/broke-limited-scope-with-a-chain-of-bugs-ef734ac430f5)
 - [ ] [**Fun With CORS Misconfiguration — II**](https://medium.com/@amangupta566/fun-with-cors-misconfiguration-ii-927caccfe932)
+- [ ] [Pre-domain wildcard CORS Exploitation](https://medium.com/bugbountywriteup/pre-domain-wildcard-cors-exploitation-2d6ac1d4bd30)
 - [ ] [Edmodo — IDOR to view private files of any class](https://medium.com/@rohan_x3/edmodo-idor-to-view-private-files-of-any-class-2280676c84b8)
 - [ ] [How I was able to get your facebook private friend list [Responsible Disclosure]](https://medium.com/@rajsek/how-i-was-able-to-get-your-facebook-private-friend-list-responsible-disclosure-91984606e682)
 - [ ] [Information Disclosure - WordPress CMS](https://medium.com/@shahjerry33/information-disclosure-wordpress-cms-82133480b8b3)
