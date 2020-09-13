@@ -116,13 +116,15 @@
 - [ ] [Automating Pentests for Applications with Integrity Checks using Burp Suite Custom Extension](https://www.notsosecure.com/automating-pentests-for-applications-with-integrity-checks-using-burpsuite/)
 - [ ] [**Piercing the Veal: Short Stories to Read with Friends**](https://medium.com/@d0nut/piercing-the-veal-short-stories-to-read-with-friends-4aa86d606fc5)
 - [X] [**API Hacking GraphQL**](http://ghostlulz.com/api-hacking-graphql/)
+- [ ] [GraphQL Batching Attack](https://lab.wallarm.com/graphql-batching-attack/)
 - [ ] [Making HTTP Requests](https://launchschool.com/books/http/read/making_requests)
 - [ ] [DVWA - Main Login Page - Brute Force HTTP POST Form With CSRF Tokens](https://blog.g0tmi1k.com/dvwa/login/)
+
 ### RECON
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
 - [ ] [[Tools] Visual Recon – A beginners guide](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
-- [ ] [**AQUATONE: A tool for domain flyovers**](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
-- [ ] [**AQUATONE: Now in Go**](https://michenriksen.com/blog/aquatone-now-in-go/)
+- [X] [**AQUATONE: A tool for domain flyovers**](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
+- [X] [**AQUATONE: Now in Go**](https://michenriksen.com/blog/aquatone-now-in-go/)
 - [ ] [DISCOVERING SUBDOMAINS](https://www.bugcrowd.com/blog/discovering-subdomains/)
 - [ ] [https://appsecco.com/books/subdomain-enumeration/](https://appsecco.com/books/subdomain-enumeration/)
 - [ ] [HOW TO: RECON AND CONTENT DISCOVERY](https://www.hackerone.com/blog/how-to-recon-and-content-discovery)
@@ -151,7 +153,6 @@
 - [ ] [**Subdomain enumeration**](http://10degres.net/subdomain-enumeration/)
 - [ ] [How to Find Directories in Websites Using DirBuster](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-directories-websites-using-dirbuster-0157593/)
 - [ ] [Web Reconnaissance Framework: Recon-ng](https://n0where.net/web-reconnaissance-framework-recon-ng)
-- [ ] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
 - [ ] [Subdomain Discovery - Bugcrwod Blog](https://forum.bugcrowd.com/t/subdomain-discovery/)
 - [ ] [**WAFW00F - The Web Application Firewall Fingerprinting Tool**](https://hakin9.org/wafw00f-the-web-application-firewall-fingerprinting-tool/)
 - [ ] [**ASN Lookup Tools, Strategies and Techniques**](https://securitytrails.com/blog/asn-lookup)
@@ -163,7 +164,8 @@
 - [ ] [Compilation of recon workflows](https://pentester.land/cheatsheets/2019/03/25/compilation-of-recon-workflows.html)
 - [ ] [Recon resources](https://pentester.land/cheatsheets/2019/04/15/recon-resources.html)
 - [ ] [The Art of Subdomain Enumeration](https://appsecco.com/books/subdomain-enumeration/)
-- [ ] [**Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)**](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
+- [X] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
+- [X] [**Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)**](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
 - [ ] [Recon with waybackmachine. For BugBounty!](https://www.hahwul.com/2020/03/recon-with-waybackmachine-for-bugbounty.html)
 - [ ] [Hacking Articles - Web Penetration Testing](https://www.hackingarticles.in/web-penetration-testing/)
 
@@ -228,6 +230,7 @@
 - [ ] [WordList-Compendium](https://github.com/Dormidera/WordList-Compendium)
 - [ ] [Common Web Managers Fuzz Wordlists](https://github.com/kaimi-io/web-fuzz-wordlists)
 - [ ] [OpenRedireX](https://github.com/devanshbatham/OpenRedireX)
+- [ ] [ApkUrlGrep](https://github.com/ndelphit/apkurlgrep)
 ---
 **WordLists & Payloads**
 - [X] [SecLists](https://github.com/danielmiessler/SecLists)
@@ -262,6 +265,7 @@
 
 ### Finding Race Conditions
 - [ ] [Testing for Race Conditions (OWASP-AT-010)](https://www.owasp.org/index.php/Testing_for_Race_Conditions_(OWASP-AT-010))
+- [ ] [Race Condition in Web Applications](https://lab.wallarm.com/race-condition-in-web-applications/)
 **tools**
 - [ ] [Race The Web (RTW)](https://github.com/aaronhnatiw/race-the-web)
 
@@ -269,6 +273,8 @@
 - [ ] [Open Redirects - Everything That You Should Know](https://0xnanda.github.io/Open-Redirects-Everything-That-You-Should-Know/)
 - [ ] [Open Redirect Cheat Sheet](https://pentester.land/cheatsheets/2018/11/02/open-redirect-cheatsheet.html)
 - [ ] [The real impact of an Open Redirect vulnerability](https://blog.detectify.com/2019/05/16/the-real-impact-of-an-open-redirect/)
+- [ ] [SSRF & Open Redirect Cheat Sheet](https://www.hahwul.com/p/ssrf-open-redirect-cheat-sheet.html)
+- [ ] [Open Redirect Filters](https://m0z.co/Open-Redirect-Filters/)
 
 ### Finding XXE
 - [ ] [OWASP - XML External Entity (XXE) Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
@@ -310,6 +316,8 @@
 - [ ] [https://github.com/cujanovic/SSRF-Testing](https://github.com/cujanovic/SSRF-Testing)
 **tools**
 - [ ] [SSRF Sheriff](https://github.com/teknogeek/ssrf-sheriff)
+- [ ] [Blind SSRF exploitation](https://lab.wallarm.com/blind-ssrf-exploitation/)
+- [ ] [Bypassing SSRFs like a King](https://subhajitsaha.com/bypassing-ssrfs-like-a-king/)
 
 ### Finding XSS
 - [ ] [**One XSS cheatsheet to rule them all**](https://portswigger.net/research/one-xss-cheatsheet-to-rule-them-all)
@@ -416,7 +424,8 @@
 - [ ] [HTTP response splitting exploitations and mitigations](https://blog.detectify.com/2019/06/14/http-response-splitting-exploitations-and-mitigations/)
 - [ ] [HTTP Request Smuggling (CL.TE)](https://memn0ps.github.io/2019/09/13/HTTP-Request-Smuggling-CL-TE.html)
 - [ ] [Checking HTTP Smuggling issues in 2015 - Part1](http://regilero.github.io/security/english/2015/10/04/http_smuggling_in_2015_part_one/)
-
+- [ ] [Hiding in plain sight: HTTP request smuggling](https://blog.detectify.com/2020/05/28/hiding-in-plain-sight-http-request-smuggling/)
+- [ ] [Smuggling HTTP headers through reverse proxies](https://telekomsecurity.github.io/2020/05/smuggling-http-headers-through-reverse-proxies.html)
 ### XSS Writeups
 - [ ] [Reflected XSS in graph.facebook.com leads to account takeover in IE/Edge](https://ysamm.com/?p=343)
 - [ ] [Arbitary File Upload too Stored XSS - Bug Bounty](https://m0chan.github.io/2020/02/04/Arbitary-File-Upload-Too-Stored-XSS.html)
@@ -433,6 +442,7 @@
 - [ ] [BugBounty | A Simple SSRF](https://jinone.github.io/bugbounty-a-simple-ssrf/)
 - [ ] [My First SSRF Using DNS Rebinding](https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing/)
 - [ ] [SSRF – Server Side Request Forgery Interesting Links](https://darkweblinks.org/2018/08/10/ssrf-server-side-request-forgery-interesting-links/)
+- [ ] [MY EXPENSE REPORT RESULTED IN A SERVER-SIDE REQUEST FORGERY (SSRF) ON LYFT](https://www.nahamsec.com/posts/my-expense-report-resulted-in-a-server-side-request-forgery-ssrf-on-lyft)
 
 ### CRLF Writeups
 - [ ] [CRLF injection on Twitter or why blacklists fail](https://blog.innerht.ml/twitter-crlf-injection/)
@@ -505,7 +515,7 @@
 - [ ] [**Reading Uber’s Internal Emails [Uber Bug Bounty report worth $10,000]**](https://vulners.com/pentestnepal/PENTESTNEPAL:9D60A80B4149C46A4AF06C5BDBA0EAD3)
 - [ ] [CVE-2020-10560 - OSSN Arbitrary File Read](https://techanarchy.net/blog/cve-2020-10560-ossn-arbitrary-file-read)
 - [ ] [Cross-Origin Resource Sharing CORS Misconfiguration Impact](https://hackersonlineclub.com/cross-origin-resource-sharing-cors-misconfiguration-impact/)
-- [ ] [United Airlines Mileage Plus/Points.com Information Disclosure](https://blog.docbert.org/united-airlines-information-disclosure/)
+- [X] [**United Airlines Mileage Plus/Points.com Information Disclosure**](https://blog.docbert.org/united-airlines-information-disclosure/)
 
 ## Pentesting
 - [ ] [Hacking](https://www.ethicalhackx.com/hacking/)

@@ -8,10 +8,12 @@
 - [SQL Injection](#sql-injection)
 - [XSS](#xss)    
 - [RCE](#rce)
+- [Code Injection](#code-injection)
 - [Command Injection](#command-injection)
 - [SSRF](#ssrf)
 - [CSRF](#csrf)
 - [CRLF](#crlf)
+- [LFI](#lfi)
 - [Local File Include](#lfi)
 - [Race Condition](#race-condition)
 - [Leaking Information](#leaking-information)
@@ -50,6 +52,8 @@
 - [ ] [Subdomain takeover due to unclaimed Amazon S3 bucket on a2.bime.io](https://hackerone.com/reports/121461)
 - [ ] [Subdomain takeover in http://support.scan.me pointing to Zendesk (a Snapchat acquisition)](https://hackerone.com/reports/114134)
 - [ ] [URGENT - Subdomain Takeover on media.vine.co due to unclaimed domain pointing to AWS](https://hackerone.com/reports/32825)
+- [ ] [Subdomain takeover of resources.hackerone.com](https://hackerone.com/reports/863551)
+- [ ] [Domian Takeover in [███████]](https://hackerone.com/reports/804080)
 
 ## Open Redirect
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
@@ -61,10 +65,20 @@
 - [ ] [[dev.twitter.com] XSS and Open Redirect](https://hackerone.com/reports/260744)
 - [ ] [Open redirect using theme install](https://hackerone.com/reports/101962)
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
+- [ ] [open redirect in eb9f.pivcac.prod.login.gov](https://hackerone.com/reports/798742)
 
 ## IDOR
 - [ ] [IDOR allow access to payments data of any user](https://hackerone.com/reports/751577)
 - [ ] [IDOR in marketing calendar tool](https://hackerone.com/reports/797685)
+- [ ] [IDOR to view other user folder name](https://hackerone.com/reports/333767)
+- [ ] [Missing Access Control(IDOR) To Know LinkedAccounts](https://hackerone.com/reports/152407)
+- [ ] [IDOR allow to extract all registered email](https://hackerone.com/reports/302485)
+- [ ] [IDOR on HackerOne Feedback Review](https://hackerone.com/reports/262661)
+- [ ] [[city-mobil.ru/taxiserv/] IDOR leads to driver account takeover](https://hackerone.com/reports/751281)
+- [ ] [Thailand - IDOR on www.starbuckscardth.in.th: A logged in user could view any Thailand Starbucks card balance if they knew that Starbucks card number](https://hackerone.com/reports/858662)
+- [ ] [IDOR on update user preferences](https://hackerone.com/reports/854290)
+- [ ] [Idor on the DELETE /comments/](https://hackerone.com/reports/861849)
+- [ ] [[https://city-mobil.ru/taxiserv] IDOR leads to information disclosure](https://hackerone.com/reports/746513)
 
 ## XXE
 - [ ] [XXE through injection of a payload in the XMP metadata of a JPEG file](https://hackerone.com/reports/836877)
@@ -86,6 +100,9 @@
 - [ ] [Blind SQL injection and making any profile comments from any users to disappear using "like" function (2 in 1 issues)](https://hackerone.com/reports/363815)
 - [ ] [SQL Injection https://www.olx.co.id](https://hackerone.com/reports/446293)
 - [ ] [SQL Injection on cookie parameter](https://hackerone.com/reports/761304)
+- [ ] [SQL Injection in Login Page: https://█████/█████████/login.php](https://hackerone.com/reports/447742)
+- [ ] [SQL injection at https://sea-web.gold.razer.com/ajax-get-status.php via txid parameter](https://hackerone.com/reports/819738)
+- [ ] [Open Redirection leads to redirect Users to malicious website](https://hackerone.com/reports/625546)
 
 ## XSS
 - [ ] [Potential stored Cross-Site Scripting vulnerability in Support Backend](https://hackerone.com/reports/858894)
@@ -131,6 +148,21 @@
 - [ ] [Reflected XSS in cart at hardware.shopify.com](https://hackerone.com/reports/95089)
 - [ ] [Self-XSS in posts by formatting text as code](https://hackerone.com/reports/89505)
 - [ ] [Multiple DOMXSS on Amplify Web Player](https://hackerone.com/reports/88719)
+- [ ] [XSS in $shop$.myshopify.com/admin/ via "Button Objects" in malicious app](https://hackerone.com/reports/217745)
+- [ ] [[controlsyou.quora.com] 429 Too Many Requests Error-Page XSS](https://hackerone.com/reports/189768)
+- [ ] [[GitHub Extension] Unsanitised HTML leading to XSS on GitHub.com](https://hackerone.com/reports/220494)
+- [ ] [Web Cache Deception Attack (XSS)](https://hackerone.com/reports/394016)
+- [ ] [shopifyapps.com XSS on sales channels via currency formatting](https://hackerone.com/reports/104359)
+- [ ] [Reflective XSS on wholesale.shopify.com](https://hackerone.com/reports/106293)
+- [ ] [Stored xss](https://hackerone.com/reports/415484)
+- [ ] [Stored XSS in Slack (weird, trial and error)](https://hackerone.com/reports/96337)
+- [ ] [XSS: Group search terms](https://hackerone.com/reports/396370)
+- [ ] [XSS Reflected on my_report](https://hackerone.com/reports/491023)
+- [ ] [Blind Stored XSS In "Report a Problem" on www.data.gov/issue/](https://hackerone.com/reports/615840)
+- [ ] [Reflected XSS on developers.zomato.com](https://hackerone.com/reports/418823)
+- [ ] [[wakatime.com] HTML Injection github-btn.html](https://hackerone.com/reports/248588)
+- [ ] [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689)
+- [ ] [Reflected XSS on https://www.glassdoor.com/employers/sem-dual-lp/](https://hackerone.com/reports/846338)
 
 ## RCE
 - [ ] [RCE and Complete Server Takeover of http://www.█████.starbucks.com.sg/](https://hackerone.com/reports/502758)
@@ -139,9 +171,22 @@
 - [ ] [Unsecured DB instance](https://hackerone.com/reports/189192)
 - [ ] [Completed Compromise & Source Code Disclosure via Exposed Jenkins Dashboard at https://jenkins101.udemy.com](https://hackerone.com/reports/182104)
 - [ ] [Code injection in macOS Desktop Client](https://hackerone.com/reports/633266)
+- [ ] [[Bypass] Code injection to open redirect in https://insights.newrelic.com/accounts/2521182/dashboards/1026927](https://hackerone.com/reports/727368)
+- [ ] [Code injection in https://www.semrush.com](https://hackerone.com/reports/723707)
+- [ ] [Remote Code Execution on www.semrush.com/my_reports on Logo upload](https://hackerone.com/reports/403417)
+- [ ] [RCE by command line argument injection to `gm convert` in `/edit/process?a=crop`](https://hackerone.com/reports/212696)
+- [ ] [Remote Code Execution - Unauthenticated Remote Command Injection (via Microsoft SharePoint CVE-2019-0604)](https://hackerone.com/reports/534630)
+- [ ] [Urgent: Server side template injection via Smarty template allows for RCE](https://hackerone.com/reports/164224)
+- [ ] [Mercurial can be tricked into granting authorized users access to the Python debugger](https://hackerone.com/reports/222020)
+
+
+## Code Injection
+- [ ] [Code injection possible with malformed Nextcloud Talk chat commands](https://hackerone.com/reports/851807)
 
 ## Command Injection
 - [ ] [Webshell via File Upload on ecjobs.starbucks.com.cn](https://hackerone.com/reports/506646)
+- [ ] [Command Injection (via CVE-2019-11510 and CVE-2019-11539)](https://hackerone.com/reports/680480)
+- [ ] [CSV Injection with the CVS export feature - Glossary](https://hackerone.com/reports/224291)
 
 ## SSRF
 - [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
@@ -149,6 +194,13 @@
 - [ ] [[SSRF] PDF documentconverterws](https://hackerone.com/reports/361793)
 - [ ] [SSRF on fleet.city-mobil.ru leads to local file read](https://hackerone.com/reports/748069)
 - [ ] [SSRF & LFR via on city-mobil.ru](https://hackerone.com/reports/748123)
+- [ ] [Unauthenticated blind SSRF in OAuth Jira authorization controller](https://hackerone.com/reports/398799)
+- [ ] [Blind SSRF/XSPA on dashboard.lob.com + blind code injection](https://hackerone.com/reports/517461)
+- [ ] [SSRF in notifications.server configuration](https://hackerone.com/reports/850114)
+- [ ] [Possible SSRF in email server settings(SMTP mode)](https://hackerone.com/reports/222667)
+- [ ] [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876)
+- [ ] [SSRF in https://cards-dev.twitter.com/validator](https://hackerone.com/reports/178184)
+- [ ] [SSRF vulnerability on ██████████ leaks internal IP and various sensitive information](https://hackerone.com/reports/310036)
 
 ## CSRF
 - [ ] [CSS Injection on /embed/ via bgcolor parameter leaks user's CSRF token and allows for XSS](https://hackerone.com/reports/386334)
@@ -161,6 +213,8 @@
 - [ ] [CRLF Injection on https://vpn.mixmax.com](https://hackerone.com/reports/234758)
 - [ ] [CSRF vulnerability that allows an attacker to purge plugin metric data](https://hackerone.com/reports/157270)
 - [ ] [Cross-Site Request Forgery (CSRF)](https://hackerone.com/reports/152569)
+- [ ] [CSRF on https://apps.topcoder.com/wiki/users general and email preferences](https://hackerone.com/reports/868583)
+- [ ] [Login CSRF using Twitter OAuth](https://hackerone.com/reports/2228)
 
 ## CRLF
 - [ ] [CRLF injection](https://hackerone.com/reports/446271)
@@ -170,6 +224,7 @@
 ## LFI
 - [ ] [Korea - LFI via path traversal at https://msr.istarbucks.co.kr:6443/appif/](https://hackerone.com/reports/780021)
 - [ ] [Arbitrary local system file read on open-xchange server](https://hackerone.com/reports/303744)
+- [ ] [Local files could be overwritten in GitLab, leading to remote command execution](https://hackerone.com/reports/587854)
 
 ## Race Condition
 - [ ] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)
@@ -177,12 +232,15 @@
 - [ ] [Race Condition in Flag Submission](https://hackerone.com/reports/454949)
 - [ ] [Race Condition : Exploiting the loyalty claim https://xxx.vendhq.com/loyalty/claim/email/xxxxx url and gain x amount of loyalty bonus/cash](https://hackerone.com/reports/331940)
 - [ ] [Race Condition allows to redeem multiple times gift cards which leads to free "money"](https://hackerone.com/reports/759247)
+- [ ] [Race condition in activating email resulting in infinite amount of diamonds received](https://hackerone.com/reports/509629)
 
 ## HTTP Smuggling
 - [ ] [HTTP Request Smuggling on my.stripo.email](https://hackerone.com/reports/777651)
 - [ ] [HTTP SMUGGLING EXPOSED HMAC/DOS](https://hackerone.com/reports/753939)
 - [ ] [Mass account takeovers using HTTP Request Smuggling on https://slackb.com/ to steal session cookies](https://hackerone.com/reports/737140)
 - [ ] [HTTP-Response-Splitting on v.shopify.com](https://hackerone.com/reports/106427)
+- [ ] [HTTP Request Smuggling on https://labs.data.gov](https://hackerone.com/reports/726773)
+- [ ] [Request smuggling on admin-official.line.me could lead to account takeover](https://hackerone.com/reports/740037)
 
 ## Leaking Information
 - [ ] [Arbitrary file read via the UploadsRewriter when moving and issue](https://hackerone.com/reports/827052)
@@ -191,6 +249,11 @@
 - [ ] [[www.coursera.org] Leaking password reset link on referrer header](https://hackerone.com/reports/303322)
 - [ ] [Password reset token leak on third party website via Referer header](https://hackerone.com/reports/272379)
 - [ ] [password reset token leaking allowed for ATO of an Uber account](https://hackerone.com/reports/173551)
+- [ ] [Sensitive Information Leaking Through DARPA Website. [█████████]](https://hackerone.com/reports/805027)
+- [ ] [Sensitive Information Leaking Through DoD Owned Website. [██████████]](https://hackerone.com/reports/806213)
+- [ ] [Vine all registered user Private/sensitive information disclosure .[ Ip address/phone no/email and many other informations ]](https://hackerone.com/reports/202823)
+- [ ] [ability to retrieve a user's phone-number/email for a given inviteCode](https://hackerone.com/reports/178503)
+- [ ] [Disclosure of the name of a program that has a private part with an external link](https://hackerone.com/reports/871142)
 
 ## GraphQL
 - [ ] [Email address of any user can be queried on Report Invitation GraphQL type when username is known](https://hackerone.com/reports/792927)
@@ -198,6 +261,10 @@
 - [ ] [Disabled account can still use GraphQL endpoint](https://hackerone.com/reports/608656)
 - [ ] [Confidential data of users and limited metadata of programs and reports accessible via GraphQL](https://hackerone.com/reports/489146)
 - [ ] [SQL injection in GraphQL endpoint through embedded_submission_form_uuid parameter](https://hackerone.com/reports/435066)
+- [ ] [GraphQL node interface for ActiveResource models lacks encoding for resource identifier, enabling parameter injection in Payments backend](https://hackerone.com/reports/800231)
+
+## Business Logic Errors
+- [ ] [[www.zomato.com] Tampering with Order Quantity and paying less amount then actual amount, leads to business loss](https://hackerone.com/reports/403783)
 
 ## Others
 - [ ] [Private account causes displayed through API](https://hackerone.com/reports/826005)
@@ -212,9 +279,22 @@
 - [ ] [Bypass rate limiting on /users/password (possibly site-wide rate limit bypass?)](https://hackerone.com/reports/170310)
 - [ ] [AWS S3 bucket writeable for authenticated aws users](https://hackerone.com/reports/128088)
 - [ ] [Open S3 Bucket Accessible by any Aws User](https://hackerone.com/reports/819278)
-
-## Business Logic Errors
-- [ ] [[www.zomato.com] Tampering with Order Quantity and paying less amount then actual amount, leads to business loss](https://hackerone.com/reports/403783)
+- [ ] [HTML injection in support.razer.com [IE only]](https://hackerone.com/reports/826463)
+- [ ] [Ethereum account balance manipulation](https://hackerone.com/reports/300748)
+- [ ] [ETH contract handling errors](https://hackerone.com/reports/328526)
+- [ ] [Team member with Program permission only can escalate to Admin permission](https://hackerone.com/reports/605720)
+- [ ] [Interstitial redirect bypass / open redirect in https://hackerone.com/zendesk_session](https://hackerone.com/reports/111968)
+- [ ] [Organization Takeover](https://hackerone.com/reports/809816)
+- [ ] [Organization Takeover via invitation API](https://hackerone.com/reports/835005)
+- [ ] [Bypassing one-time checkout router page (revealing payment information)](https://hackerone.com/reports/271176)
+- [ ] [Reading redacted data via hackbot's answers](https://hackerone.com/reports/247628)
+- [ ] [Null pointer dereference with send/method_missing](https://hackerone.com/reports/242354)
+- [ ] [Content (Text) Injection at https://nextcloud.com](https://hackerone.com/reports/222805)
+- [ ] [Reflected File Download in community.ubnt.com/restapi/](https://hackerone.com/reports/107960)
+- [ ] [Password Reset link hijacking via Host Header Poisoning](https://hackerone.com/reports/226659)
+- [ ] [SSLv3 POODLE Vulnerability](https://hackerone.com/reports/210331)
+- [ ] [404-response contains debug-information with all headers](https://hackerone.com/reports/792998)
+- [ ] [S3 bucket unnecessarily discloses permissions](https://hackerone.com/reports/330135)
 
 ## More Bugs
 - [ ] [Unauthenticated users can obtain information about Checklist objects with unclaimed ChecklistCheck objects](https://hackerone.com/reports/781175)
@@ -239,3 +319,9 @@
 - [ ] [Email Confirmation Bypass in myshop.myshopify.com that Leads to Full Privilege Escalation to Any Shop Owner by Taking Advantage of the Shopify SSO](https://hackerone.com/reports/791775)
 - [ ] [[Part II] Email Confirmation Bypass in myshop.myshopify.com that Leads to Full Privilege Escalation](https://hackerone.com/reports/796808)
 - [ ] [Able to Takeover Merchants Accounts Even They Have Already Setup SSO, After Bypassing the Email Confirmation](https://hackerone.com/reports/796956)
+- [ ] [misconfigured CORS let to HPP and SOP bypass](https://hackerone.com/reports/867436)
+- [ ] [CORS Misconfiguration Leads to Exposing User Data](https://hackerone.com/reports/733017)
+- [ ] [No redirect_uri in the db for web-internal clientKey leads to one-click DoS on gitter.im](https://hackerone.com/reports/702987)
+- [ ] [character limitation bypass can lead to DoS on Twitter App and 500 Internal Server Error](https://hackerone.com/reports/819088)
+- [ ] [Username restriction bypass with SSL client authentication](https://hackerone.com/reports/480928)
+- [ ] [Bypassing Digits bridge origin validation](https://hackerone.com/reports/110467)

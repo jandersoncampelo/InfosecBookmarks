@@ -75,6 +75,7 @@
 - [ ] [**Bug Bounty Hunting Tips #5 — Aim to Become World-Class in Your Niche**](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-5-aim-to-become-world-class-in-your-niche-1b030af4582)
 - [ ] [Bounty Tip : How to Push Injection through JSON/XML stubs for API](https://medium.com/bugbountywriteup/bounty-tip-how-to-push-injection-through-json-xml-stubs-for-api-699f4959fc5)
 - [ ] [HOW TO GET STARTED IN BUG BOUNTY (9+pro tips)](https://medium.com/@stokochtrubbel/how-to-get-started-in-bug-bounty-9-pro-tips-69c13f3c74c6)
+- [ ] [**Bug Bounty Methodology (TTP- Tactics, Techniques, and Procedures) V 2.0**](https://medium.com/@infosecsanyam/bug-bounty-methodology-ttp-tactics-techniques-and-procedures-v-2-0-2ccd9d7eb2e2)
 
 ### RECON
 - [ ] [Reconnaissance: a eulogy in three acts](https://medium.com/@europa_/recoinnassance-7840824b9ef2)
