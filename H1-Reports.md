@@ -68,6 +68,7 @@
 - [ ] [Open redirect using theme install](https://hackerone.com/reports/101962)
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
 - [ ] [open redirect in eb9f.pivcac.prod.login.gov](https://hackerone.com/reports/798742)
+- [ ] [[cs.money] Open Redirect Leads to Account Takeover](https://hackerone.com/reports/905607)
 
 ## IDOR
 - [ ] [IDOR allow access to payments data of any user](https://hackerone.com/reports/751577)

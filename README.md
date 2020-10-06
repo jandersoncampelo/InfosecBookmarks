@@ -175,6 +175,7 @@
 - [X] [**Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)**](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
 - [ ] [Recon with waybackmachine. For BugBounty!](https://www.hahwul.com/2020/03/recon-with-waybackmachine-for-bugbounty.html)
 - [ ] [Hacking Articles - Web Penetration Testing](https://www.hackingarticles.in/web-penetration-testing/)
+- [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
 
 ### Tools
 **My Box**

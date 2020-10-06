@@ -107,7 +107,6 @@
 - [ ] [**Beginner’s Guide to recon automation.**](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
 - [ ] [OSINT Recon Great? — Unique Usernames Are Better Than Unique Passwords](https://medium.com/@curtbraz/osint-recon-great-unique-usernames-are-better-than-unique-passwords-97816aa20d37)
 - [ ] [REST framework Admin Panel bypass and how I recon for this vulnerability](https://medium.com/@hackerb0y/rest-framework-admin-panel-bypass-and-how-i-recon-for-this-vulnerability-a0ee41b01102)
-- [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
 - [ ] [**Advanced Recon Automation (Subdomains) case 1**](https://medium.com/soulsecteam/advanced-recon-automation-subdomains-case-1-9ffc4baebf70)
 - [ ] [NMAP CHEAT-SHEET (Nmap Scanning Types, Scanning Commands , NSE Scripts)](https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692)
 - [X] [**Subdomain Enumeration Tools Evaluation**](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
@@ -117,7 +116,7 @@
 - [ ] [**Recon to Sensitive Information Disclosure in Minutes**](https://medium.com/@hbothra22/recon-to-sensitive-information-disclosure-in-minutes-503fc7ccdf0b)
 - [X] [**Fuzz Faster with FFUF**](https://medium.com/quiknapp/fuzz-faster-with-ffuf-c18c031fc480)
 - [ ] [Quick Guide to Using ffuf with Burp Suite](https://medium.com/@santosomar/a-quick-guide-to-using-ffuf-with-burp-suite-713492f62242)
-
+- [ ] [**Web Application Hacking Introduction — Mapping the Application**](https://medium.com/@santhosh23mj/web-application-hacking-introduction-mapping-the-application-3686e87abafe)
 
 ### Mobile
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
@@ -288,6 +287,7 @@
 
 ### HTTP Request Smuggling
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
+- [ ] [The Powerful HTTP Request Smuggling 💪](https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142)
 
 ### Leaking Information
 - [X] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
@@ -347,7 +347,7 @@
 - [ ] [Full Account Takeover By Guessing Token In Verizon Media](https://medium.com/@ahmed2061559.aa/full-account-takeover-by-guessing-token-in-verizon-media-a389184bf5d2)
 - [ ] [Web Cache Poisoning in Postmates [$1500]](https://medium.com/@aungpyaehackeronetester/web-cache-poisoning-in-postmates-1500-a67eee4fc118)
 - [ ] [#BugBounty — Adding Money Using Response Modification](https://medium.com/@sandeepkumarsingh1902/bugbounty-adding-money-using-response-modification-334448d34251)
-- [ ] [How I Accidentally Got My First Bounty From Facebook](https://medium.com/bugbountywriteup/how-i-accidentally-got-my-first-bounty-from-facebook-facebook-bug-bounty-2020-c12bd2ad8575)
+- [X] [How I Accidentally Got My First Bounty From Facebook](https://medium.com/bugbountywriteup/how-i-accidentally-got-my-first-bounty-from-facebook-facebook-bug-bounty-2020-c12bd2ad8575)
 
 ## CTF
 - [ ] [Beginner’s Guide to CTFs](https://medium.com/bugbountywriteup/beginners-guide-to-ctfs-c934a0d7f5f9)
