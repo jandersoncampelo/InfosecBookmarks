@@ -3,6 +3,7 @@
 > Organizando os bookmarks que acumulei no Chrome
 
 - [Bug Bounty](#bug-bounty)
+    - [Methodology](#methodology)
     - [WebHacking](#webhacking)
     - [Recon](#recon)
     - [Tools](#tools)
@@ -53,6 +54,7 @@
 - [ ] [**Bug Hunting Methodology (part-1)Updated on 4-Jan-2020**](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
 - [ ] [**Bug Hunting Methodology(Part-2)**](https://blog.usejournal.com/bug-hunting-methodology-part-2-5579dac06150)
 - [ ] [GETTING STARTED – BUG BOUNTY HUNTER METHODOLOGY](https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/)
+- [ ] [THE IMPORTANCE OF NOTES & SESSION TRACKING – BUG BOUNTY HUNTER METHODOLOGY](https://www.bugcrowd.com/blog/the-importance-of-notes-session-tracking-bug-bounty-hunter-methodology/)
 - [ ] [Bug Bounty Methodology (Methodology, Toolkit, Tips & Tricks, Blogs) V 1.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-methodology-toolkit-tips-tricks-blogs-v-1-0-by-sanyam-chawla/)
 - [ ] [Bug Bounty Methodology (TTP- Tactics,Techniques and Procedures) V 2.0 | By Sanyam Chawla](https://eforensicsmag.com/bug-bounty-methodology-ttp-tacticstechniques-and-procedures-v-2-0/)
 - [ ] [**Resources-for-Beginner-Bug-Bounty-Hunters**](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
@@ -91,6 +93,11 @@
 - [ ] [BUGCROWD - OWASP Bug Bounties: Getting Started & Discussion](https://forum.bugcrowd.com/t/owasp-bug-bounties-getting-started-discussion/1703)
 - [ ] [BUGCROWD - Common Assessment Tool Cheatsheets](https://forum.bugcrowd.com/t/common-assessment-tool-cheatsheets/502)
 - [ ] [5 Tips Bug Bounty Programs *Want* You to Know About](https://medium.com/@d0nut/5-tips-bug-bounty-programs-want-you-to-know-about-544d29888aeb)
+- [ ] [**Guide to Bug Bounty Hunting**](https://github.com/bobby-lin/bug-bounty-guide)
+- [ ] [Bug Bounty - Beginner's guide](https://medium.com/@zonduu/bug-bounty-beginners-guide-683e9d567b9f)
+
+### Methodology
+- [ ] [Bug Bounty Methodology (TTP- Tactics, Techniques, and Procedures) V 2.0](https://medium.com/@infosecsanyam/bug-bounty-methodology-ttp-tactics-techniques-and-procedures-v-2-0-2ccd9d7eb2e2)
 
 ### WebHacking
 - [ ] [**Top 10 web hacking techniques of 2019**](https://portswigger.net/research/top-10-web-hacking-techniques-of-2019)
@@ -175,7 +182,7 @@
 - [X] [Aquatone](https://github.com/michenriksen/aquatone)
 - [X] [Amass](https://github.com/OWASP/Amass)
 - [ ] [ASN Lookup](https://github.com/yassineaboukir/Asnlookup)
-- [ ] [FFUF](https://github.com/ffuf/ffuf)
+- [X] [FFUF](https://github.com/ffuf/ffuf)
 - [ ] [Sublert](https://github.com/yassineaboukir/sublert)
 - [X] [Findomain](https://github.com/Edu4rdSHL/findomain)
 - [X] [Subfinder](https://github.com/projectdiscovery/subfinder)
@@ -199,14 +206,14 @@
 - [ ] [waybackrobots.py](https://gist.github.com/mhmdiaa/2742c5e147d49a804b408bfed3d32d07)
 - [ ] [waybackurls.py](https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050)
 - [ ] [getallurls (gau)](https://github.com/lc/gau#installation)
+- [ ] [cloud_enum](https://github.com/initstring/cloud_enum)
 **Others**
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [X] [Sn1per](https://github.com/1N3/Sn1per)
 - [X] [Lazy Recon](https://github.com/capt-meelo/LazyRecon)
 - [ ] [Rock-ON (A One-Shoot Killer)](https://github.com/SilverPoision/Rock-ON)
 - [ ] [Final Recon](https://github.com/thewhiteh4t/FinalRecon)
-- [ ] [TotalRecon](https://github.com/vitalysim/totalrecon)
-- [ ] [RED HAWK](https://github.com/Tuhinshubhra/RED_HAWK)
+- [ ] [TotalRecon](https:links//github.com/Tuhinshubhra/RED_HAWK)
 - [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
 - [ ] [Recon My Way](https://github.com/ehsahil/recon-my-way)
 - [ ] [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/README.en.md)
@@ -313,6 +320,7 @@
 - [ ] [From SSRF to Port Scanner](https://blog.cobalt.io/from-ssrf-to-port-scanner-3e8ef5921fbf)
 - [ ] [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
 - [ ] [P4 to P2 - The story of one blind SSRF](https://mike-n1.github.io/SSRF_P4toP2)
+- [ ] [Server Side Request Forgery — SSRF](https://medium.com/bugbountywriteup/server-side-request-forgery-ssrf-f62235a2c151)
 - [ ] [https://github.com/cujanovic/SSRF-Testing](https://github.com/cujanovic/SSRF-Testing)
 **tools**
 - [ ] [SSRF Sheriff](https://github.com/teknogeek/ssrf-sheriff)
@@ -329,6 +337,8 @@
 - [ ] [XSS in Limited Input Formats](https://brutelogic.com.br/blog/xss-limited-input-formats/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [ ] [Location Based Payloads – Part III](https://brutelogic.com.br/blog/location-based-payloads-part-iii/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [ ] [Extended XSS Searcher and Finder - scans for different types of XSS on a list of URLs.](https://hakin9.org/extended-xss-searcher-and-finder-scans-for-different-types-of-xss-on-a-list-of-urls/)
+- [ ] ['>">123\"](https://blog.blackfan.ru/2017/09/devtwittercom-xss.html)
+
 **tools**
 
 ### Finding CSRF
@@ -336,6 +346,7 @@
 - [ ] [CORS CSRF](https://github.com/graphql-python/graphene-django/wiki/CORS-CSRF)
 - [ ] [ENTENDENDO A VULNERABILIDADE CSRF](https://www.xlabs.com.br/blog/entendendo-a-vulnerabilidade-csrf/)
 - [ ] [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
+- [ ] [Bug Bounty: Let’s Bypass an entire Web App’s CSRF protection](https://medium.com/bugbountywriteup/bug-bounty-lets-bypass-an-entire-web-app-s-csrf-protection-friend-link-b69c43e9dcf7)
 
 ### Finding CRLF
 - [ ] [CRLF Injection Define](https://hackersonlineclub.com/crlf-injection/)
@@ -376,6 +387,8 @@
 - [ ] [From checkra1n to Frida: iOS App Pentesting Quickstart on iOS 13](https://spaceraccoon.dev/from-checkra1n-to-frida-ios-app-pentesting-quickstart-on-ios-13)
 - [ ] [How Facebook-Research app works](https://ivrodriguez.com/how-facebook-research-app-works/)
 - [ ] [Intercepting HTTP and HTTPS / SSL Mоbile traffic using Burp Suite.](https://www.hackingloops.com/intercepting-mobile-traffic-using-burp-suite/)
+- [ ] [How to bypass Android certificate pinning and intercept SSL traffic
+](https://vavkamil.cz/2019/09/15/how-to-bypass-android-certificate-pinning-and-intercept-ssl-traffic/)
 
 **Mobile Tools**
 - [FRIDA.RE](https://frida.re/docs/home/)
@@ -391,9 +404,10 @@
 ## API Test
 - [ ] [31-days-of-API-Security-Tips](https://github.com/smodnix/31-days-of-API-Security-Tips)
 - [ ] [A Deep Dive On The Most Critical API Vulnerability — BOLA (Broken Object Level Authorization)](https://medium.com/@inonst/a-deep-dive-on-the-most-critical-api-vulnerability-bola-1342224ec3f2)
-- [ ] [API Testing Tutorial: Learn in 10 minutes!](https://www.guru99.com/api-testing.html)
+- [ ] [**API Testing Tutorial: Learn in 10 minutes!**](https://www.guru99.com/api-testing.html)
 - [ ] [API DOCS takeover on Readme.io](https://telegra.ph/API-DOCS-takeover-on-Readmeio-03-19)
 - [ ] [**API-Security-Checklist**](https://github.com/shieldfy/API-Security-Checklist)
+- [ ] [API Enumeration with RedTeam Security’s Tool: pURL](https://www.redteamsecure.com/blog/api-enumeration-with-redteam-securitys-tool-purl/)
 
 ## Labs
 - [Web Security Academy](https://portswigger.net/web-security)
@@ -436,6 +450,7 @@
 ### CSRF Writeups
 - [X] [Google Bug Bounty: CSRF in learndigital.withgoogle.com](https://santuysec.com/2020/01/21/google-bug-bounty-csrf-in-learndigital-withgoogle-com/)
 - [ ] [GoodSAM App – CSRF/Stored XSS Chain Full Disclosure](https://blog.jameshemmings.co.uk/2017/07/17/goodsam-csrfxss-chain-full-disclosure/)
+- [ ] [Account Takeover via CSRF](https://medium.com/bugbountywriteup/account-takeover-via-csrf-78add8c99526)
 
 ### SSRF Writeups
 - [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
@@ -481,6 +496,7 @@
 - [ ] [Advisory | Seagate Central Storage Remote Code Execution 0day](https://pentest.blog/advisory-seagate-central-storage-remote-code-execution/)
 - [ ] [Cacti v1.2.8 authenticated Remote Code Execution (CVE-2020-8813)](https://shells.systems/cacti-v1-2-8-authenticated-remote-code-execution-cve-2020-8813/)
 - [ ] [HTML to PDF converter bug leads to RCE in Facebook server.](https://ysamm.com/?p=280)
+- [ ] [#Instagram_RCE: Code Execution Vulnerability in Instagram App for Android and iOS](https://research.checkpoint.com/2020/instagram_rce-code-execution-vulnerability-in-instagram-app-for-android-and-ios/amp/?__twitter_impression=true)
 
 ### LFI Writeups
 - [ ] [LOCAL FILE READ VIA XSS IN DYNAMICALLY GENERATED PDF](https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html)
@@ -562,6 +578,7 @@
 - [ ] [Offensive Security Bookmarks](https://jivoi.github.io/2015/07/03/offensive-security-bookmarks/)
 - [ ] [Zero to OSCP Hero - PWK Course - Week 1](https://www.pathtoroot.net/l/zero-to-oscp-hero-pwk-course-week-1/)
 - [ ] [offensive cheatsheet](https://0xsp.com/offensive/offensive-cheatsheet)
+- [ ] [AWAE/OSWE](https://github.com/timip/OSWE)
 
 ## HackTheBox
 - [ ] [Forest - Hack The Box](https://snowscan.io/htb-writeup-forest/#)

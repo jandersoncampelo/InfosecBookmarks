@@ -20,6 +20,7 @@
         - [HTTP Request Smuggling](#http-request-smuggling)
         - [Leaking Information](#leaking-information)
         - [Misconfiguration](#misconfiguration)
+        - [Others](#others)
 - [CTF](#ctf)
 - [Pentesting](#pentesting)
 - [Certifications](#certifications)
@@ -41,7 +42,7 @@
 - [ ] [Abusing feature to steal your tokens](https://medium.com/@rootxharsh_90844/abusing-feature-to-steal-your-tokens-f15f78cebf74)
 
 ## Bug Bounty
-- [ ] [Getting started in Bug Bounty](https://medium.com/@ehsahil/getting-started-in-bug-bounty-7052da28445a) 
+- [ ] [Getting started in Bug Bounty](https://medium.com/inbughunters/getting-started-in-bug-bounty-7052da28445a) 
 - [ ] [Bug Bounty Hunting Tips #1— Always read the source code](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-1-always-read-the-source-code-f5a56ee242df)
 - [ ] [Bug Bounty Hunting Tips #6 — Simplify](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-6-simplify-e02ec2c069f2)
 - [ ] [The Hitchhiker’s Guide to Bug Bounty Hunting Throughout the Galaxy. v2](https://medium.com/@Nick_Jenkins/the-hitchhikers-guide-to-bug-bounty-hunting-throughout-the-galaxy-474ddb87ae15)
@@ -100,7 +101,7 @@
 - [ ] [Gathering domains/subdomains with IPRanges of organization](https://medium.com/@arbazhussain/gathering-domains-subdomains-with-ipranges-of-organization-49362d8a1271)
 - [ ] [“Practical recon techniques for bug hunters & pen testers” at LevelUp 0x02](https://blog.appsecco.com/practical-recon-techniques-for-bug-hunters-pen-testers-at-levelup-0x02-b72c15641972)
 - [ ] [How “Recon” helped Samsung protect their production repositories of SamsungTv, eCommerce / eStores](https://blog.usejournal.com/how-recon-helped-samsung-protect-their-production-repositories-of-samsungtv-ecommerce-estores-4c51d6ec4fdd)
-- [ ] [Recon Everything](https://medium.com/@maverickNerd/recon-everything-48aafbb8987)
+- [ ] [Recon Everything](https://medium.com/bugbountywriteup/recon-everything-48aafbb8987)
 - [ ] [Recon As You Owns It | Cyberverse](https://medium.com/cyberverse/recon-like-you-owns-it-190175c81c42)
 - [ ] [How to Hack Your Neighbor with a Post-It Note, Part 1 (Performing Recon)](https://medium.com/@NullByteWht/how-to-hack-your-neighbor-with-a-post-it-note-part-1-performing-recon-5e9aea5fe1e5)
 - [ ] [**Beginner’s Guide to recon automation.**](https://medium.com/bugbountywriteup/beginners-guide-to-recon-automation-f95b317c6dbb)
@@ -114,6 +115,9 @@
 - [ ] [Discovering The Hidden Web](https://medium.com/bugbountywriteup/discovering-the-hidden-web-638a947361ad)
 - [X] [**From Recon to P1 (Critical) — An Easy Win**](https://medium.com/@hbothra22/from-recon-to-p1-critical-an-easy-win-6ca93d5b6e6d)
 - [ ] [**Recon to Sensitive Information Disclosure in Minutes**](https://medium.com/@hbothra22/recon-to-sensitive-information-disclosure-in-minutes-503fc7ccdf0b)
+- [X] [**Fuzz Faster with FFUF**](https://medium.com/quiknapp/fuzz-faster-with-ffuf-c18c031fc480)
+- [ ] [Quick Guide to Using ffuf with Burp Suite](https://medium.com/@santosomar/a-quick-guide-to-using-ffuf-with-burp-suite-713492f62242)
+
 
 ### Mobile
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
@@ -295,6 +299,8 @@
 - [X] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
 - [X] [*Simple Logic: Leads to account takeover.*](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
 - [X] [**Information Disclosure via Misconfigured AWS to AWS Bucket Takeover**](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
+- [X] [**FFUF and my first bounty**](https://medium.com/bugbountywriteup/my-first-bug-bounty-21d3203ffdb0)
+- [X] [**Private Dashboards were accessible by other Admins in Analytics Dashboard**](https://medium.com/@rohitcoder/private-dashboards-were-accessible-by-other-admins-in-analytics-dashboard-558010a379ab)
 
 ### Misconfiguration
 - [ ] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
@@ -341,6 +347,7 @@
 - [ ] [Full Account Takeover By Guessing Token In Verizon Media](https://medium.com/@ahmed2061559.aa/full-account-takeover-by-guessing-token-in-verizon-media-a389184bf5d2)
 - [ ] [Web Cache Poisoning in Postmates [$1500]](https://medium.com/@aungpyaehackeronetester/web-cache-poisoning-in-postmates-1500-a67eee4fc118)
 - [ ] [#BugBounty — Adding Money Using Response Modification](https://medium.com/@sandeepkumarsingh1902/bugbounty-adding-money-using-response-modification-334448d34251)
+- [ ] [How I Accidentally Got My First Bounty From Facebook](https://medium.com/bugbountywriteup/how-i-accidentally-got-my-first-bounty-from-facebook-facebook-bug-bounty-2020-c12bd2ad8575)
 
 ## CTF
 - [ ] [Beginner’s Guide to CTFs](https://medium.com/bugbountywriteup/beginners-guide-to-ctfs-c934a0d7f5f9)

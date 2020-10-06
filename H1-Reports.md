@@ -14,6 +14,8 @@
 - [CSRF](#csrf)
 - [CRLF](#crlf)
 - [LFI](#lfi)
+- [Race Condition](#race-condition)
+- [HTTP Smuggling](#http-smuggling)
 - [Local File Include](#lfi)
 - [Race Condition](#race-condition)
 - [Leaking Information](#leaking-information)
@@ -163,6 +165,8 @@
 - [ ] [[wakatime.com] HTML Injection github-btn.html](https://hackerone.com/reports/248588)
 - [ ] [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689)
 - [ ] [Reflected XSS on https://www.glassdoor.com/employers/sem-dual-lp/](https://hackerone.com/reports/846338)
+- [ ] [**[dev.twitter.com] XSS and Open Redirect**](https://hackerone.com/reports/260744)
+- [ ] [**Reflected XSS on www.hackerone.com via Wistia embed code**](https://hackerone.com/reports/986386)
 
 ## RCE
 - [ ] [RCE and Complete Server Takeover of http://www.█████.starbucks.com.sg/](https://hackerone.com/reports/502758)
@@ -241,6 +245,7 @@
 - [ ] [HTTP-Response-Splitting on v.shopify.com](https://hackerone.com/reports/106427)
 - [ ] [HTTP Request Smuggling on https://labs.data.gov](https://hackerone.com/reports/726773)
 - [ ] [Request smuggling on admin-official.line.me could lead to account takeover](https://hackerone.com/reports/740037)
+- [ ] [Multiple HTTP Smuggling reports](https://hackerone.com/reports/648434)
 
 ## Leaking Information
 - [ ] [Arbitrary file read via the UploadsRewriter when moving and issue](https://hackerone.com/reports/827052)
