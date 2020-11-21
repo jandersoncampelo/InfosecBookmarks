@@ -26,6 +26,7 @@
 - [Certifications](#certifications)
 - [Linux](#linux)
 - [Hackthebox Writeups](#hackthebox-writeups)
+- [Forensic](#forensic)
 
 ## Web
 - [ ] [Entendendo o CORS — Parte 1](https://medium.com/@alexandremjacques/entendendo-o-cors-parte-8331d0a777e1)
@@ -35,8 +36,9 @@
 - [ ] [Hacking It Out: When CORS won’t let you be great](https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646)
 - [ ] [Think Outside the Scope: Advanced CORS Exploitation Techniques](https://medium.com/bugbountywriteup/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397)
 - [ ] [**A Noob Guide to setup your Own OOB DNS Server**](https://medium.com/@spade.com/a-noob-guide-to-setup-your-own-oob-dns-server-870d9e05b54a)
-- [X] [**GraphQL — Common vulnerabilities & how to exploit them**](https://medium.com/@the.bilal.rizwan/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696)
-- [ ] [Content-Security-Policy (CSP) Bypass Techniques](https://medium.com/bugbountywriteup/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
+- [ ] [**GraphQL — Common vulnerabilities & how to exploit them**](https://medium.com/@the.bilal.rizwan/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696)
+- [ ] cat blog.atairbnb.com| wc -l
+[Content-Security-Policy (CSP) Bypass Techniques](https://medium.com/bugbountywriteup/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
 - [ ] [Hacking the Web With Fiddler](https://medium.com/swlh/hacking-the-web-with-fiddler-72d026eee6bd)
 - [ ] [Bypass OTP using http header.](https://medium.com/@rapidsafeguard/bypass-otp-using-http-header-a579ace73ed2)
 - [ ] [Abusing feature to steal your tokens](https://medium.com/@rootxharsh_90844/abusing-feature-to-steal-your-tokens-f15f78cebf74)
@@ -109,14 +111,15 @@
 - [ ] [REST framework Admin Panel bypass and how I recon for this vulnerability](https://medium.com/@hackerb0y/rest-framework-admin-panel-bypass-and-how-i-recon-for-this-vulnerability-a0ee41b01102)
 - [ ] [**Advanced Recon Automation (Subdomains) case 1**](https://medium.com/soulsecteam/advanced-recon-automation-subdomains-case-1-9ffc4baebf70)
 - [ ] [NMAP CHEAT-SHEET (Nmap Scanning Types, Scanning Commands , NSE Scripts)](https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692)
-- [X] [**Subdomain Enumeration Tools Evaluation**](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
-- [X] [**Shodan, entre banners e filtros**](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
+- [ ] [**Subdomain Enumeration Tools Evaluation**](https://medium.com/@ricardoiramar/subdomain-enumeration-tools-evaluation-57d4ec02d69e)
+- [ ] [**Shodan, entre banners e filtros**](https://medium.com/@shskull/shodan-entre-banners-e-filtros-da0ebb580cc)
 - [ ] [Discovering The Hidden Web](https://medium.com/bugbountywriteup/discovering-the-hidden-web-638a947361ad)
-- [X] [**From Recon to P1 (Critical) — An Easy Win**](https://medium.com/@hbothra22/from-recon-to-p1-critical-an-easy-win-6ca93d5b6e6d)
-- [ ] [**Recon to Sensitive Information Disclosure in Minutes**](https://medium.com/@hbothra22/recon-to-sensitive-information-disclosure-in-minutes-503fc7ccdf0b)
-- [X] [**Fuzz Faster with FFUF**](https://medium.com/quiknapp/fuzz-faster-with-ffuf-c18c031fc480)
+- [ ] [**From Recon to P1 (Critical) — An Easy Win**](https://medium.com/@hbothra22/from-recon-to-p1-critical-an-easy-win-6ca93d5b6e6d)
+- [X] [**Recon to Sensitive Information Disclosure in Minutes**](https://medium.com/@hbothra22/recon-to-sensitive-information-disclosure-in-minutes-503fc7ccdf0b)
+- [ ] [**Fuzz Faster with FFUF**](https://medium.com/quiknapp/fuzz-faster-with-ffuf-c18c031fc480)
 - [ ] [Quick Guide to Using ffuf with Burp Suite](https://medium.com/@santosomar/a-quick-guide-to-using-ffuf-with-burp-suite-713492f62242)
 - [ ] [**Web Application Hacking Introduction — Mapping the Application**](https://medium.com/@santhosh23mj/web-application-hacking-introduction-mapping-the-application-3686e87abafe)
+- [ ] [**Spend more time doing recon, you’ll find more BUGS.**](https://medium.com/@vedanttekale20/spend-more-time-doing-recon-youll-get-more-bugs-e7ffd5bf9202)
 
 ### Mobile
 - [ ] [Full Account Takeover (Android Application)](https://medium.com/@vbharad/full-account-takeover-android-application-78fa922f78c5)
@@ -132,7 +135,7 @@
 - [ ] [1st Bounty Story | Rewarded 300$ (IDOR)](https://medium.com/@mdhridoy_4607/1st-bounty-story-rewarded-300-idor-bc4e1708e8e0)
 - [ ] [IDOR leads to getting Access tokens of users linked to Google Drive on Edmodo](https://medium.com/bugbountywriteup/idor-leads-to-getting-access-tokens-of-users-linked-to-google-drive-on-edmodo-3978017134bd)
 - [ ] [Automating BURP to find IDORs](https://medium.com/cyberverse/automating-burp-to-find-idors-2b3dbe9fa0b8)
-- [X] [**GraphQL IDOR leads to information disclosure**](https://medium.com/@R0X4R/graphql-idor-leads-to-information-disclosure-175eb560170d)
+- [ ] [**GraphQL IDOR leads to information disclosure**](https://medium.com/@R0X4R/graphql-idor-leads-to-information-disclosure-175eb560170d)
 - [ ] [Account takeover using IDOR and the misleading case of error 403.](https://medium.com/bugbountywriteup/account-takeover-using-idor-and-the-misleading-case-of-error-403-cb42c96ea310)
 - [ ] [Stories Of IDOR](https://medium.com/bugbountywriteup/stories-of-idor-4966369e6d82)
 - [ ] [Maybe the manager Is Hacker (IDOR)?](https://medium.com/@Hossam.Mesbah/maybe-the-manager-is-hacker-idor-d005f49aa0a3)
@@ -272,6 +275,7 @@
 - [ ] [Magento Web Exploit Case Studies](https://medium.com/magebit/magento-web-exploit-case-studies-bac57add8c0e)
 - [ ] [From Recon to Optimizing RCE Results - Simple Story with One of the Biggest ICT Company in the World](https://medium.com/bugbountywriteup/from-recon-to-optimizing-rce-results-simple-story-with-one-of-the-biggest-ict-company-in-the-ea710bca487a)
 - [ ] [**Data exfiltration over DNS with Remote Code Execution**](https://medium.com/bugbountywriteup/data-exfiltration-over-dns-with-remote-code-execution-22c2b228e373)
+- [ ] [Arbitrary code execution on Facebook for Android through download feature](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
 
 ### Race Conditions
 = [ ] [Hacking Banks With Race Conditions](https://medium.com/swlh/hacking-banks-with-race-conditions-2f8d55b45a4b)
@@ -280,27 +284,27 @@
 - [ ] [**How i bought my way to subdomain takeover on Tokopedia**](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
 - [ ] [**Pantheon Subdomain Takeover**](https://medium.com/@halilahmad/pantheon-subdomain-takeover-154f03a47057)
 - [ ] [**How we Hijacked 26+ Subdomains**](https://medium.com/@aishwaryakendle/how-we-hijacked-26-subdomains-9c05c94c7049)
-- [X] [**How To Setup an Automated Sub-domain Takeover Scanner for All Bug Bounty Programs in 5 Minutes**](https://medium.com/@hakluke/how-to-setup-an-automated-sub-domain-takeover-scanner-for-all-bug-bounty-programs-in-5-minutes-3562eb621db3)
-- [X] [**How I could make more then 1.700 Subdomains Takeover on Amazon S3 in few minutes**](https://medium.com/@thebuckhacker/how-i-could-make-more-then-1-700-subdomains-takeovers-on-amazon-s3-in-few-minutes-8f6b27bffe0d)
-- [X] [**How I takeover subdomain by claim unclaimed s3 bucket**](https://medium.com/@syedabuthahir/how-i-takeover-subdomain-by-claim-unclaimed-s3-bucket-81a68823af74)
-- [X] [**How Recon helped me to to find a Facebook domain takeover**](https://medium.com/@sudhanshur705/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
+- [ ] [**How To Setup an Automated Sub-domain Takeover Scanner for All Bug Bounty Programs in 5 Minutes**](https://medium.com/@hakluke/how-to-setup-an-automated-sub-domain-takeover-scanner-for-all-bug-bounty-programs-in-5-minutes-3562eb621db3)
+- [ ] [**How I could make more then 1.700 Subdomains Takeover on Amazon S3 in few minutes**](https://medium.com/@thebuckhacker/how-i-could-make-more-then-1-700-subdomains-takeovers-on-amazon-s3-in-few-minutes-8f6b27bffe0d)
+- [ ] [**How I takeover subdomain by claim unclaimed s3 bucket**](https://medium.com/@syedabuthahir/how-i-takeover-subdomain-by-claim-unclaimed-s3-bucket-81a68823af74)
+- [ ] [**How Recon helped me to to find a Facebook domain takeover**](https://medium.com/@sudhanshur705/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
 
 ### HTTP Request Smuggling
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
 - [ ] [The Powerful HTTP Request Smuggling 💪](https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142)
 
 ### Leaking Information
-- [X] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
-- [X] [**Easily leaking passenger information on an Airline**](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
-- [X] [*Page Admin Disclosure via an Upgraded Page Post*](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
-- [X] [*Page Admin Disclosure | Facebook Bug Bounty 2019*](https://medium.com/bugbountywriteup/page-admin-disclosure-facebook-bug-bounty-2019-ee9920e768eb)
-- [X] [*Disclosure of Facebook Page Admin due to insecure tagging behavior*](https://medium.com/bugbountywriteup/disclosure-of-facebook-page-admin-due-to-insecure-tagging-behavior-24ff09de5c29)
-- [X] [*Internal Information Disclosure using Hidden NTLM Authentication*](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
-- [X] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
-- [X] [*Simple Logic: Leads to account takeover.*](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
-- [X] [**Information Disclosure via Misconfigured AWS to AWS Bucket Takeover**](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
-- [X] [**FFUF and my first bounty**](https://medium.com/bugbountywriteup/my-first-bug-bounty-21d3203ffdb0)
-- [X] [**Private Dashboards were accessible by other Admins in Analytics Dashboard**](https://medium.com/@rohitcoder/private-dashboards-were-accessible-by-other-admins-in-analytics-dashboard-558010a379ab)
+- [ ] [How I get my first SWAG from SIDN (Sensitive Data Expose)](https://medium.com/@mehedi1194/how-i-get-my-first-swag-from-sidn-sensitive-data-expose-fc8e202fef85)
+- [ ] [**Easily leaking passenger information on an Airline**](https://medium.com/@zseano/easily-leaking-passenger-information-on-an-airline-18f99b22cf95)
+- [ ] [*Page Admin Disclosure via an Upgraded Page Post*](https://medium.com/@timpaxerror/page-admin-disclosure-via-an-upgraded-page-post-57863fb02c50)
+- [ ] [*Page Admin Disclosure | Facebook Bug Bounty 2019*](https://medium.com/bugbountywriteup/page-admin-disclosure-facebook-bug-bounty-2019-ee9920e768eb)
+- [ ] [*Disclosure of Facebook Page Admin due to insecure tagging behavior*](https://medium.com/bugbountywriteup/disclosure-of-facebook-page-admin-due-to-insecure-tagging-behavior-24ff09de5c29)
+- [ ] [*Internal Information Disclosure using Hidden NTLM Authentication*](https://medium.com/@m8r0wn/internal-information-disclosure-using-hidden-ntlm-authentication-18de17675666)
+- [ ] [**API secret key Leakage leads to disclosure of Employee’s Information**](https://medium.com/@spade.com/api-secret-key-leakage-leads-to-disclosure-of-employees-information-5ca4ce17e1ce)
+- [ ] [*Simple Logic: Leads to account takeover.*](https://medium.com/bugbountywriteup/simple-logic-leads-to-account-takeover-63fec69e88b7)
+- [ ] [**Information Disclosure via Misconfigured AWS to AWS Bucket Takeover**](https://medium.com/@pratyush1337/information-disclosure-via-misconfigured-aws-to-aws-bucket-takeover-6a6a66470d0e)
+- [ ] [**FFUF and my first bounty**](https://medium.com/bugbountywriteup/my-first-bug-bounty-21d3203ffdb0)
+- [ ] [**Private Dashboards were accessible by other Admins in Analytics Dashboard**](https://medium.com/@rohitcoder/private-dashboards-were-accessible-by-other-admins-in-analytics-dashboard-558010a379ab)
 
 ### Misconfiguration
 - [ ] [**How I earned $1,500 in just 15 mins due to Amazon S3 bucket misconfiguration?**](https://medium.com/@protector47/how-i-earned-1-500-in-just-15-mins-due-to-amazon-s3-bucket-misconfiguration-953b28242f95)
@@ -347,7 +351,7 @@
 - [ ] [Full Account Takeover By Guessing Token In Verizon Media](https://medium.com/@ahmed2061559.aa/full-account-takeover-by-guessing-token-in-verizon-media-a389184bf5d2)
 - [ ] [Web Cache Poisoning in Postmates [$1500]](https://medium.com/@aungpyaehackeronetester/web-cache-poisoning-in-postmates-1500-a67eee4fc118)
 - [ ] [#BugBounty — Adding Money Using Response Modification](https://medium.com/@sandeepkumarsingh1902/bugbounty-adding-money-using-response-modification-334448d34251)
-- [X] [How I Accidentally Got My First Bounty From Facebook](https://medium.com/bugbountywriteup/how-i-accidentally-got-my-first-bounty-from-facebook-facebook-bug-bounty-2020-c12bd2ad8575)
+- [ ] [How I Accidentally Got My First Bounty From Facebook](https://medium.com/bugbountywriteup/how-i-accidentally-got-my-first-bounty-from-facebook-facebook-bug-bounty-2020-c12bd2ad8575)
 
 ## CTF
 - [ ] [Beginner’s Guide to CTFs](https://medium.com/bugbountywriteup/beginners-guide-to-ctfs-c934a0d7f5f9)
@@ -375,3 +379,6 @@
 - [ ] [HacktheBox — Postman](https://medium.com/bugbountywriteup/hackthebox-postman-2f539f63aa)
 - [ ] [An OSCP journey without using METASPLOIT — HTB BASHED #1](https://medium.com/@tom.business/an-oscp-journey-without-using-metasploit-htb-bashed-1-84027e2468d6)
 - [ ] [An OSCP journey without using METASPLOIT — HTB Nibbles#2](https://medium.com/@tom.business/an-oscp-journey-without-using-metasploit-htb-nibbles-2-ab62bb706a84)
+
+# Forensic
+- [ ] [Memory Analysis For Beginners With Volatility Coreflood Trojan: Part 1](https://medium.com/bugbountywriteup/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-1-89981433eeb6)
