@@ -1,0 +1,10 @@
+events.hackerone.com
+www.hackerone.com
+api.hackerone.com
+b.ns.hackerone.com
+a.ns.hackerone.com
+support.hackerone.com
+mta-sts.forwarding.hackerone.com
+docs.hackerone.com
+mta-sts.hackerone.com
+mta-sts.managed.hackerone.com

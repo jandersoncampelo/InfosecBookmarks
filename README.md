@@ -172,7 +172,7 @@
 - [ ] [Recon resources](https://pentester.land/cheatsheets/2019/04/15/recon-resources.html)
 - [ ] [The Art of Subdomain Enumeration](https://appsecco.com/books/subdomain-enumeration/)
 - [ ] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
-- [ ] [**Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)**](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
+- [X] [**Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)**](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
 - [ ] [Recon with waybackmachine. For BugBounty!](https://www.hahwul.com/2020/03/recon-with-waybackmachine-for-bugbounty.html)
 - [ ] [Hacking Articles - Web Penetration Testing](https://www.hackingarticles.in/web-penetration-testing/)
 - [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
@@ -215,7 +215,8 @@
 - [ ] [GitDorker](https://github.com/obheda12/GitDorker)
 - [ ] [Github-Search](https://github.com/gwen001/github-search)
 - [ ] [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
-
+- [ ] [Galer](https://github.com/dwisiswant0/galer)
+- [ ] [UrlHunter](https://github.com/utkusen/urlhunter)
 **Others**
 - [ ] [AutoRecon](https://github.com/JoshuaMart/AutoRecon)
 - [ ] [Sn1per](https://github.com/1N3/Sn1per)
@@ -226,6 +227,8 @@
 - [ ] [recon.sh](https://github.com/jobertabma/recon.sh)
 - [ ] [Recon My Way](https://github.com/ehsahil/recon-my-way)
 - [ ] [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/README.en.md)
+- [ ] [0x0p1n3r](https://github.com/z3dc0ps/0x0p1n3r)
+- [ ] [R3C0Nizer](https://github.com/Anon-Artist/R3C0Nizer/tree/main/src)
 ---
 - [ ] [Knock](https://github.com/guelfoweb/knock)
 - [ ] [Sudomy](https://github.com/Screetsec/Sudomy)
@@ -256,6 +259,7 @@
 ### Awesome Lists
 - [Awesome Bug Bounty](https://github.com/djadmin/awesome-bug-bounty)
 - [awesome-google-vrp-writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups)
+- [AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty)
 
 ## Bugs
 ### Finding Subdomain Takeover
@@ -461,7 +465,7 @@
 - [ ] [Google Bug Bounty: CSRF in learndigital.withgoogle.com](https://santuysec.com/2020/01/21/google-bug-bounty-csrf-in-learndigital-withgoogle-com/)
 - [ ] [GoodSAM App – CSRF/Stored XSS Chain Full Disclosure](https://blog.jameshemmings.co.uk/2017/07/17/goodsam-csrfxss-chain-full-disclosure/)
 - [ ] [Account Takeover via CSRF](https://medium.com/bugbountywriteup/account-takeover-via-csrf-78add8c99526)
-
+- [ ] [SITE WIDE CSRF ON GLASSDOOR](https://blog.witcoat.com/2020/12/03/site-wide-csrf-on-glassdoor/)
 ### SSRF Writeups
 - [ ] [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-through-ssrf-in-javascript/)
 - [ ] [BugBounty | A Simple SSRF](https://jinone.github.io/bugbounty-a-simple-ssrf/)
@@ -575,7 +579,7 @@
 - [ ] [Análise forense – Obtendo URLs visitadas no pagefile.sys](https://mundotecnologico.net/2019/08/29/analise-forense-obtendo-urls-visitadas-no-pagefile-sys/)
 
 ## Reverse Engineering
-
+- [ ] [malware-gems](https://github.com/0x4143/malware-gems)
 ## Certifications
 - [ ] [CISSP vs CEH? Which IT Security Certifications are More Valuable?](https://hakin9.org/cissp-vs-ceh/)
 - [ ] [Try Harder! My Penetration Testing with Kali Linux OSCP Review and course/lab experience — My OSCP Review | by Jason Bernier](https://hakin9.org/try-harder-my-penetration-testing-with-kali-linux-oscp-review-and-courselab-experience-my-oscp-review-by-jason-bernier/)
@@ -591,6 +595,7 @@
 - [ ] [AWAE/OSWE](https://github.com/timip/OSWE)
 - [ ] [OSCP Cheatsheet](https://github.com/CountablyInfinite/oscp_cheatsheet)
 - [ ] [AWAE (OSWE) preparation](https://hackmd.io/@Chivato/Hyflsx0ZI#AWAE-OSWE-preparation)
+
 ## HackTheBox
 - [ ] [Forest - Hack The Box](https://snowscan.io/htb-writeup-forest/#)
 - [ ] [HTB: Forest](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)

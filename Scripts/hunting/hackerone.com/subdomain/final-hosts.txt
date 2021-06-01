@@ -1,0 +1,15 @@
+https://mta-sts.hackerone.com
+https://www.hackerone.com
+https://api.hackerone.com
+https://mta-sts.managed.hackerone.com
+https://docs.hackerone.com
+http://www.hackerone.com
+http://mta-sts.hackerone.com
+http://api.hackerone.com
+https://support.hackerone.com
+https://mta-sts.forwarding.hackerone.com
+http://mta-sts.managed.hackerone.com
+http://support.hackerone.com
+http://mta-sts.forwarding.hackerone.com
+http://docs.hackerone.com
+http://events.hackerone.com

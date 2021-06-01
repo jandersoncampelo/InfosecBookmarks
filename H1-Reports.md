@@ -56,7 +56,7 @@
 - [ ] [URGENT - Subdomain Takeover on media.vine.co due to unclaimed domain pointing to AWS](https://hackerone.com/reports/32825)
 - [ ] [Subdomain takeover of resources.hackerone.com](https://hackerone.com/reports/863551)
 - [ ] [Domian Takeover in [███████]](https://hackerone.com/reports/804080)
-
+- [ ] [Subdomain Takeover Via via Dangling NS records on Amazon Route 53 http://api.e2e-kops-aws-canary.test-cncf-aws.canary.k8s.io](https://hackerone.com/reports/746000)
 ## Open Redirect
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
 - [ ] [Open Redirect on Greater Asia domains](https://hackerone.com/reports/731618)
@@ -69,6 +69,7 @@
 - [ ] [Open redirect](https://hackerone.com/reports/753399)
 - [ ] [open redirect in eb9f.pivcac.prod.login.gov](https://hackerone.com/reports/798742)
 - [ ] [[cs.money] Open Redirect Leads to Account Takeover](https://hackerone.com/reports/905607)
+- [ ] [Instant open redirect on Live preview WEB Ide opening](https://hackerone.com/reports/437142)
 
 ## IDOR
 - [ ] [IDOR allow access to payments data of any user](https://hackerone.com/reports/751577)
@@ -260,6 +261,8 @@
 - [ ] [Vine all registered user Private/sensitive information disclosure .[ Ip address/phone no/email and many other informations ]](https://hackerone.com/reports/202823)
 - [ ] [ability to retrieve a user's phone-number/email for a given inviteCode](https://hackerone.com/reports/178503)
 - [ ] [Disclosure of the name of a program that has a private part with an external link](https://hackerone.com/reports/871142)
+- [ ] [Private program policy page still accessible after user left the program](https://hackerone.com/reports/386997)
+- [ ] [Banner Grabbing - Apache Server Version Disclousure](https://hackerone.com/reports/460556)
 
 ## GraphQL
 - [ ] [Email address of any user can be queried on Report Invitation GraphQL type when username is known](https://hackerone.com/reports/792927)
