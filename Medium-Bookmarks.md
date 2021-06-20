@@ -93,7 +93,7 @@
 - [ ] [**Subdomain takeover and prevention using Knockpy**](https://medium.com/@ajay.manoharan/subdomain-takeover-and-prevention-using-knockpy-e4cf438e450b)
 - [ ] [**Sub-Domain Takeovers — How Can Companies Better Secure Their Assets? Part 1**](https://medium.com/@chevonmdphillip/sub-domain-takeovers-how-can-companies-better-secure-their-assets-part-1-9e778ef5d17)
 - [ ] [How to do 55.000+ Subdomain Takeover in a Blink of an Eye](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)
-- [ ] [Subdomain Takeover — New Level](https://medium.com/bugbountywriteup/subdomain-takeover-new-level-43f88b55e0b2)
+- [X] [Subdomain Takeover — New Level](https://medium.com/bugbountywriteup/subdomain-takeover-new-level-43f88b55e0b2)
 - [ ] [Reconnaissance to a quick P1](https://medium.com/@alyssa.o.herrera/reconnaissance-to-a-quick-p1-fc1085d0fb22)
 - [ ] [How does my recon win $250 in 15 minutes](https://medium.com/@heinthantzin/how-does-my-recon-win-250-in-15-minutes-a1992508b911)
 - [ ] [Different Approaches For Reconnaissance — Bug Bounty’s](https://medium.com/@z0id/different-approaches-of-reconnaissance-bug-bountys-9dcdecb2551e)
