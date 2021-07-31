@@ -128,6 +128,7 @@
 - [ ] [DVWA - Main Login Page - Brute Force HTTP POST Form With CSRF Tokens](https://blog.g0tmi1k.com/dvwa/login/)
 
 ### RECON
+- [ ] [Recon resources](https://pentester.land/cheatsheets/2019/04/15/recon-resources.html)
 - [ ] [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/)
 - [ ] [[Tools] Visual Recon – A beginners guide](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
 - [ ] [**AQUATONE: A tool for domain flyovers**](https://michenriksen.com/blog/aquatone-tool-for-domain-flyovers/)
@@ -169,13 +170,13 @@
 - [ ] [**Asset Discovery: Doing Reconnaissance the Hard Way**](https://0xpatrik.com/asset-discovery/)
 - [ ] [A Shodan Tutorial and Primer](https://danielmiessler.com/study/shodan/)
 - [ ] [Compilation of recon workflows](https://pentester.land/cheatsheets/2019/03/25/compilation-of-recon-workflows.html)
-- [ ] [Recon resources](https://pentester.land/cheatsheets/2019/04/15/recon-resources.html)
 - [ ] [The Art of Subdomain Enumeration](https://appsecco.com/books/subdomain-enumeration/)
 - [ ] [**Automating your reconnaissance workflow with 'meg'**](https://edoverflow.com/2018/meg/)
 - [X] [**Find S3 bucket takeover , S3 Misconfiguration using pipelining(s3reverse/meg/gf/s3scanner)**](https://www.hahwul.com/2020/03/find-s3-vulnerability-widh-pipelinging.html)
 - [ ] [Recon with waybackmachine. For BugBounty!](https://www.hahwul.com/2020/03/recon-with-waybackmachine-for-bugbounty.html)
 - [ ] [Hacking Articles - Web Penetration Testing](https://www.hackingarticles.in/web-penetration-testing/)
 - [ ] [Github Dorks](https://github.com/techgaun/github-dorks)
+- [ ] [Just another Recon Guide for Pentesters and Bug Bounty Hunters](https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/)
 
 ### Tools
 **My Box**

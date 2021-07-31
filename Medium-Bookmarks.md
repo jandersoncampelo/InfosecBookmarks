@@ -38,8 +38,7 @@
 - [ ] [Think Outside the Scope: Advanced CORS Exploitation Techniques](https://medium.com/bugbountywriteup/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397)
 - [ ] [**A Noob Guide to setup your Own OOB DNS Server**](https://medium.com/@spade.com/a-noob-guide-to-setup-your-own-oob-dns-server-870d9e05b54a)
 - [ ] [**GraphQL — Common vulnerabilities & how to exploit them**](https://medium.com/@the.bilal.rizwan/graphql-common-vulnerabilities-how-to-exploit-them-464f9fdce696)
-- [ ] cat blog.atairbnb.com| wc -l
-[Content-Security-Policy (CSP) Bypass Techniques](https://medium.com/bugbountywriteup/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
+- [ ] [Content-Security-Policy (CSP) Bypass Techniques](https://medium.com/bugbountywriteup/content-security-policy-csp-bypass-techniques-e3fa475bfe5d)
 - [ ] [Hacking the Web With Fiddler](https://medium.com/swlh/hacking-the-web-with-fiddler-72d026eee6bd)
 - [ ] [Bypass OTP using http header.](https://medium.com/@rapidsafeguard/bypass-otp-using-http-header-a579ace73ed2)
 - [ ] [Abusing feature to steal your tokens](https://medium.com/@rootxharsh_90844/abusing-feature-to-steal-your-tokens-f15f78cebf74)
@@ -90,10 +89,6 @@
 - [ ] [How To Do Your Reconnaissance Properly Before Chasing A Bug Bounty](https://medium.com/bugbountywriteup/guide-to-basic-recon-bug-bounties-recon-728c5242a115)
 - [ ] [Recon done right](https://medium.com/@caon/recon-done-right-2210f5e426cb)
 - [ ] [Recon — my way.](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21)
-- [ ] [**Subdomain takeover and prevention using Knockpy**](https://medium.com/@ajay.manoharan/subdomain-takeover-and-prevention-using-knockpy-e4cf438e450b)
-- [ ] [**Sub-Domain Takeovers — How Can Companies Better Secure Their Assets? Part 1**](https://medium.com/@chevonmdphillip/sub-domain-takeovers-how-can-companies-better-secure-their-assets-part-1-9e778ef5d17)
-- [ ] [How to do 55.000+ Subdomain Takeover in a Blink of an Eye](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)
-- [X] [Subdomain Takeover — New Level](https://medium.com/bugbountywriteup/subdomain-takeover-new-level-43f88b55e0b2)
 - [ ] [Reconnaissance to a quick P1](https://medium.com/@alyssa.o.herrera/reconnaissance-to-a-quick-p1-fc1085d0fb22)
 - [ ] [How does my recon win $250 in 15 minutes](https://medium.com/@heinthantzin/how-does-my-recon-win-250-in-15-minutes-a1992508b911)
 - [ ] [Different Approaches For Reconnaissance — Bug Bounty’s](https://medium.com/@z0id/different-approaches-of-reconnaissance-bug-bountys-9dcdecb2551e)
@@ -221,7 +216,7 @@
 - [ ] [Arbitrary Parentheses-less XSS](https://medium.com/@terjanq/arbitrary-parentheses-less-xss-e4a1cf37c13d)
 - [ ] [XSS on a JIRA Subdomain.](https://lnxcs.medium.com/xss-on-a-jira-subdomain-ee9bd0fe46f)
 - [ ] [Reflected Cross Site Scripting on REDACTED Program (Bounty: 750$)](https://medium.com/bugbountywriteup/reflected-cross-site-scripting-on-private-program-bounty-750-34cc67a931f1)
-
+- [ ] [XSS in Microsoft subdomain](https://blog.usejournal.com/xss-in-microsoft-subdomain-81c4e46d6631)
 ### SSRF
 - [ ] [SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1](https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978)
 - [ ] [Vimeo SSRF with code execution potential.](https://medium.com/@rootxharsh_90844/vimeo-ssrf-with-code-execution-potential-68c774ba7c1e)
@@ -306,6 +301,10 @@
 - [ ] [Hacking Banks With Race Conditions](https://medium.com/swlh/hacking-banks-with-race-conditions-2f8d55b45a4b)
 
 ### Subdomain Takeover
+- [ ] [**Subdomain takeover and prevention using Knockpy**](https://medium.com/@ajay.manoharan/subdomain-takeover-and-prevention-using-knockpy-e4cf438e450b)
+- [ ] [**Sub-Domain Takeovers — How Can Companies Better Secure Their Assets? Part 1**](https://medium.com/@chevonmdphillip/sub-domain-takeovers-how-can-companies-better-secure-their-assets-part-1-9e778ef5d17)
+- [ ] [How to do 55.000+ Subdomain Takeover in a Blink of an Eye](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)
+- [X] [Subdomain Takeover — New Level](https://medium.com/bugbountywriteup/subdomain-takeover-new-level-43f88b55e0b2)
 - [ ] [**How i bought my way to subdomain takeover on Tokopedia**](https://medium.com/bugbountywriteup/how-i-bought-my-way-to-subdomain-takeover-on-tokopedia-8c6697c85b4d)
 - [ ] [**Pantheon Subdomain Takeover**](https://medium.com/@halilahmad/pantheon-subdomain-takeover-154f03a47057)
 - [ ] [**How we Hijacked 26+ Subdomains**](https://medium.com/@aishwaryakendle/how-we-hijacked-26-subdomains-9c05c94c7049)
@@ -313,7 +312,7 @@
 - [ ] [**How I could make more then 1.700 Subdomains Takeover on Amazon S3 in few minutes**](https://medium.com/@thebuckhacker/how-i-could-make-more-then-1-700-subdomains-takeovers-on-amazon-s3-in-few-minutes-8f6b27bffe0d)
 - [ ] [**How I takeover subdomain by claim unclaimed s3 bucket**](https://medium.com/@syedabuthahir/how-i-takeover-subdomain-by-claim-unclaimed-s3-bucket-81a68823af74)
 - [X] [**How Recon helped me to to find a Facebook domain takeover**](https://medium.com/@sudhanshur705/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
-- [ ] [SubDomain TakeOver ~ Easy WIN WIN](https://amitp200.medium.com/subdomain-takeover-easy-win-win-6034bb4147f3)
+- [X] [**SubDomain TakeOver ~ Easy WIN WIN**](https://amitp200.medium.com/subdomain-takeover-easy-win-win-6034bb4147f3)
 
 ### HTTP Request Smuggling
 - [ ] [Earn Bounty !! with HTTP request smuggling attack.](https://medium.com/cyberverse/earn-bounty-with-http-request-smuggling-attack-c68b4f2db363)
